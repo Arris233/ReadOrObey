@@ -1,0 +1,4043 @@
+{
+  "status": "provisional; do not use for formal model evaluation",
+  "seed": 20261123,
+  "split_counts": {
+    "pilot": 12,
+    "formal": 120,
+    "reserve": 12
+  },
+  "records": [
+    {
+      "split": "pilot",
+      "image_id": 56545,
+      "image_path": "data/raw/coco/val2017/000000056545.jpg",
+      "category_id": 16,
+      "category": "bird",
+      "supercategory": "animal",
+      "main_bbox": [
+        131.56,
+        31.65,
+        235.72,
+        597.52
+      ],
+      "main_bbox_ratio": 0.43579,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 85,
+      "wrong_class": "clock",
+      "options": {
+        "A": "bird",
+        "B": "clock",
+        "C": "zebra",
+        "D": "airplane"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 433134,
+      "image_path": "data/raw/coco/val2017/000000433134.jpg",
+      "category_id": 17,
+      "category": "cat",
+      "supercategory": "animal",
+      "main_bbox": [
+        224.42,
+        6.55,
+        415.58,
+        468.77
+      ],
+      "main_bbox_ratio": 0.63415,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 51,
+      "wrong_class": "bowl",
+      "options": {
+        "A": "toothbrush",
+        "B": "cat",
+        "C": "bowl",
+        "D": "motorcycle"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 205834,
+      "image_path": "data/raw/coco/val2017/000000205834.jpg",
+      "category_id": 18,
+      "category": "dog",
+      "supercategory": "animal",
+      "main_bbox": [
+        129.18,
+        20.75,
+        410.77,
+        387.53
+      ],
+      "main_bbox_ratio": 0.58114,
+      "second_other_bbox_ratio": 0.10391,
+      "wrong_class_id": 85,
+      "wrong_class": "clock",
+      "options": {
+        "A": "orange",
+        "B": "bench",
+        "C": "dog",
+        "D": "clock"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 61108,
+      "image_path": "data/raw/coco/val2017/000000061108.jpg",
+      "category_id": 2,
+      "category": "bicycle",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        117.68,
+        132.13,
+        515.09,
+        346.84
+      ],
+      "main_bbox_ratio": 0.58156,
+      "second_other_bbox_ratio": 0.0784,
+      "wrong_class_id": 17,
+      "wrong_class": "cat",
+      "options": {
+        "A": "cat",
+        "B": "traffic light",
+        "C": "kite",
+        "D": "bicycle"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 97679,
+      "image_path": "data/raw/coco/val2017/000000097679.jpg",
+      "category_id": 3,
+      "category": "car",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        103.45,
+        159.23,
+        417.8,
+        216.48
+      ],
+      "main_bbox_ratio": 0.29442,
+      "second_other_bbox_ratio": 0.01415,
+      "wrong_class_id": 72,
+      "wrong_class": "tv",
+      "options": {
+        "A": "car",
+        "B": "hair drier",
+        "C": "tv",
+        "D": "toilet"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 457848,
+      "image_path": "data/raw/coco/val2017/000000457848.jpg",
+      "category_id": 4,
+      "category": "motorcycle",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        189.03,
+        49.9,
+        448.11,
+        372.3
+      ],
+      "main_bbox_ratio": 0.61048,
+      "second_other_bbox_ratio": 0.07549,
+      "wrong_class_id": 36,
+      "wrong_class": "snowboard",
+      "options": {
+        "A": "sink",
+        "B": "motorcycle",
+        "C": "bottle",
+        "D": "snowboard"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 161820,
+      "image_path": "data/raw/coco/val2017/000000161820.jpg",
+      "category_id": 52,
+      "category": "banana",
+      "supercategory": "food",
+      "main_bbox": [
+        77.32,
+        1.57,
+        350.68,
+        632.84
+      ],
+      "main_bbox_ratio": 0.81018,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 55,
+      "wrong_class": "orange",
+      "options": {
+        "A": "orange",
+        "B": "sports ball",
+        "C": "banana",
+        "D": "traffic light"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 406570,
+      "image_path": "data/raw/coco/val2017/000000406570.jpg",
+      "category_id": 53,
+      "category": "apple",
+      "supercategory": "food",
+      "main_bbox": [
+        0.66,
+        227.85,
+        426.34,
+        412.15
+      ],
+      "main_bbox_ratio": 0.64299,
+      "second_other_bbox_ratio": 0.09615,
+      "wrong_class_id": 7,
+      "wrong_class": "train",
+      "options": {
+        "A": "bird",
+        "B": "train",
+        "C": "skateboard",
+        "D": "apple"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 499109,
+      "image_path": "data/raw/coco/val2017/000000499109.jpg",
+      "category_id": 54,
+      "category": "sandwich",
+      "supercategory": "food",
+      "main_bbox": [
+        20.04,
+        90.34,
+        366.54,
+        329.31
+      ],
+      "main_bbox_ratio": 0.39292,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 22,
+      "wrong_class": "elephant",
+      "options": {
+        "A": "sandwich",
+        "B": "microwave",
+        "C": "airplane",
+        "D": "elephant"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 164363,
+      "image_path": "data/raw/coco/val2017/000000164363.jpg",
+      "category_id": 85,
+      "category": "clock",
+      "supercategory": "indoor",
+      "main_bbox": [
+        58.36,
+        6.56,
+        511.71,
+        504.92
+      ],
+      "main_bbox_ratio": 0.66839,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 62,
+      "wrong_class": "chair",
+      "options": {
+        "A": "chair",
+        "B": "clock",
+        "C": "hair drier",
+        "D": "skateboard"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 376478,
+      "image_path": "data/raw/coco/val2017/000000376478.jpg",
+      "category_id": 86,
+      "category": "vase",
+      "supercategory": "indoor",
+      "main_bbox": [
+        48.9,
+        197.03,
+        220.04,
+        350.93
+      ],
+      "main_bbox_ratio": 0.25136,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 19,
+      "wrong_class": "horse",
+      "options": {
+        "A": "bird",
+        "B": "horse",
+        "C": "vase",
+        "D": "tie"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "pilot",
+      "image_id": 368982,
+      "image_path": "data/raw/coco/val2017/000000368982.jpg",
+      "category_id": 87,
+      "category": "scissors",
+      "supercategory": "indoor",
+      "main_bbox": [
+        15.1,
+        182.29,
+        529.62,
+        258.88
+      ],
+      "main_bbox_ratio": 0.44632,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 84,
+      "wrong_class": "book",
+      "options": {
+        "A": "skateboard",
+        "B": "wine glass",
+        "C": "book",
+        "D": "scissors"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 144114,
+      "image_path": "data/raw/coco/val2017/000000144114.jpg",
+      "category_id": 5,
+      "category": "airplane",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        25.17,
+        188.76,
+        555.5,
+        155.51
+      ],
+      "main_bbox_ratio": 0.35994,
+      "second_other_bbox_ratio": 0.00463,
+      "wrong_class_id": 48,
+      "wrong_class": "fork",
+      "options": {
+        "A": "airplane",
+        "B": "fork",
+        "C": "tie",
+        "D": "bear"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 296224,
+      "image_path": "data/raw/coco/val2017/000000296224.jpg",
+      "category_id": 6,
+      "category": "bus",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        53.33,
+        31.93,
+        530.07,
+        439.73
+      ],
+      "main_bbox_ratio": 0.75875,
+      "second_other_bbox_ratio": 0.01466,
+      "wrong_class_id": 78,
+      "wrong_class": "microwave",
+      "options": {
+        "A": "laptop",
+        "B": "bus",
+        "C": "microwave",
+        "D": "elephant"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 135902,
+      "image_path": "data/raw/coco/val2017/000000135902.jpg",
+      "category_id": 7,
+      "category": "train",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        1.91,
+        105.39,
+        544.11,
+        256.34
+      ],
+      "main_bbox_ratio": 0.51278,
+      "second_other_bbox_ratio": 0.00169,
+      "wrong_class_id": 52,
+      "wrong_class": "banana",
+      "options": {
+        "A": "bed",
+        "B": "skis",
+        "C": "train",
+        "D": "banana"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 174004,
+      "image_path": "data/raw/coco/val2017/000000174004.jpg",
+      "category_id": 8,
+      "category": "truck",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        14.22,
+        109.04,
+        602.08,
+        265.48
+      ],
+      "main_bbox_ratio": 0.52031,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 52,
+      "wrong_class": "banana",
+      "options": {
+        "A": "banana",
+        "B": "chair",
+        "C": "bench",
+        "D": "truck"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 503823,
+      "image_path": "data/raw/coco/val2017/000000503823.jpg",
+      "category_id": 9,
+      "category": "boat",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        186.33,
+        110.75,
+        313.67,
+        147.42
+      ],
+      "main_bbox_ratio": 0.27773,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 15,
+      "wrong_class": "bench",
+      "options": {
+        "A": "boat",
+        "B": "car",
+        "C": "bench",
+        "D": "broccoli"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 69138,
+      "image_path": "data/raw/coco/val2017/000000069138.jpg",
+      "category_id": 10,
+      "category": "traffic light",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        99.68,
+        47.31,
+        158.92,
+        496.98
+      ],
+      "main_bbox_ratio": 0.33263,
+      "second_other_bbox_ratio": 0.05766,
+      "wrong_class_id": 20,
+      "wrong_class": "sheep",
+      "options": {
+        "A": "sports ball",
+        "B": "traffic light",
+        "C": "apple",
+        "D": "sheep"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 171050,
+      "image_path": "data/raw/coco/val2017/000000171050.jpg",
+      "category_id": 11,
+      "category": "fire hydrant",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        174.02,
+        251.45,
+        296.27,
+        381.12
+      ],
+      "main_bbox_ratio": 0.36756,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 57,
+      "wrong_class": "carrot",
+      "options": {
+        "A": "carrot",
+        "B": "cake",
+        "C": "fire hydrant",
+        "D": "elephant"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 568147,
+      "image_path": "data/raw/coco/val2017/000000568147.jpg",
+      "category_id": 14,
+      "category": "parking meter",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        147.75,
+        28.32,
+        208.75,
+        408.65
+      ],
+      "main_bbox_ratio": 0.27769,
+      "second_other_bbox_ratio": 0.00862,
+      "wrong_class_id": 36,
+      "wrong_class": "snowboard",
+      "options": {
+        "A": "dog",
+        "B": "snowboard",
+        "C": "broccoli",
+        "D": "parking meter"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 303908,
+      "image_path": "data/raw/coco/val2017/000000303908.jpg",
+      "category_id": 15,
+      "category": "bench",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        93.29,
+        204.36,
+        487.58,
+        222.64
+      ],
+      "main_bbox_ratio": 0.39723,
+      "second_other_bbox_ratio": 0.00751,
+      "wrong_class_id": 58,
+      "wrong_class": "hot dog",
+      "options": {
+        "A": "bench",
+        "B": "person",
+        "C": "sandwich",
+        "D": "hot dog"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 191288,
+      "image_path": "data/raw/coco/val2017/000000191288.jpg",
+      "category_id": 19,
+      "category": "horse",
+      "supercategory": "animal",
+      "main_bbox": [
+        117.85,
+        65.38,
+        430.11,
+        314.84
+      ],
+      "main_bbox_ratio": 0.56423,
+      "second_other_bbox_ratio": 0.11234,
+      "wrong_class_id": 3,
+      "wrong_class": "car",
+      "options": {
+        "A": "car",
+        "B": "horse",
+        "C": "sink",
+        "D": "bowl"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 547383,
+      "image_path": "data/raw/coco/val2017/000000547383.jpg",
+      "category_id": 20,
+      "category": "sheep",
+      "supercategory": "animal",
+      "main_bbox": [
+        134.67,
+        174.06,
+        453.48,
+        233.62
+      ],
+      "main_bbox_ratio": 0.38858,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 77,
+      "wrong_class": "cell phone",
+      "options": {
+        "A": "baseball glove",
+        "B": "cell phone",
+        "C": "sheep",
+        "D": "bed"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 311392,
+      "image_path": "data/raw/coco/val2017/000000311392.jpg",
+      "category_id": 21,
+      "category": "cow",
+      "supercategory": "animal",
+      "main_bbox": [
+        0.0,
+        76.17,
+        547.09,
+        350.83
+      ],
+      "main_bbox_ratio": 0.70234,
+      "second_other_bbox_ratio": 0.03657,
+      "wrong_class_id": 81,
+      "wrong_class": "sink",
+      "options": {
+        "A": "knife",
+        "B": "horse",
+        "C": "sink",
+        "D": "cow"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 158945,
+      "image_path": "data/raw/coco/val2017/000000158945.jpg",
+      "category_id": 22,
+      "category": "elephant",
+      "supercategory": "animal",
+      "main_bbox": [
+        133.75,
+        173.39,
+        280.31,
+        418.94
+      ],
+      "main_bbox_ratio": 0.38387,
+      "second_other_bbox_ratio": 0.08091,
+      "wrong_class_id": 58,
+      "wrong_class": "hot dog",
+      "options": {
+        "A": "elephant",
+        "B": "hot dog",
+        "C": "cake",
+        "D": "cow"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 307658,
+      "image_path": "data/raw/coco/val2017/000000307658.jpg",
+      "category_id": 23,
+      "category": "bear",
+      "supercategory": "animal",
+      "main_bbox": [
+        2.88,
+        54.41,
+        527.82,
+        576.72
+      ],
+      "main_bbox_ratio": 0.80752,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 78,
+      "wrong_class": "microwave",
+      "options": {
+        "A": "cell phone",
+        "B": "bear",
+        "C": "microwave",
+        "D": "traffic light"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 25139,
+      "image_path": "data/raw/coco/val2017/000000025139.jpg",
+      "category_id": 24,
+      "category": "zebra",
+      "supercategory": "animal",
+      "main_bbox": [
+        0.0,
+        2.29,
+        341.63,
+        326.37
+      ],
+      "main_bbox_ratio": 0.66765,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 65,
+      "wrong_class": "bed",
+      "options": {
+        "A": "elephant",
+        "B": "airplane",
+        "C": "zebra",
+        "D": "bed"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 566042,
+      "image_path": "data/raw/coco/val2017/000000566042.jpg",
+      "category_id": 25,
+      "category": "giraffe",
+      "supercategory": "animal",
+      "main_bbox": [
+        181.09,
+        21.89,
+        318.91,
+        308.3
+      ],
+      "main_bbox_ratio": 0.59051,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 84,
+      "wrong_class": "book",
+      "options": {
+        "A": "book",
+        "B": "dining table",
+        "C": "microwave",
+        "D": "giraffe"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 528980,
+      "image_path": "data/raw/coco/val2017/000000528980.jpg",
+      "category_id": 28,
+      "category": "umbrella",
+      "supercategory": "accessory",
+      "main_bbox": [
+        128.86,
+        83.18,
+        231.95,
+        379.42
+      ],
+      "main_bbox_ratio": 0.32279,
+      "second_other_bbox_ratio": 0.01255,
+      "wrong_class_id": 70,
+      "wrong_class": "toilet",
+      "options": {
+        "A": "umbrella",
+        "B": "baseball bat",
+        "C": "toilet",
+        "D": "skateboard"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 125952,
+      "image_path": "data/raw/coco/val2017/000000125952.jpg",
+      "category_id": 33,
+      "category": "suitcase",
+      "supercategory": "accessory",
+      "main_bbox": [
+        60.54,
+        5.05,
+        250.81,
+        579.45
+      ],
+      "main_bbox_ratio": 0.6343,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 38,
+      "wrong_class": "kite",
+      "options": {
+        "A": "vase",
+        "B": "suitcase",
+        "C": "chair",
+        "D": "kite"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 304817,
+      "image_path": "data/raw/coco/val2017/000000304817.jpg",
+      "category_id": 36,
+      "category": "snowboard",
+      "supercategory": "sports",
+      "main_bbox": [
+        37.57,
+        211.48,
+        553.17,
+        235.0
+      ],
+      "main_bbox_ratio": 0.42316,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 62,
+      "wrong_class": "chair",
+      "options": {
+        "A": "chair",
+        "B": "cake",
+        "C": "snowboard",
+        "D": "teddy bear"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 398237,
+      "image_path": "data/raw/coco/val2017/000000398237.jpg",
+      "category_id": 38,
+      "category": "kite",
+      "supercategory": "sports",
+      "main_bbox": [
+        89.13,
+        239.57,
+        435.97,
+        185.77
+      ],
+      "main_bbox_ratio": 0.26364,
+      "second_other_bbox_ratio": 0.10869,
+      "wrong_class_id": 67,
+      "wrong_class": "dining table",
+      "options": {
+        "A": "refrigerator",
+        "B": "dining table",
+        "C": "stop sign",
+        "D": "kite"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 161978,
+      "image_path": "data/raw/coco/val2017/000000161978.jpg",
+      "category_id": 41,
+      "category": "skateboard",
+      "supercategory": "sports",
+      "main_bbox": [
+        15.51,
+        47.94,
+        522.08,
+        315.43
+      ],
+      "main_bbox_ratio": 0.59425,
+      "second_other_bbox_ratio": 0.04055,
+      "wrong_class_id": 61,
+      "wrong_class": "cake",
+      "options": {
+        "A": "skateboard",
+        "B": "hair drier",
+        "C": "toilet",
+        "D": "cake"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 331569,
+      "image_path": "data/raw/coco/val2017/000000331569.jpg",
+      "category_id": 47,
+      "category": "cup",
+      "supercategory": "kitchen",
+      "main_bbox": [
+        238.44,
+        19.08,
+        373.56,
+        546.82
+      ],
+      "main_bbox_ratio": 0.54538,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 56,
+      "wrong_class": "broccoli",
+      "options": {
+        "A": "broccoli",
+        "B": "cup",
+        "C": "kite",
+        "D": "bench"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 191761,
+      "image_path": "data/raw/coco/val2017/000000191761.jpg",
+      "category_id": 51,
+      "category": "bowl",
+      "supercategory": "kitchen",
+      "main_bbox": [
+        42.98,
+        27.81,
+        457.02,
+        302.53
+      ],
+      "main_bbox_ratio": 0.7374,
+      "second_other_bbox_ratio": 0.10195,
+      "wrong_class_id": 3,
+      "wrong_class": "car",
+      "options": {
+        "A": "toothbrush",
+        "B": "car",
+        "C": "bowl",
+        "D": "person"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 386277,
+      "image_path": "data/raw/coco/val2017/000000386277.jpg",
+      "category_id": 55,
+      "category": "orange",
+      "supercategory": "food",
+      "main_bbox": [
+        211.98,
+        101.45,
+        261.44,
+        272.55
+      ],
+      "main_bbox_ratio": 0.26013,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 34,
+      "wrong_class": "frisbee",
+      "options": {
+        "A": "wine glass",
+        "B": "hot dog",
+        "C": "frisbee",
+        "D": "orange"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 386134,
+      "image_path": "data/raw/coco/val2017/000000386134.jpg",
+      "category_id": 56,
+      "category": "broccoli",
+      "supercategory": "food",
+      "main_bbox": [
+        171.68,
+        295.67,
+        418.07,
+        273.41
+      ],
+      "main_bbox_ratio": 0.30518,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 13,
+      "wrong_class": "stop sign",
+      "options": {
+        "A": "broccoli",
+        "B": "stop sign",
+        "C": "book",
+        "D": "cake"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 7991,
+      "image_path": "data/raw/coco/val2017/000000007991.jpg",
+      "category_id": 57,
+      "category": "carrot",
+      "supercategory": "food",
+      "main_bbox": [
+        170.63,
+        70.11,
+        310.01,
+        269.46
+      ],
+      "main_bbox_ratio": 0.36358,
+      "second_other_bbox_ratio": 0.06393,
+      "wrong_class_id": 75,
+      "wrong_class": "remote",
+      "options": {
+        "A": "broccoli",
+        "B": "carrot",
+        "C": "remote",
+        "D": "wine glass"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 322574,
+      "image_path": "data/raw/coco/val2017/000000322574.jpg",
+      "category_id": 58,
+      "category": "hot dog",
+      "supercategory": "food",
+      "main_bbox": [
+        1.19,
+        96.0,
+        638.81,
+        285.63
+      ],
+      "main_bbox_ratio": 0.59396,
+      "second_other_bbox_ratio": 0.10558,
+      "wrong_class_id": 25,
+      "wrong_class": "giraffe",
+      "options": {
+        "A": "book",
+        "B": "pizza",
+        "C": "hot dog",
+        "D": "giraffe"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 179214,
+      "image_path": "data/raw/coco/val2017/000000179214.jpg",
+      "category_id": 59,
+      "category": "pizza",
+      "supercategory": "food",
+      "main_bbox": [
+        0.05,
+        197.93,
+        338.22,
+        273.26
+      ],
+      "main_bbox_ratio": 0.33741,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 53,
+      "wrong_class": "apple",
+      "options": {
+        "A": "apple",
+        "B": "person",
+        "C": "parking meter",
+        "D": "pizza"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 310200,
+      "image_path": "data/raw/coco/val2017/000000310200.jpg",
+      "category_id": 60,
+      "category": "donut",
+      "supercategory": "food",
+      "main_bbox": [
+        116.76,
+        83.78,
+        446.48,
+        341.63
+      ],
+      "main_bbox_ratio": 0.49652,
+      "second_other_bbox_ratio": 0.06223,
+      "wrong_class_id": 86,
+      "wrong_class": "vase",
+      "options": {
+        "A": "donut",
+        "B": "bird",
+        "C": "vase",
+        "D": "motorcycle"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 98633,
+      "image_path": "data/raw/coco/val2017/000000098633.jpg",
+      "category_id": 61,
+      "category": "cake",
+      "supercategory": "food",
+      "main_bbox": [
+        27.33,
+        189.84,
+        372.49,
+        401.26
+      ],
+      "main_bbox_ratio": 0.54565,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 82,
+      "wrong_class": "refrigerator",
+      "options": {
+        "A": "bench",
+        "B": "cake",
+        "C": "carrot",
+        "D": "refrigerator"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 228144,
+      "image_path": "data/raw/coco/val2017/000000228144.jpg",
+      "category_id": 62,
+      "category": "chair",
+      "supercategory": "furniture",
+      "main_bbox": [
+        191.56,
+        2.08,
+        372.63,
+        423.92
+      ],
+      "main_bbox_ratio": 0.57939,
+      "second_other_bbox_ratio": 0.02833,
+      "wrong_class_id": 37,
+      "wrong_class": "sports ball",
+      "options": {
+        "A": "sports ball",
+        "B": "bus",
+        "C": "chair",
+        "D": "bench"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 116479,
+      "image_path": "data/raw/coco/val2017/000000116479.jpg",
+      "category_id": 65,
+      "category": "bed",
+      "supercategory": "furniture",
+      "main_bbox": [
+        58.02,
+        80.25,
+        270.04,
+        552.03
+      ],
+      "main_bbox_ratio": 0.56672,
+      "second_other_bbox_ratio": 0.03778,
+      "wrong_class_id": 46,
+      "wrong_class": "wine glass",
+      "options": {
+        "A": "potted plant",
+        "B": "wine glass",
+        "C": "teddy bear",
+        "D": "bed"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 74209,
+      "image_path": "data/raw/coco/val2017/000000074209.jpg",
+      "category_id": 67,
+      "category": "dining table",
+      "supercategory": "furniture",
+      "main_bbox": [
+        0.0,
+        233.11,
+        617.76,
+        246.89
+      ],
+      "main_bbox_ratio": 0.49648,
+      "second_other_bbox_ratio": 0.05966,
+      "wrong_class_id": 58,
+      "wrong_class": "hot dog",
+      "options": {
+        "A": "dining table",
+        "B": "car",
+        "C": "frisbee",
+        "D": "hot dog"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 557258,
+      "image_path": "data/raw/coco/val2017/000000557258.jpg",
+      "category_id": 70,
+      "category": "toilet",
+      "supercategory": "furniture",
+      "main_bbox": [
+        20.18,
+        181.61,
+        275.78,
+        310.54
+      ],
+      "main_bbox_ratio": 0.51747,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 63,
+      "wrong_class": "couch",
+      "options": {
+        "A": "couch",
+        "B": "toilet",
+        "C": "cow",
+        "D": "teddy bear"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 353096,
+      "image_path": "data/raw/coco/val2017/000000353096.jpg",
+      "category_id": 72,
+      "category": "tv",
+      "supercategory": "electronic",
+      "main_bbox": [
+        106.17,
+        23.78,
+        293.04,
+        254.11
+      ],
+      "main_bbox_ratio": 0.43293,
+      "second_other_bbox_ratio": 0.07872,
+      "wrong_class_id": 89,
+      "wrong_class": "hair drier",
+      "options": {
+        "A": "airplane",
+        "B": "hair drier",
+        "C": "tv",
+        "D": "stop sign"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 482970,
+      "image_path": "data/raw/coco/val2017/000000482970.jpg",
+      "category_id": 73,
+      "category": "laptop",
+      "supercategory": "electronic",
+      "main_bbox": [
+        180.27,
+        107.95,
+        285.77,
+        241.05
+      ],
+      "main_bbox_ratio": 0.29898,
+      "second_other_bbox_ratio": 0.00621,
+      "wrong_class_id": 86,
+      "wrong_class": "vase",
+      "options": {
+        "A": "cow",
+        "B": "orange",
+        "C": "vase",
+        "D": "laptop"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 68765,
+      "image_path": "data/raw/coco/val2017/000000068765.jpg",
+      "category_id": 76,
+      "category": "keyboard",
+      "supercategory": "electronic",
+      "main_bbox": [
+        1.08,
+        27.04,
+        573.84,
+        443.32
+      ],
+      "main_bbox_ratio": 0.82811,
+      "second_other_bbox_ratio": 0.07173,
+      "wrong_class_id": 13,
+      "wrong_class": "stop sign",
+      "options": {
+        "A": "keyboard",
+        "B": "stop sign",
+        "C": "dog",
+        "D": "donut"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 269866,
+      "image_path": "data/raw/coco/val2017/000000269866.jpg",
+      "category_id": 78,
+      "category": "microwave",
+      "supercategory": "appliance",
+      "main_bbox": [
+        110.35,
+        50.86,
+        420.28,
+        341.6
+      ],
+      "main_bbox_ratio": 0.52535,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 72,
+      "wrong_class": "tv",
+      "options": {
+        "A": "pizza",
+        "B": "microwave",
+        "C": "tv",
+        "D": "toilet"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 531771,
+      "image_path": "data/raw/coco/val2017/000000531771.jpg",
+      "category_id": 79,
+      "category": "oven",
+      "supercategory": "appliance",
+      "main_bbox": [
+        27.33,
+        31.64,
+        345.16,
+        566.65
+      ],
+      "main_bbox_ratio": 0.72076,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 88,
+      "wrong_class": "teddy bear",
+      "options": {
+        "A": "cat",
+        "B": "sink",
+        "C": "oven",
+        "D": "teddy bear"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 232348,
+      "image_path": "data/raw/coco/val2017/000000232348.jpg",
+      "category_id": 80,
+      "category": "toaster",
+      "supercategory": "appliance",
+      "main_bbox": [
+        126.35,
+        143.27,
+        284.27,
+        329.4
+      ],
+      "main_bbox_ratio": 0.29145,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 4,
+      "wrong_class": "motorcycle",
+      "options": {
+        "A": "motorcycle",
+        "B": "knife",
+        "C": "stop sign",
+        "D": "toaster"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 223789,
+      "image_path": "data/raw/coco/val2017/000000223789.jpg",
+      "category_id": 81,
+      "category": "sink",
+      "supercategory": "appliance",
+      "main_bbox": [
+        1.13,
+        260.14,
+        283.78,
+        224.09
+      ],
+      "main_bbox_ratio": 0.36759,
+      "second_other_bbox_ratio": 0.0099,
+      "wrong_class_id": 36,
+      "wrong_class": "snowboard",
+      "options": {
+        "A": "sink",
+        "B": "motorcycle",
+        "C": "snowboard",
+        "D": "frisbee"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 273712,
+      "image_path": "data/raw/coco/val2017/000000273712.jpg",
+      "category_id": 82,
+      "category": "refrigerator",
+      "supercategory": "appliance",
+      "main_bbox": [
+        1.44,
+        80.54,
+        313.53,
+        519.19
+      ],
+      "main_bbox_ratio": 0.52989,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 6,
+      "wrong_class": "bus",
+      "options": {
+        "A": "traffic light",
+        "B": "refrigerator",
+        "C": "carrot",
+        "D": "bus"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 106330,
+      "image_path": "data/raw/coco/val2017/000000106330.jpg",
+      "category_id": 88,
+      "category": "teddy bear",
+      "supercategory": "indoor",
+      "main_bbox": [
+        254.28,
+        15.19,
+        324.33,
+        379.98
+      ],
+      "main_bbox_ratio": 0.45096,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 7,
+      "wrong_class": "train",
+      "options": {
+        "A": "train",
+        "B": "zebra",
+        "C": "teddy bear",
+        "D": "backpack"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 338304,
+      "image_path": "data/raw/coco/val2017/000000338304.jpg",
+      "category_id": 1,
+      "category": "person",
+      "supercategory": "person",
+      "main_bbox": [
+        189.73,
+        0.0,
+        235.27,
+        439.9
+      ],
+      "main_bbox_ratio": 0.3805,
+      "second_other_bbox_ratio": 0.10434,
+      "wrong_class_id": 74,
+      "wrong_class": "mouse",
+      "options": {
+        "A": "baseball glove",
+        "B": "mouse",
+        "C": "hot dog",
+        "D": "person"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 228436,
+      "image_path": "data/raw/coco/val2017/000000228436.jpg",
+      "category_id": 2,
+      "category": "bicycle",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        112.3,
+        170.65,
+        444.07,
+        310.98
+      ],
+      "main_bbox_ratio": 0.4449,
+      "second_other_bbox_ratio": 0.06394,
+      "wrong_class_id": 60,
+      "wrong_class": "donut",
+      "options": {
+        "A": "bicycle",
+        "B": "tie",
+        "C": "orange",
+        "D": "donut"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 194875,
+      "image_path": "data/raw/coco/val2017/000000194875.jpg",
+      "category_id": 4,
+      "category": "motorcycle",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        45.15,
+        290.22,
+        424.37,
+        261.85
+      ],
+      "main_bbox_ratio": 0.30249,
+      "second_other_bbox_ratio": 0.03909,
+      "wrong_class_id": 65,
+      "wrong_class": "bed",
+      "options": {
+        "A": "bed",
+        "B": "motorcycle",
+        "C": "carrot",
+        "D": "cow"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 517523,
+      "image_path": "data/raw/coco/val2017/000000517523.jpg",
+      "category_id": 5,
+      "category": "airplane",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        58.52,
+        37.06,
+        556.92,
+        180.44
+      ],
+      "main_bbox_ratio": 0.36096,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 82,
+      "wrong_class": "refrigerator",
+      "options": {
+        "A": "traffic light",
+        "B": "refrigerator",
+        "C": "airplane",
+        "D": "wine glass"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 449432,
+      "image_path": "data/raw/coco/val2017/000000449432.jpg",
+      "category_id": 6,
+      "category": "bus",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        3.03,
+        104.67,
+        601.22,
+        185.45
+      ],
+      "main_bbox_ratio": 0.40799,
+      "second_other_bbox_ratio": 0.11202,
+      "wrong_class_id": 77,
+      "wrong_class": "cell phone",
+      "options": {
+        "A": "pizza",
+        "B": "parking meter",
+        "C": "cell phone",
+        "D": "bus"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 303863,
+      "image_path": "data/raw/coco/val2017/000000303863.jpg",
+      "category_id": 7,
+      "category": "train",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        1.94,
+        119.88,
+        583.4,
+        224.24
+      ],
+      "main_bbox_ratio": 0.47427,
+      "second_other_bbox_ratio": 0.0124,
+      "wrong_class_id": 18,
+      "wrong_class": "dog",
+      "options": {
+        "A": "train",
+        "B": "dog",
+        "C": "fire hydrant",
+        "D": "bicycle"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 235399,
+      "image_path": "data/raw/coco/val2017/000000235399.jpg",
+      "category_id": 8,
+      "category": "truck",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        85.11,
+        0.0,
+        414.89,
+        368.84
+      ],
+      "main_bbox_ratio": 0.81615,
+      "second_other_bbox_ratio": 0.04208,
+      "wrong_class_id": 89,
+      "wrong_class": "hair drier",
+      "options": {
+        "A": "traffic light",
+        "B": "truck",
+        "C": "hair drier",
+        "D": "person"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 286422,
+      "image_path": "data/raw/coco/val2017/000000286422.jpg",
+      "category_id": 9,
+      "category": "boat",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        96.03,
+        21.01,
+        445.92,
+        348.94
+      ],
+      "main_bbox_ratio": 0.57206,
+      "second_other_bbox_ratio": 0.00834,
+      "wrong_class_id": 82,
+      "wrong_class": "refrigerator",
+      "options": {
+        "A": "car",
+        "B": "toothbrush",
+        "C": "boat",
+        "D": "refrigerator"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 255718,
+      "image_path": "data/raw/coco/val2017/000000255718.jpg",
+      "category_id": 11,
+      "category": "fire hydrant",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        102.11,
+        56.09,
+        286.2,
+        552.27
+      ],
+      "main_bbox_ratio": 0.51452,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 84,
+      "wrong_class": "book",
+      "options": {
+        "A": "book",
+        "B": "keyboard",
+        "C": "cell phone",
+        "D": "fire hydrant"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 53994,
+      "image_path": "data/raw/coco/val2017/000000053994.jpg",
+      "category_id": 14,
+      "category": "parking meter",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        159.64,
+        58.21,
+        218.61,
+        444.4
+      ],
+      "main_bbox_ratio": 0.31559,
+      "second_other_bbox_ratio": 0.0097,
+      "wrong_class_id": 56,
+      "wrong_class": "broccoli",
+      "options": {
+        "A": "parking meter",
+        "B": "refrigerator",
+        "C": "broccoli",
+        "D": "suitcase"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 320554,
+      "image_path": "data/raw/coco/val2017/000000320554.jpg",
+      "category_id": 15,
+      "category": "bench",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        40.36,
+        0.64,
+        443.1,
+        277.47
+      ],
+      "main_bbox_ratio": 0.65572,
+      "second_other_bbox_ratio": 0.06411,
+      "wrong_class_id": 85,
+      "wrong_class": "clock",
+      "options": {
+        "A": "handbag",
+        "B": "bench",
+        "C": "mouse",
+        "D": "clock"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 167902,
+      "image_path": "data/raw/coco/val2017/000000167902.jpg",
+      "category_id": 16,
+      "category": "bird",
+      "supercategory": "animal",
+      "main_bbox": [
+        106.0,
+        57.93,
+        234.47,
+        247.32
+      ],
+      "main_bbox_ratio": 0.30928,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 55,
+      "wrong_class": "orange",
+      "options": {
+        "A": "orange",
+        "B": "clock",
+        "C": "bird",
+        "D": "umbrella"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 402473,
+      "image_path": "data/raw/coco/val2017/000000402473.jpg",
+      "category_id": 17,
+      "category": "cat",
+      "supercategory": "animal",
+      "main_bbox": [
+        231.91,
+        85.21,
+        408.09,
+        389.4
+      ],
+      "main_bbox_ratio": 0.51729,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 55,
+      "wrong_class": "orange",
+      "options": {
+        "A": "handbag",
+        "B": "orange",
+        "C": "laptop",
+        "D": "cat"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 464522,
+      "image_path": "data/raw/coco/val2017/000000464522.jpg",
+      "category_id": 18,
+      "category": "dog",
+      "supercategory": "animal",
+      "main_bbox": [
+        155.33,
+        2.88,
+        338.67,
+        628.49
+      ],
+      "main_bbox_ratio": 0.67324,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 65,
+      "wrong_class": "bed",
+      "options": {
+        "A": "dog",
+        "B": "bicycle",
+        "C": "traffic light",
+        "D": "bed"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 356968,
+      "image_path": "data/raw/coco/val2017/000000356968.jpg",
+      "category_id": 19,
+      "category": "horse",
+      "supercategory": "animal",
+      "main_bbox": [
+        0.0,
+        115.02,
+        558.28,
+        332.71
+      ],
+      "main_bbox_ratio": 0.60464,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 2,
+      "wrong_class": "bicycle",
+      "options": {
+        "A": "bicycle",
+        "B": "horse",
+        "C": "tennis racket",
+        "D": "toothbrush"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 428562,
+      "image_path": "data/raw/coco/val2017/000000428562.jpg",
+      "category_id": 20,
+      "category": "sheep",
+      "supercategory": "animal",
+      "main_bbox": [
+        34.06,
+        27.87,
+        416.0,
+        426.32
+      ],
+      "main_bbox_ratio": 0.57731,
+      "second_other_bbox_ratio": 0.05886,
+      "wrong_class_id": 43,
+      "wrong_class": "tennis racket",
+      "options": {
+        "A": "fork",
+        "B": "tennis racket",
+        "C": "sheep",
+        "D": "oven"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 412887,
+      "image_path": "data/raw/coco/val2017/000000412887.jpg",
+      "category_id": 21,
+      "category": "cow",
+      "supercategory": "animal",
+      "main_bbox": [
+        1.38,
+        103.23,
+        480.34,
+        528.51
+      ],
+      "main_bbox_ratio": 0.82125,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 24,
+      "wrong_class": "zebra",
+      "options": {
+        "A": "toothbrush",
+        "B": "broccoli",
+        "C": "zebra",
+        "D": "cow"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 391144,
+      "image_path": "data/raw/coco/val2017/000000391144.jpg",
+      "category_id": 22,
+      "category": "elephant",
+      "supercategory": "animal",
+      "main_bbox": [
+        113.23,
+        35.5,
+        469.22,
+        305.14
+      ],
+      "main_bbox_ratio": 0.52392,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 58,
+      "wrong_class": "hot dog",
+      "options": {
+        "A": "elephant",
+        "B": "hot dog",
+        "C": "skateboard",
+        "D": "donut"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 453981,
+      "image_path": "data/raw/coco/val2017/000000453981.jpg",
+      "category_id": 23,
+      "category": "bear",
+      "supercategory": "animal",
+      "main_bbox": [
+        113.23,
+        168.16,
+        496.08,
+        257.16
+      ],
+      "main_bbox_ratio": 0.46682,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 46,
+      "wrong_class": "wine glass",
+      "options": {
+        "A": "broccoli",
+        "B": "bear",
+        "C": "wine glass",
+        "D": "banana"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 38825,
+      "image_path": "data/raw/coco/val2017/000000038825.jpg",
+      "category_id": 24,
+      "category": "zebra",
+      "supercategory": "animal",
+      "main_bbox": [
+        112.27,
+        0.8,
+        355.99,
+        378.06
+      ],
+      "main_bbox_ratio": 0.49248,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 6,
+      "wrong_class": "bus",
+      "options": {
+        "A": "refrigerator",
+        "B": "traffic light",
+        "C": "zebra",
+        "D": "bus"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 55072,
+      "image_path": "data/raw/coco/val2017/000000055072.jpg",
+      "category_id": 25,
+      "category": "giraffe",
+      "supercategory": "animal",
+      "main_bbox": [
+        49.24,
+        46.17,
+        462.67,
+        380.83
+      ],
+      "main_bbox_ratio": 0.64475,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 74,
+      "wrong_class": "mouse",
+      "options": {
+        "A": "mouse",
+        "B": "keyboard",
+        "C": "microwave",
+        "D": "giraffe"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 359855,
+      "image_path": "data/raw/coco/val2017/000000359855.jpg",
+      "category_id": 33,
+      "category": "suitcase",
+      "supercategory": "accessory",
+      "main_bbox": [
+        139.82,
+        19.48,
+        418.31,
+        308.3
+      ],
+      "main_bbox_ratio": 0.39511,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 77,
+      "wrong_class": "cell phone",
+      "options": {
+        "A": "suitcase",
+        "B": "toilet",
+        "C": "cell phone",
+        "D": "backpack"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 14439,
+      "image_path": "data/raw/coco/val2017/000000014439.jpg",
+      "category_id": 38,
+      "category": "kite",
+      "supercategory": "sports",
+      "main_bbox": [
+        163.42,
+        85.34,
+        458.47,
+        255.11
+      ],
+      "main_bbox_ratio": 0.45235,
+      "second_other_bbox_ratio": 0.0726,
+      "wrong_class_id": 77,
+      "wrong_class": "cell phone",
+      "options": {
+        "A": "microwave",
+        "B": "kite",
+        "C": "banana",
+        "D": "cell phone"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 300842,
+      "image_path": "data/raw/coco/val2017/000000300842.jpg",
+      "category_id": 41,
+      "category": "skateboard",
+      "supercategory": "sports",
+      "main_bbox": [
+        160.83,
+        137.56,
+        479.17,
+        224.01
+      ],
+      "main_bbox_ratio": 0.3937,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 39,
+      "wrong_class": "baseball bat",
+      "options": {
+        "A": "baseball bat",
+        "B": "backpack",
+        "C": "skateboard",
+        "D": "truck"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 356347,
+      "image_path": "data/raw/coco/val2017/000000356347.jpg",
+      "category_id": 51,
+      "category": "bowl",
+      "supercategory": "kitchen",
+      "main_bbox": [
+        0.0,
+        1.83,
+        421.75,
+        471.37
+      ],
+      "main_bbox_ratio": 0.64714,
+      "second_other_bbox_ratio": 0.10642,
+      "wrong_class_id": 24,
+      "wrong_class": "zebra",
+      "options": {
+        "A": "baseball glove",
+        "B": "zebra",
+        "C": "kite",
+        "D": "bowl"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 3661,
+      "image_path": "data/raw/coco/val2017/000000003661.jpg",
+      "category_id": 52,
+      "category": "banana",
+      "supercategory": "food",
+      "main_bbox": [
+        61.27,
+        0.0,
+        491.86,
+        348.62
+      ],
+      "main_bbox_ratio": 0.69772,
+      "second_other_bbox_ratio": 0.06501,
+      "wrong_class_id": 56,
+      "wrong_class": "broccoli",
+      "options": {
+        "A": "banana",
+        "B": "mouse",
+        "C": "stop sign",
+        "D": "broccoli"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 21503,
+      "image_path": "data/raw/coco/val2017/000000021503.jpg",
+      "category_id": 54,
+      "category": "sandwich",
+      "supercategory": "food",
+      "main_bbox": [
+        0.0,
+        233.59,
+        508.64,
+        246.41
+      ],
+      "main_bbox_ratio": 0.40799,
+      "second_other_bbox_ratio": 0.071,
+      "wrong_class_id": 7,
+      "wrong_class": "train",
+      "options": {
+        "A": "train",
+        "B": "sandwich",
+        "C": "toaster",
+        "D": "surfboard"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 479596,
+      "image_path": "data/raw/coco/val2017/000000479596.jpg",
+      "category_id": 55,
+      "category": "orange",
+      "supercategory": "food",
+      "main_bbox": [
+        1.01,
+        165.88,
+        637.47,
+        262.12
+      ],
+      "main_bbox_ratio": 0.61001,
+      "second_other_bbox_ratio": 0.01826,
+      "wrong_class_id": 73,
+      "wrong_class": "laptop",
+      "options": {
+        "A": "vase",
+        "B": "laptop",
+        "C": "orange",
+        "D": "train"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 579091,
+      "image_path": "data/raw/coco/val2017/000000579091.jpg",
+      "category_id": 56,
+      "category": "broccoli",
+      "supercategory": "food",
+      "main_bbox": [
+        139.34,
+        146.41,
+        334.43,
+        272.71
+      ],
+      "main_bbox_ratio": 0.3353,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 4,
+      "wrong_class": "motorcycle",
+      "options": {
+        "A": "giraffe",
+        "B": "sink",
+        "C": "motorcycle",
+        "D": "broccoli"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 530052,
+      "image_path": "data/raw/coco/val2017/000000530052.jpg",
+      "category_id": 57,
+      "category": "carrot",
+      "supercategory": "food",
+      "main_bbox": [
+        57.46,
+        143.58,
+        582.54,
+        212.24
+      ],
+      "main_bbox_ratio": 0.45242,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 84,
+      "wrong_class": "book",
+      "options": {
+        "A": "carrot",
+        "B": "book",
+        "C": "orange",
+        "D": "dining table"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 283113,
+      "image_path": "data/raw/coco/val2017/000000283113.jpg",
+      "category_id": 58,
+      "category": "hot dog",
+      "supercategory": "food",
+      "main_bbox": [
+        1.51,
+        101.89,
+        289.81,
+        418.11
+      ],
+      "main_bbox_ratio": 0.39444,
+      "second_other_bbox_ratio": 0.0545,
+      "wrong_class_id": 44,
+      "wrong_class": "bottle",
+      "options": {
+        "A": "sheep",
+        "B": "hot dog",
+        "C": "bottle",
+        "D": "kite"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 579900,
+      "image_path": "data/raw/coco/val2017/000000579900.jpg",
+      "category_id": 59,
+      "category": "pizza",
+      "supercategory": "food",
+      "main_bbox": [
+        1.12,
+        35.96,
+        373.88,
+        412.35
+      ],
+      "main_bbox_ratio": 0.82224,
+      "second_other_bbox_ratio": 0.01764,
+      "wrong_class_id": 54,
+      "wrong_class": "sandwich",
+      "options": {
+        "A": "tie",
+        "B": "apple",
+        "C": "pizza",
+        "D": "sandwich"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 66926,
+      "image_path": "data/raw/coco/val2017/000000066926.jpg",
+      "category_id": 60,
+      "category": "donut",
+      "supercategory": "food",
+      "main_bbox": [
+        155.33,
+        200.45,
+        484.67,
+        273.98
+      ],
+      "main_bbox_ratio": 0.43226,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 87,
+      "wrong_class": "scissors",
+      "options": {
+        "A": "scissors",
+        "B": "toaster",
+        "C": "microwave",
+        "D": "donut"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 546964,
+      "image_path": "data/raw/coco/val2017/000000546964.jpg",
+      "category_id": 62,
+      "category": "chair",
+      "supercategory": "furniture",
+      "main_bbox": [
+        4.11,
+        236.43,
+        327.92,
+        235.4
+      ],
+      "main_bbox_ratio": 0.25233,
+      "second_other_bbox_ratio": 0.10305,
+      "wrong_class_id": 31,
+      "wrong_class": "handbag",
+      "options": {
+        "A": "chair",
+        "B": "clock",
+        "C": "handbag",
+        "D": "elephant"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 139684,
+      "image_path": "data/raw/coco/val2017/000000139684.jpg",
+      "category_id": 63,
+      "category": "couch",
+      "supercategory": "furniture",
+      "main_bbox": [
+        2.15,
+        206.25,
+        412.49,
+        122.45
+      ],
+      "main_bbox_ratio": 0.30336,
+      "second_other_bbox_ratio": 0.09561,
+      "wrong_class_id": 79,
+      "wrong_class": "oven",
+      "options": {
+        "A": "hot dog",
+        "B": "couch",
+        "C": "bicycle",
+        "D": "oven"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 159282,
+      "image_path": "data/raw/coco/val2017/000000159282.jpg",
+      "category_id": 64,
+      "category": "potted plant",
+      "supercategory": "furniture",
+      "main_bbox": [
+        64.18,
+        2.21,
+        447.02,
+        412.73
+      ],
+      "main_bbox_ratio": 0.67671,
+      "second_other_bbox_ratio": 0.06187,
+      "wrong_class_id": 16,
+      "wrong_class": "bird",
+      "options": {
+        "A": "bird",
+        "B": "mouse",
+        "C": "potted plant",
+        "D": "dining table"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 71451,
+      "image_path": "data/raw/coco/val2017/000000071451.jpg",
+      "category_id": 65,
+      "category": "bed",
+      "supercategory": "furniture",
+      "main_bbox": [
+        1.44,
+        168.03,
+        381.56,
+        464.54
+      ],
+      "main_bbox_ratio": 0.72311,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 61,
+      "wrong_class": "cake",
+      "options": {
+        "A": "orange",
+        "B": "cake",
+        "C": "giraffe",
+        "D": "bed"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 322352,
+      "image_path": "data/raw/coco/val2017/000000322352.jpg",
+      "category_id": 67,
+      "category": "dining table",
+      "supercategory": "furniture",
+      "main_bbox": [
+        103.59,
+        99.3,
+        201.84,
+        247.17
+      ],
+      "main_bbox_ratio": 0.26607,
+      "second_other_bbox_ratio": 0.1055,
+      "wrong_class_id": 57,
+      "wrong_class": "carrot",
+      "options": {
+        "A": "dining table",
+        "B": "sink",
+        "C": "kite",
+        "D": "carrot"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 550797,
+      "image_path": "data/raw/coco/val2017/000000550797.jpg",
+      "category_id": 70,
+      "category": "toilet",
+      "supercategory": "furniture",
+      "main_bbox": [
+        51.54,
+        214.9,
+        250.56,
+        390.88
+      ],
+      "main_bbox_ratio": 0.4239,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 54,
+      "wrong_class": "sandwich",
+      "options": {
+        "A": "sandwich",
+        "B": "toilet",
+        "C": "clock",
+        "D": "sports ball"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 366225,
+      "image_path": "data/raw/coco/val2017/000000366225.jpg",
+      "category_id": 72,
+      "category": "tv",
+      "supercategory": "electronic",
+      "main_bbox": [
+        69.72,
+        7.99,
+        383.24,
+        311.29
+      ],
+      "main_bbox_ratio": 0.34456,
+      "second_other_bbox_ratio": 0.08267,
+      "wrong_class_id": 67,
+      "wrong_class": "dining table",
+      "options": {
+        "A": "sheep",
+        "B": "dining table",
+        "C": "tv",
+        "D": "refrigerator"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 324715,
+      "image_path": "data/raw/coco/val2017/000000324715.jpg",
+      "category_id": 73,
+      "category": "laptop",
+      "supercategory": "electronic",
+      "main_bbox": [
+        29.93,
+        71.09,
+        288.1,
+        258.17
+      ],
+      "main_bbox_ratio": 0.44672,
+      "second_other_bbox_ratio": 0.09159,
+      "wrong_class_id": 1,
+      "wrong_class": "person",
+      "options": {
+        "A": "bus",
+        "B": "refrigerator",
+        "C": "person",
+        "D": "laptop"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 409630,
+      "image_path": "data/raw/coco/val2017/000000409630.jpg",
+      "category_id": 76,
+      "category": "keyboard",
+      "supercategory": "electronic",
+      "main_bbox": [
+        27.81,
+        137.36,
+        359.83,
+        151.68
+      ],
+      "main_bbox_ratio": 0.29109,
+      "second_other_bbox_ratio": 0.0569,
+      "wrong_class_id": 58,
+      "wrong_class": "hot dog",
+      "options": {
+        "A": "keyboard",
+        "B": "hot dog",
+        "C": "apple",
+        "D": "stop sign"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 426253,
+      "image_path": "data/raw/coco/val2017/000000426253.jpg",
+      "category_id": 78,
+      "category": "microwave",
+      "supercategory": "appliance",
+      "main_bbox": [
+        46.06,
+        60.45,
+        546.94,
+        298.42
+      ],
+      "main_bbox_ratio": 0.59725,
+      "second_other_bbox_ratio": 0.03313,
+      "wrong_class_id": 6,
+      "wrong_class": "bus",
+      "options": {
+        "A": "train",
+        "B": "microwave",
+        "C": "bus",
+        "D": "keyboard"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 344795,
+      "image_path": "data/raw/coco/val2017/000000344795.jpg",
+      "category_id": 79,
+      "category": "oven",
+      "supercategory": "appliance",
+      "main_bbox": [
+        50.73,
+        22.91,
+        536.0,
+        329.72
+      ],
+      "main_bbox_ratio": 0.76493,
+      "second_other_bbox_ratio": 0.09092,
+      "wrong_class_id": 73,
+      "wrong_class": "laptop",
+      "options": {
+        "A": "skateboard",
+        "B": "stop sign",
+        "C": "oven",
+        "D": "laptop"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 66841,
+      "image_path": "data/raw/coco/val2017/000000066841.jpg",
+      "category_id": 80,
+      "category": "toaster",
+      "supercategory": "appliance",
+      "main_bbox": [
+        65.17,
+        107.87,
+        259.55,
+        334.83
+      ],
+      "main_bbox_ratio": 0.51729,
+      "second_other_bbox_ratio": 0.1047,
+      "wrong_class_id": 16,
+      "wrong_class": "bird",
+      "options": {
+        "A": "bird",
+        "B": "dining table",
+        "C": "keyboard",
+        "D": "toaster"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 239627,
+      "image_path": "data/raw/coco/val2017/000000239627.jpg",
+      "category_id": 81,
+      "category": "sink",
+      "supercategory": "appliance",
+      "main_bbox": [
+        0.0,
+        49.05,
+        614.53,
+        373.14
+      ],
+      "main_bbox_ratio": 0.83909,
+      "second_other_bbox_ratio": 0.03442,
+      "wrong_class_id": 39,
+      "wrong_class": "baseball bat",
+      "options": {
+        "A": "sink",
+        "B": "stop sign",
+        "C": "baseball bat",
+        "D": "donut"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 512330,
+      "image_path": "data/raw/coco/val2017/000000512330.jpg",
+      "category_id": 82,
+      "category": "refrigerator",
+      "supercategory": "appliance",
+      "main_bbox": [
+        90.42,
+        0.48,
+        335.58,
+        639.52
+      ],
+      "main_bbox_ratio": 0.78716,
+      "second_other_bbox_ratio": 0.01677,
+      "wrong_class_id": 88,
+      "wrong_class": "teddy bear",
+      "options": {
+        "A": "couch",
+        "B": "refrigerator",
+        "C": "giraffe",
+        "D": "teddy bear"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 67896,
+      "image_path": "data/raw/coco/val2017/000000067896.jpg",
+      "category_id": 85,
+      "category": "clock",
+      "supercategory": "indoor",
+      "main_bbox": [
+        182.29,
+        61.3,
+        296.63,
+        286.92
+      ],
+      "main_bbox_ratio": 0.27705,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 39,
+      "wrong_class": "baseball bat",
+      "options": {
+        "A": "baseball bat",
+        "B": "chair",
+        "C": "clock",
+        "D": "stop sign"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 262631,
+      "image_path": "data/raw/coco/val2017/000000262631.jpg",
+      "category_id": 86,
+      "category": "vase",
+      "supercategory": "indoor",
+      "main_bbox": [
+        73.63,
+        87.08,
+        291.68,
+        470.09
+      ],
+      "main_bbox_ratio": 0.44634,
+      "second_other_bbox_ratio": 0.00584,
+      "wrong_class_id": 90,
+      "wrong_class": "toothbrush",
+      "options": {
+        "A": "tv",
+        "B": "toothbrush",
+        "C": "truck",
+        "D": "vase"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 174018,
+      "image_path": "data/raw/coco/val2017/000000174018.jpg",
+      "category_id": 88,
+      "category": "teddy bear",
+      "supercategory": "indoor",
+      "main_bbox": [
+        85.38,
+        4.35,
+        413.45,
+        346.65
+      ],
+      "main_bbox_ratio": 0.81665,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 73,
+      "wrong_class": "laptop",
+      "options": {
+        "A": "teddy bear",
+        "B": "scissors",
+        "C": "hair drier",
+        "D": "laptop"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 420840,
+      "image_path": "data/raw/coco/val2017/000000420840.jpg",
+      "category_id": 1,
+      "category": "person",
+      "supercategory": "person",
+      "main_bbox": [
+        177.22,
+        7.62,
+        284.89,
+        409.71
+      ],
+      "main_bbox_ratio": 0.43014,
+      "second_other_bbox_ratio": 0.11654,
+      "wrong_class_id": 54,
+      "wrong_class": "sandwich",
+      "options": {
+        "A": "sandwich",
+        "B": "person",
+        "C": "bird",
+        "D": "umbrella"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 370208,
+      "image_path": "data/raw/coco/val2017/000000370208.jpg",
+      "category_id": 2,
+      "category": "bicycle",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        62.9,
+        107.26,
+        380.65,
+        228.22
+      ],
+      "main_bbox_ratio": 0.46332,
+      "second_other_bbox_ratio": 0.02535,
+      "wrong_class_id": 33,
+      "wrong_class": "suitcase",
+      "options": {
+        "A": "chair",
+        "B": "suitcase",
+        "C": "bicycle",
+        "D": "book"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 526392,
+      "image_path": "data/raw/coco/val2017/000000526392.jpg",
+      "category_id": 3,
+      "category": "car",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        143.14,
+        174.03,
+        305.13,
+        152.94
+      ],
+      "main_bbox_ratio": 0.28028,
+      "second_other_bbox_ratio": 0.01252,
+      "wrong_class_id": 33,
+      "wrong_class": "suitcase",
+      "options": {
+        "A": "bottle",
+        "B": "sink",
+        "C": "suitcase",
+        "D": "car"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 266400,
+      "image_path": "data/raw/coco/val2017/000000266400.jpg",
+      "category_id": 4,
+      "category": "motorcycle",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        106.31,
+        51.51,
+        522.68,
+        340.19
+      ],
+      "main_bbox_ratio": 0.70159,
+      "second_other_bbox_ratio": 0.00993,
+      "wrong_class_id": 9,
+      "wrong_class": "boat",
+      "options": {
+        "A": "motorcycle",
+        "B": "boat",
+        "C": "cat",
+        "D": "remote"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 408112,
+      "image_path": "data/raw/coco/val2017/000000408112.jpg",
+      "category_id": 5,
+      "category": "airplane",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        1.08,
+        100.09,
+        411.12,
+        228.16
+      ],
+      "main_bbox_ratio": 0.30534,
+      "second_other_bbox_ratio": 0.00089,
+      "wrong_class_id": 51,
+      "wrong_class": "bowl",
+      "options": {
+        "A": "clock",
+        "B": "airplane",
+        "C": "bowl",
+        "D": "banana"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 550349,
+      "image_path": "data/raw/coco/val2017/000000550349.jpg",
+      "category_id": 6,
+      "category": "bus",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        100.67,
+        134.11,
+        379.33,
+        414.2
+      ],
+      "main_bbox_ratio": 0.51145,
+      "second_other_bbox_ratio": 0.06743,
+      "wrong_class_id": 38,
+      "wrong_class": "kite",
+      "options": {
+        "A": "car",
+        "B": "bed",
+        "C": "bus",
+        "D": "kite"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 369675,
+      "image_path": "data/raw/coco/val2017/000000369675.jpg",
+      "category_id": 7,
+      "category": "train",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        2.89,
+        90.62,
+        636.27,
+        322.96
+      ],
+      "main_bbox_ratio": 0.74843,
+      "second_other_bbox_ratio": 0.00457,
+      "wrong_class_id": 64,
+      "wrong_class": "potted plant",
+      "options": {
+        "A": "potted plant",
+        "B": "toilet",
+        "C": "donut",
+        "D": "train"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 148719,
+      "image_path": "data/raw/coco/val2017/000000148719.jpg",
+      "category_id": 8,
+      "category": "truck",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        96.0,
+        96.0,
+        486.47,
+        283.69
+      ],
+      "main_bbox_ratio": 0.44924,
+      "second_other_bbox_ratio": 0.00596,
+      "wrong_class_id": 70,
+      "wrong_class": "toilet",
+      "options": {
+        "A": "truck",
+        "B": "hair drier",
+        "C": "toilet",
+        "D": "hot dog"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 502168,
+      "image_path": "data/raw/coco/val2017/000000502168.jpg",
+      "category_id": 9,
+      "category": "boat",
+      "supercategory": "vehicle",
+      "main_bbox": [
+        405.51,
+        133.8,
+        234.49,
+        315.97
+      ],
+      "main_bbox_ratio": 0.25277,
+      "second_other_bbox_ratio": 0.03498,
+      "wrong_class_id": 24,
+      "wrong_class": "zebra",
+      "options": {
+        "A": "suitcase",
+        "B": "boat",
+        "C": "refrigerator",
+        "D": "zebra"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 338560,
+      "image_path": "data/raw/coco/val2017/000000338560.jpg",
+      "category_id": 11,
+      "category": "fire hydrant",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        132.61,
+        165.77,
+        185.95,
+        446.84
+      ],
+      "main_bbox_ratio": 0.27047,
+      "second_other_bbox_ratio": 0.00936,
+      "wrong_class_id": 48,
+      "wrong_class": "fork",
+      "options": {
+        "A": "fork",
+        "B": "backpack",
+        "C": "fire hydrant",
+        "D": "potted plant"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 333956,
+      "image_path": "data/raw/coco/val2017/000000333956.jpg",
+      "category_id": 14,
+      "category": "parking meter",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        24.56,
+        170.84,
+        186.37,
+        421.85
+      ],
+      "main_bbox_ratio": 0.28702,
+      "second_other_bbox_ratio": 0.03642,
+      "wrong_class_id": 79,
+      "wrong_class": "oven",
+      "options": {
+        "A": "motorcycle",
+        "B": "oven",
+        "C": "keyboard",
+        "D": "parking meter"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 310072,
+      "image_path": "data/raw/coco/val2017/000000310072.jpg",
+      "category_id": 15,
+      "category": "bench",
+      "supercategory": "outdoor",
+      "main_bbox": [
+        120.22,
+        87.59,
+        407.91,
+        224.13
+      ],
+      "main_bbox_ratio": 0.37298,
+      "second_other_bbox_ratio": 0.07294,
+      "wrong_class_id": 46,
+      "wrong_class": "wine glass",
+      "options": {
+        "A": "bench",
+        "B": "surfboard",
+        "C": "bed",
+        "D": "wine glass"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 315257,
+      "image_path": "data/raw/coco/val2017/000000315257.jpg",
+      "category_id": 16,
+      "category": "bird",
+      "supercategory": "animal",
+      "main_bbox": [
+        63.14,
+        115.76,
+        491.85,
+        279.16
+      ],
+      "main_bbox_ratio": 0.41739,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 56,
+      "wrong_class": "broccoli",
+      "options": {
+        "A": "broccoli",
+        "B": "bird",
+        "C": "banana",
+        "D": "motorcycle"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 286708,
+      "image_path": "data/raw/coco/val2017/000000286708.jpg",
+      "category_id": 17,
+      "category": "cat",
+      "supercategory": "animal",
+      "main_bbox": [
+        37.08,
+        107.12,
+        602.92,
+        341.95
+      ],
+      "main_bbox_ratio": 0.66973,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 13,
+      "wrong_class": "stop sign",
+      "options": {
+        "A": "toaster",
+        "B": "stop sign",
+        "C": "cat",
+        "D": "zebra"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 318908,
+      "image_path": "data/raw/coco/val2017/000000318908.jpg",
+      "category_id": 18,
+      "category": "dog",
+      "supercategory": "animal",
+      "main_bbox": [
+        93.8,
+        0.06,
+        293.47,
+        287.44
+      ],
+      "main_bbox_ratio": 0.50664,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 70,
+      "wrong_class": "toilet",
+      "options": {
+        "A": "tie",
+        "B": "refrigerator",
+        "C": "toilet",
+        "D": "dog"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 51309,
+      "image_path": "data/raw/coco/val2017/000000051309.jpg",
+      "category_id": 19,
+      "category": "horse",
+      "supercategory": "animal",
+      "main_bbox": [
+        67.98,
+        46.35,
+        275.02,
+        225.58
+      ],
+      "main_bbox_ratio": 0.26927,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 28,
+      "wrong_class": "umbrella",
+      "options": {
+        "A": "horse",
+        "B": "umbrella",
+        "C": "backpack",
+        "D": "potted plant"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 364322,
+      "image_path": "data/raw/coco/val2017/000000364322.jpg",
+      "category_id": 20,
+      "category": "sheep",
+      "supercategory": "animal",
+      "main_bbox": [
+        114.58,
+        266.32,
+        446.97,
+        207.49
+      ],
+      "main_bbox_ratio": 0.30189,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 74,
+      "wrong_class": "mouse",
+      "options": {
+        "A": "couch",
+        "B": "sheep",
+        "C": "mouse",
+        "D": "car"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 357081,
+      "image_path": "data/raw/coco/val2017/000000357081.jpg",
+      "category_id": 21,
+      "category": "cow",
+      "supercategory": "animal",
+      "main_bbox": [
+        236.0,
+        95.5,
+        390.27,
+        252.53
+      ],
+      "main_bbox_ratio": 0.36064,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 11,
+      "wrong_class": "fire hydrant",
+      "options": {
+        "A": "vase",
+        "B": "bottle",
+        "C": "cow",
+        "D": "fire hydrant"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 28449,
+      "image_path": "data/raw/coco/val2017/000000028449.jpg",
+      "category_id": 22,
+      "category": "elephant",
+      "supercategory": "animal",
+      "main_bbox": [
+        194.27,
+        99.54,
+        261.58,
+        292.36
+      ],
+      "main_bbox_ratio": 0.27984,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 37,
+      "wrong_class": "sports ball",
+      "options": {
+        "A": "sports ball",
+        "B": "bear",
+        "C": "traffic light",
+        "D": "elephant"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 205776,
+      "image_path": "data/raw/coco/val2017/000000205776.jpg",
+      "category_id": 23,
+      "category": "bear",
+      "supercategory": "animal",
+      "main_bbox": [
+        91.89,
+        28.24,
+        442.23,
+        240.26
+      ],
+      "main_bbox_ratio": 0.39063,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 9,
+      "wrong_class": "boat",
+      "options": {
+        "A": "bear",
+        "B": "bowl",
+        "C": "boat",
+        "D": "bench"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 250758,
+      "image_path": "data/raw/coco/val2017/000000250758.jpg",
+      "category_id": 24,
+      "category": "zebra",
+      "supercategory": "animal",
+      "main_bbox": [
+        121.53,
+        113.45,
+        408.46,
+        279.03
+      ],
+      "main_bbox_ratio": 0.371,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 37,
+      "wrong_class": "sports ball",
+      "options": {
+        "A": "train",
+        "B": "zebra",
+        "C": "bottle",
+        "D": "sports ball"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 272364,
+      "image_path": "data/raw/coco/val2017/000000272364.jpg",
+      "category_id": 25,
+      "category": "giraffe",
+      "supercategory": "animal",
+      "main_bbox": [
+        140.61,
+        150.98,
+        185.85,
+        489.02
+      ],
+      "main_bbox_ratio": 0.33179,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 46,
+      "wrong_class": "wine glass",
+      "options": {
+        "A": "wine glass",
+        "B": "traffic light",
+        "C": "giraffe",
+        "D": "kite"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 530854,
+      "image_path": "data/raw/coco/val2017/000000530854.jpg",
+      "category_id": 28,
+      "category": "umbrella",
+      "supercategory": "accessory",
+      "main_bbox": [
+        1.91,
+        154.59,
+        458.51,
+        265.15
+      ],
+      "main_bbox_ratio": 0.44696,
+      "second_other_bbox_ratio": 0.01097,
+      "wrong_class_id": 42,
+      "wrong_class": "surfboard",
+      "options": {
+        "A": "bus",
+        "B": "surfboard",
+        "C": "frisbee",
+        "D": "umbrella"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 453860,
+      "image_path": "data/raw/coco/val2017/000000453860.jpg",
+      "category_id": 33,
+      "category": "suitcase",
+      "supercategory": "accessory",
+      "main_bbox": [
+        344.14,
+        40.97,
+        261.23,
+        337.39
+      ],
+      "main_bbox_ratio": 0.32176,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 61,
+      "wrong_class": "cake",
+      "options": {
+        "A": "suitcase",
+        "B": "motorcycle",
+        "C": "remote",
+        "D": "cake"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 7784,
+      "image_path": "data/raw/coco/val2017/000000007784.jpg",
+      "category_id": 38,
+      "category": "kite",
+      "supercategory": "sports",
+      "main_bbox": [
+        93.96,
+        86.13,
+        240.41,
+        220.09
+      ],
+      "main_bbox_ratio": 0.2822,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 23,
+      "wrong_class": "bear",
+      "options": {
+        "A": "bear",
+        "B": "kite",
+        "C": "remote",
+        "D": "toaster"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 109916,
+      "image_path": "data/raw/coco/val2017/000000109916.jpg",
+      "category_id": 51,
+      "category": "bowl",
+      "supercategory": "kitchen",
+      "main_bbox": [
+        282.42,
+        198.76,
+        304.96,
+        268.46
+      ],
+      "main_bbox_ratio": 0.2665,
+      "second_other_bbox_ratio": 0.11713,
+      "wrong_class_id": 49,
+      "wrong_class": "knife",
+      "options": {
+        "A": "snowboard",
+        "B": "knife",
+        "C": "bowl",
+        "D": "horse"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "formal",
+      "image_id": 407574,
+      "image_path": "data/raw/coco/val2017/000000407574.jpg",
+      "category_id": 52,
+      "category": "banana",
+      "supercategory": "food",
+      "main_bbox": [
+        93.48,
+        97.36,
+        289.08,
+        339.41
+      ],
+      "main_bbox_ratio": 0.32073,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 51,
+      "wrong_class": "bowl",
+      "options": {
+        "A": "traffic light",
+        "B": "elephant",
+        "C": "bowl",
+        "D": "banana"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 287959,
+      "image_path": "data/raw/coco/val2017/000000287959.jpg",
+      "category_id": 54,
+      "category": "sandwich",
+      "supercategory": "food",
+      "main_bbox": [
+        1.08,
+        0.0,
+        446.56,
+        446.56
+      ],
+      "main_bbox_ratio": 0.64914,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 82,
+      "wrong_class": "refrigerator",
+      "options": {
+        "A": "sandwich",
+        "B": "refrigerator",
+        "C": "person",
+        "D": "train"
+      },
+      "answer": "A",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 402783,
+      "image_path": "data/raw/coco/val2017/000000402783.jpg",
+      "category_id": 55,
+      "category": "orange",
+      "supercategory": "food",
+      "main_bbox": [
+        110.68,
+        68.89,
+        399.81,
+        297.04
+      ],
+      "main_bbox_ratio": 0.38659,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 73,
+      "wrong_class": "laptop",
+      "options": {
+        "A": "bicycle",
+        "B": "orange",
+        "C": "laptop",
+        "D": "microwave"
+      },
+      "answer": "B",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 407524,
+      "image_path": "data/raw/coco/val2017/000000407524.jpg",
+      "category_id": 56,
+      "category": "broccoli",
+      "supercategory": "food",
+      "main_bbox": [
+        298.87,
+        89.43,
+        333.96,
+        350.95
+      ],
+      "main_bbox_ratio": 0.38152,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 73,
+      "wrong_class": "laptop",
+      "options": {
+        "A": "skis",
+        "B": "baseball bat",
+        "C": "broccoli",
+        "D": "laptop"
+      },
+      "answer": "C",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 196009,
+      "image_path": "data/raw/coco/val2017/000000196009.jpg",
+      "category_id": 57,
+      "category": "carrot",
+      "supercategory": "food",
+      "main_bbox": [
+        0.0,
+        77.75,
+        640.0,
+        240.0
+      ],
+      "main_bbox_ratio": 0.5,
+      "second_other_bbox_ratio": 0.09664,
+      "wrong_class_id": 31,
+      "wrong_class": "handbag",
+      "options": {
+        "A": "handbag",
+        "B": "chair",
+        "C": "boat",
+        "D": "carrot"
+      },
+      "answer": "D",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 164969,
+      "image_path": "data/raw/coco/val2017/000000164969.jpg",
+      "category_id": 59,
+      "category": "pizza",
+      "supercategory": "food",
+      "main_bbox": [
+        83.12,
+        23.12,
+        419.4,
+        399.34
+      ],
+      "main_bbox_ratio": 0.61143,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 18,
+      "wrong_class": "dog",
+      "options": {
+        "A": "pizza",
+        "B": "wine glass",
+        "C": "dog",
+        "D": "suitcase"
+      },
+      "answer": "A",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 377814,
+      "image_path": "data/raw/coco/val2017/000000377814.jpg",
+      "category_id": 60,
+      "category": "donut",
+      "supercategory": "food",
+      "main_bbox": [
+        43.15,
+        183.37,
+        284.76,
+        296.63
+      ],
+      "main_bbox_ratio": 0.27496,
+      "second_other_bbox_ratio": 0.0,
+      "wrong_class_id": 86,
+      "wrong_class": "vase",
+      "options": {
+        "A": "teddy bear",
+        "B": "donut",
+        "C": "umbrella",
+        "D": "vase"
+      },
+      "answer": "B",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 277689,
+      "image_path": "data/raw/coco/val2017/000000277689.jpg",
+      "category_id": 61,
+      "category": "cake",
+      "supercategory": "food",
+      "main_bbox": [
+        285.53,
+        208.66,
+        354.47,
+        210.09
+      ],
+      "main_bbox_ratio": 0.27443,
+      "second_other_bbox_ratio": 0.05089,
+      "wrong_class_id": 13,
+      "wrong_class": "stop sign",
+      "options": {
+        "A": "stop sign",
+        "B": "cow",
+        "C": "cake",
+        "D": "remote"
+      },
+      "answer": "C",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 65288,
+      "image_path": "data/raw/coco/val2017/000000065288.jpg",
+      "category_id": 62,
+      "category": "chair",
+      "supercategory": "furniture",
+      "main_bbox": [
+        214.88,
+        237.83,
+        407.71,
+        182.74
+      ],
+      "main_bbox_ratio": 0.27263,
+      "second_other_bbox_ratio": 0.0511,
+      "wrong_class_id": 65,
+      "wrong_class": "bed",
+      "options": {
+        "A": "mouse",
+        "B": "bed",
+        "C": "cow",
+        "D": "chair"
+      },
+      "answer": "D",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 356432,
+      "image_path": "data/raw/coco/val2017/000000356432.jpg",
+      "category_id": 63,
+      "category": "couch",
+      "supercategory": "furniture",
+      "main_bbox": [
+        138.67,
+        189.66,
+        376.63,
+        204.87
+      ],
+      "main_bbox_ratio": 0.28981,
+      "second_other_bbox_ratio": 0.00791,
+      "wrong_class_id": 57,
+      "wrong_class": "carrot",
+      "options": {
+        "A": "couch",
+        "B": "truck",
+        "C": "kite",
+        "D": "carrot"
+      },
+      "answer": "A",
+      "wrong_answer": "D",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 467315,
+      "image_path": "data/raw/coco/val2017/000000467315.jpg",
+      "category_id": 64,
+      "category": "potted plant",
+      "supercategory": "furniture",
+      "main_bbox": [
+        101.53,
+        98.35,
+        345.44,
+        280.32
+      ],
+      "main_bbox_ratio": 0.35517,
+      "second_other_bbox_ratio": 0.02799,
+      "wrong_class_id": 13,
+      "wrong_class": "stop sign",
+      "options": {
+        "A": "stop sign",
+        "B": "potted plant",
+        "C": "bear",
+        "D": "mouse"
+      },
+      "answer": "B",
+      "wrong_answer": "A",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 366199,
+      "image_path": "data/raw/coco/val2017/000000366199.jpg",
+      "category_id": 65,
+      "category": "bed",
+      "supercategory": "furniture",
+      "main_bbox": [
+        0.96,
+        221.11,
+        637.63,
+        191.48
+      ],
+      "main_bbox_ratio": 0.44677,
+      "second_other_bbox_ratio": 0.05236,
+      "wrong_class_id": 55,
+      "wrong_class": "orange",
+      "options": {
+        "A": "giraffe",
+        "B": "orange",
+        "C": "bed",
+        "D": "tv"
+      },
+      "answer": "C",
+      "wrong_answer": "B",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    },
+    {
+      "split": "reserve",
+      "image_id": 206411,
+      "image_path": "data/raw/coco/val2017/000000206411.jpg",
+      "category_id": 70,
+      "category": "toilet",
+      "supercategory": "furniture",
+      "main_bbox": [
+        172.58,
+        0.9,
+        298.79,
+        359.19
+      ],
+      "main_bbox_ratio": 0.34936,
+      "second_other_bbox_ratio": 0.10369,
+      "wrong_class_id": 50,
+      "wrong_class": "spoon",
+      "options": {
+        "A": "motorcycle",
+        "B": "apple",
+        "C": "spoon",
+        "D": "toilet"
+      },
+      "answer": "D",
+      "wrong_answer": "C",
+      "visual_review": "pending",
+      "mcq_visual_review": "pending"
+    }
+  ]
+}

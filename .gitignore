@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/
+data/audit/
+data/.audit_deps/
+runs/
+reports/figures/
+reports/coco/contact_*.jpg
+members/*/scratch/
+members/*/runs/
+!members/*/scratch/.gitkeep
+!members/*/runs/.gitkeep

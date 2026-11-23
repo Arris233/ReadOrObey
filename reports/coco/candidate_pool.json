@@ -1,0 +1,4648 @@
+[
+  {
+    "image_id": 73153,
+    "file_name": "000000073153.jpg",
+    "width": 427,
+    "height": 640,
+    "category_id": 1,
+    "category": "person",
+    "supercategory": "person",
+    "main_bbox": [
+      206.59,
+      12.64,
+      190.7,
+      621.22
+    ],
+    "main_bbox_ratio": 0.4335,
+    "second_other_bbox_ratio": 0.00083,
+    "annotated_category_ids": [
+      1,
+      77
+    ],
+    "image_available": true,
+    "selection_hash": "01ff79c38a0082acf22adac7a228688af47c4d98d820385b507c0028c2d34095"
+  },
+  {
+    "image_id": 61108,
+    "file_name": "000000061108.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 2,
+    "category": "bicycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      117.68,
+      132.13,
+      515.09,
+      346.84
+    ],
+    "main_bbox_ratio": 0.58156,
+    "second_other_bbox_ratio": 0.0784,
+    "annotated_category_ids": [
+      2,
+      3,
+      15,
+      18
+    ],
+    "image_available": true,
+    "selection_hash": "2330dd94474d62023c74eb9f5148be19e2ea6caa3f83c85f2289467fcbc4ee9a"
+  },
+  {
+    "image_id": 97679,
+    "file_name": "000000097679.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 3,
+    "category": "car",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      103.45,
+      159.23,
+      417.8,
+      216.48
+    ],
+    "main_bbox_ratio": 0.29442,
+    "second_other_bbox_ratio": 0.01415,
+    "annotated_category_ids": [
+      1,
+      3,
+      36
+    ],
+    "image_available": true,
+    "selection_hash": "05b091e7093b4d38e0a0dd3d39e405e3561ca05af86eff4ac42cf7c8e09f7dc3"
+  },
+  {
+    "image_id": 457848,
+    "file_name": "000000457848.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 4,
+    "category": "motorcycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      189.03,
+      49.9,
+      448.11,
+      372.3
+    ],
+    "main_bbox_ratio": 0.61048,
+    "second_other_bbox_ratio": 0.07549,
+    "annotated_category_ids": [
+      1,
+      4
+    ],
+    "image_available": true,
+    "selection_hash": "033939d13c4792b83053b852dcea0587995ef78341f3184616b7424164bd3696"
+  },
+  {
+    "image_id": 144114,
+    "file_name": "000000144114.jpg",
+    "width": 600,
+    "height": 400,
+    "category_id": 5,
+    "category": "airplane",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      25.17,
+      188.76,
+      555.5,
+      155.51
+    ],
+    "main_bbox_ratio": 0.35994,
+    "second_other_bbox_ratio": 0.00463,
+    "annotated_category_ids": [
+      1,
+      5
+    ],
+    "image_available": true,
+    "selection_hash": "175eb545ba28f10ea8ff0867ad8337ee807bb88fe87cda73dc72dfe1cc60a1b2"
+  },
+  {
+    "image_id": 296224,
+    "file_name": "000000296224.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 6,
+    "category": "bus",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      53.33,
+      31.93,
+      530.07,
+      439.73
+    ],
+    "main_bbox_ratio": 0.75875,
+    "second_other_bbox_ratio": 0.01466,
+    "annotated_category_ids": [
+      1,
+      3,
+      6
+    ],
+    "image_available": true,
+    "selection_hash": "0070b69bf7524c99f32e7e1127147d916c37ed2f985d184f0d1a5a4244c8215b"
+  },
+  {
+    "image_id": 135902,
+    "file_name": "000000135902.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 7,
+    "category": "train",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      1.91,
+      105.39,
+      544.11,
+      256.34
+    ],
+    "main_bbox_ratio": 0.51278,
+    "second_other_bbox_ratio": 0.00169,
+    "annotated_category_ids": [
+      1,
+      7
+    ],
+    "image_available": true,
+    "selection_hash": "02cf3c1d1323aea01dd5fdd9cd5d0f7be371cb0734cb2e0a631740b1f43ef583"
+  },
+  {
+    "image_id": 174004,
+    "file_name": "000000174004.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 8,
+    "category": "truck",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      14.22,
+      109.04,
+      602.08,
+      265.48
+    ],
+    "main_bbox_ratio": 0.52031,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      8
+    ],
+    "image_available": true,
+    "selection_hash": "06e3a0ba3c275c53c1b88c4d05e9005ca7e570d40c3ffc98e2f20e7424f054ca"
+  },
+  {
+    "image_id": 503823,
+    "file_name": "000000503823.jpg",
+    "width": 500,
+    "height": 333,
+    "category_id": 9,
+    "category": "boat",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      186.33,
+      110.75,
+      313.67,
+      147.42
+    ],
+    "main_bbox_ratio": 0.27773,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      9
+    ],
+    "image_available": true,
+    "selection_hash": "2a976b2e6fe36d77d6e116e16d063918acfb87ae586f4b5d2b816772af2a0d20"
+  },
+  {
+    "image_id": 69138,
+    "file_name": "000000069138.jpg",
+    "width": 371,
+    "height": 640,
+    "category_id": 10,
+    "category": "traffic light",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      99.68,
+      47.31,
+      158.92,
+      496.98
+    ],
+    "main_bbox_ratio": 0.33263,
+    "second_other_bbox_ratio": 0.05766,
+    "annotated_category_ids": [
+      8,
+      10
+    ],
+    "image_available": true,
+    "selection_hash": "8ab74d6d0a5cd33266cc6d943910ef63f6975d1de087108f8fa954dd9060714a"
+  },
+  {
+    "image_id": 171050,
+    "file_name": "000000171050.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 11,
+    "category": "fire hydrant",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      174.02,
+      251.45,
+      296.27,
+      381.12
+    ],
+    "main_bbox_ratio": 0.36756,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      11
+    ],
+    "image_available": true,
+    "selection_hash": "144dad6aff6bed5eed71fd010b1df098d4a7abbb99546dac1df23a5aea9452d3"
+  },
+  {
+    "image_id": 79408,
+    "file_name": "000000079408.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 13,
+    "category": "stop sign",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      39.43,
+      7.21,
+      375.07,
+      399.11
+    ],
+    "main_bbox_ratio": 0.54777,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      13
+    ],
+    "image_available": true,
+    "selection_hash": "099ec8fe6ab723b654c4555bc1eb1f1f636f5d1c1b289f1afbbd4bd4a63b121c"
+  },
+  {
+    "image_id": 568147,
+    "file_name": "000000568147.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 14,
+    "category": "parking meter",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      147.75,
+      28.32,
+      208.75,
+      408.65
+    ],
+    "main_bbox_ratio": 0.27769,
+    "second_other_bbox_ratio": 0.00862,
+    "annotated_category_ids": [
+      1,
+      3,
+      14
+    ],
+    "image_available": true,
+    "selection_hash": "04fa51d3570b879b8724a7aee15503c32dc6ae9fd3b09e79326700b6315c169c"
+  },
+  {
+    "image_id": 303908,
+    "file_name": "000000303908.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 15,
+    "category": "bench",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      93.29,
+      204.36,
+      487.58,
+      222.64
+    ],
+    "main_bbox_ratio": 0.39723,
+    "second_other_bbox_ratio": 0.00751,
+    "annotated_category_ids": [
+      3,
+      9,
+      15
+    ],
+    "image_available": true,
+    "selection_hash": "060e42d169dad91942ad4ea7351093afd09ada395dda44285f524f8ec75c6dde"
+  },
+  {
+    "image_id": 56545,
+    "file_name": "000000056545.jpg",
+    "width": 505,
+    "height": 640,
+    "category_id": 16,
+    "category": "bird",
+    "supercategory": "animal",
+    "main_bbox": [
+      131.56,
+      31.65,
+      235.72,
+      597.52
+    ],
+    "main_bbox_ratio": 0.43579,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      16
+    ],
+    "image_available": true,
+    "selection_hash": "13a3c113a37adf3bac9ad920ea29609d8814ac951f26a3bc2f7968081bd28a4d"
+  },
+  {
+    "image_id": 433134,
+    "file_name": "000000433134.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 17,
+    "category": "cat",
+    "supercategory": "animal",
+    "main_bbox": [
+      224.42,
+      6.55,
+      415.58,
+      468.77
+    ],
+    "main_bbox_ratio": 0.63415,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      17
+    ],
+    "image_available": true,
+    "selection_hash": "329c57b8c030b758c346c30711919d0cc29e08ae79573c03de23bc5f0e99413a"
+  },
+  {
+    "image_id": 205834,
+    "file_name": "000000205834.jpg",
+    "width": 640,
+    "height": 428,
+    "category_id": 18,
+    "category": "dog",
+    "supercategory": "animal",
+    "main_bbox": [
+      129.18,
+      20.75,
+      410.77,
+      387.53
+    ],
+    "main_bbox_ratio": 0.58114,
+    "second_other_bbox_ratio": 0.10391,
+    "annotated_category_ids": [
+      18,
+      51
+    ],
+    "image_available": true,
+    "selection_hash": "07b17c8c5183072a61a2249562b414b23f7e182a2e813d8c705abd66279dc888"
+  },
+  {
+    "image_id": 191288,
+    "file_name": "000000191288.jpg",
+    "width": 600,
+    "height": 400,
+    "category_id": 19,
+    "category": "horse",
+    "supercategory": "animal",
+    "main_bbox": [
+      117.85,
+      65.38,
+      430.11,
+      314.84
+    ],
+    "main_bbox_ratio": 0.56423,
+    "second_other_bbox_ratio": 0.11234,
+    "annotated_category_ids": [
+      1,
+      19
+    ],
+    "image_available": true,
+    "selection_hash": "1066c5764b24b72f9de34a46f8a28e00586a8a212f2abe411dee1860b5b064a8"
+  },
+  {
+    "image_id": 547383,
+    "file_name": "000000547383.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 20,
+    "category": "sheep",
+    "supercategory": "animal",
+    "main_bbox": [
+      134.67,
+      174.06,
+      453.48,
+      233.62
+    ],
+    "main_bbox_ratio": 0.38858,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      20
+    ],
+    "image_available": true,
+    "selection_hash": "09ff2130f208302c1687061e6e0b50f3a2b76392d82297a92160915790e874a4"
+  },
+  {
+    "image_id": 311392,
+    "file_name": "000000311392.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 21,
+    "category": "cow",
+    "supercategory": "animal",
+    "main_bbox": [
+      0.0,
+      76.17,
+      547.09,
+      350.83
+    ],
+    "main_bbox_ratio": 0.70234,
+    "second_other_bbox_ratio": 0.03657,
+    "annotated_category_ids": [
+      1,
+      21
+    ],
+    "image_available": true,
+    "selection_hash": "07bcf99ca9372189c2eea3d3e4bc1aa678b5c0c21d3c45495614a82c8aa30169"
+  },
+  {
+    "image_id": 158945,
+    "file_name": "000000158945.jpg",
+    "width": 478,
+    "height": 640,
+    "category_id": 22,
+    "category": "elephant",
+    "supercategory": "animal",
+    "main_bbox": [
+      133.75,
+      173.39,
+      280.31,
+      418.94
+    ],
+    "main_bbox_ratio": 0.38387,
+    "second_other_bbox_ratio": 0.08091,
+    "annotated_category_ids": [
+      1,
+      22,
+      62
+    ],
+    "image_available": true,
+    "selection_hash": "053b5a5aafb7c2f630b7adbe2438570e6f4d81a4ba5559393b74efbb1758fd0d"
+  },
+  {
+    "image_id": 307658,
+    "file_name": "000000307658.jpg",
+    "width": 589,
+    "height": 640,
+    "category_id": 23,
+    "category": "bear",
+    "supercategory": "animal",
+    "main_bbox": [
+      2.88,
+      54.41,
+      527.82,
+      576.72
+    ],
+    "main_bbox_ratio": 0.80752,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      23
+    ],
+    "image_available": true,
+    "selection_hash": "0361a284421ee379bf8fdb524a93cabd09eef9580f5f6af676a3c81bee79a04c"
+  },
+  {
+    "image_id": 25139,
+    "file_name": "000000025139.jpg",
+    "width": 500,
+    "height": 334,
+    "category_id": 24,
+    "category": "zebra",
+    "supercategory": "animal",
+    "main_bbox": [
+      0.0,
+      2.29,
+      341.63,
+      326.37
+    ],
+    "main_bbox_ratio": 0.66765,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      24
+    ],
+    "image_available": true,
+    "selection_hash": "1bd6a1743ef8254c08b021700b22b2074404246354179939d3bca2e213167766"
+  },
+  {
+    "image_id": 566042,
+    "file_name": "000000566042.jpg",
+    "width": 500,
+    "height": 333,
+    "category_id": 25,
+    "category": "giraffe",
+    "supercategory": "animal",
+    "main_bbox": [
+      181.09,
+      21.89,
+      318.91,
+      308.3
+    ],
+    "main_bbox_ratio": 0.59051,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      25
+    ],
+    "image_available": true,
+    "selection_hash": "01bdf0fca2985c2201921e529b27b1f427cef1948c37598071c610d4bde7d9cc"
+  },
+  {
+    "image_id": 528980,
+    "file_name": "000000528980.jpg",
+    "width": 426,
+    "height": 640,
+    "category_id": 28,
+    "category": "umbrella",
+    "supercategory": "accessory",
+    "main_bbox": [
+      128.86,
+      83.18,
+      231.95,
+      379.42
+    ],
+    "main_bbox_ratio": 0.32279,
+    "second_other_bbox_ratio": 0.01255,
+    "annotated_category_ids": [
+      3,
+      13,
+      28
+    ],
+    "image_available": true,
+    "selection_hash": "4f3fea9ead8fa5931f85211c246f612f9efbe8f1dca43f948e3de831545e183a"
+  },
+  {
+    "image_id": 125952,
+    "file_name": "000000125952.jpg",
+    "width": 358,
+    "height": 640,
+    "category_id": 33,
+    "category": "suitcase",
+    "supercategory": "accessory",
+    "main_bbox": [
+      60.54,
+      5.05,
+      250.81,
+      579.45
+    ],
+    "main_bbox_ratio": 0.6343,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      33
+    ],
+    "image_available": true,
+    "selection_hash": "111a6f11b19746d2e3bf21c2037431bf08ba6130d405e1cf05c94ed37e8cb1f9"
+  },
+  {
+    "image_id": 304817,
+    "file_name": "000000304817.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 36,
+    "category": "snowboard",
+    "supercategory": "sports",
+    "main_bbox": [
+      37.57,
+      211.48,
+      553.17,
+      235.0
+    ],
+    "main_bbox_ratio": 0.42316,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      36
+    ],
+    "image_available": true,
+    "selection_hash": "3b955d2bb83b857c6b1d24128550cff5fa99f66269120e5f00cdfe24069b8625"
+  },
+  {
+    "image_id": 398237,
+    "file_name": "000000398237.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 38,
+    "category": "kite",
+    "supercategory": "sports",
+    "main_bbox": [
+      89.13,
+      239.57,
+      435.97,
+      185.77
+    ],
+    "main_bbox_ratio": 0.26364,
+    "second_other_bbox_ratio": 0.10869,
+    "annotated_category_ids": [
+      1,
+      38
+    ],
+    "image_available": true,
+    "selection_hash": "12e37acb8ea114d70f3340b95d2b55ae27609bc341b94857d34ca67f071609dd"
+  },
+  {
+    "image_id": 161978,
+    "file_name": "000000161978.jpg",
+    "width": 640,
+    "height": 433,
+    "category_id": 41,
+    "category": "skateboard",
+    "supercategory": "sports",
+    "main_bbox": [
+      15.51,
+      47.94,
+      522.08,
+      315.43
+    ],
+    "main_bbox_ratio": 0.59425,
+    "second_other_bbox_ratio": 0.04055,
+    "annotated_category_ids": [
+      1,
+      41
+    ],
+    "image_available": true,
+    "selection_hash": "74bd6ec8bf5eab1bf9cb82c30fd7dd20ae37ec04a66bcdda1de517f4b9b7710d"
+  },
+  {
+    "image_id": 74200,
+    "file_name": "000000074200.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 42,
+    "category": "surfboard",
+    "supercategory": "sports",
+    "main_bbox": [
+      431.32,
+      0.0,
+      208.68,
+      431.32
+    ],
+    "main_bbox_ratio": 0.29299,
+    "second_other_bbox_ratio": 0.02088,
+    "annotated_category_ids": [
+      1,
+      42
+    ],
+    "image_available": true,
+    "selection_hash": "7837496add18c4c6a76c9f9b74295faed3e92746fa34e1bcfecc368d3faa8964"
+  },
+  {
+    "image_id": 331569,
+    "file_name": "000000331569.jpg",
+    "width": 612,
+    "height": 612,
+    "category_id": 47,
+    "category": "cup",
+    "supercategory": "kitchen",
+    "main_bbox": [
+      238.44,
+      19.08,
+      373.56,
+      546.82
+    ],
+    "main_bbox_ratio": 0.54538,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      47
+    ],
+    "image_available": true,
+    "selection_hash": "8b4e9c58657226aef9e496344fc38a8cc784c727abb1f75eed8ca1cf69effb13"
+  },
+  {
+    "image_id": 191761,
+    "file_name": "000000191761.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 51,
+    "category": "bowl",
+    "supercategory": "kitchen",
+    "main_bbox": [
+      42.98,
+      27.81,
+      457.02,
+      302.53
+    ],
+    "main_bbox_ratio": 0.7374,
+    "second_other_bbox_ratio": 0.10195,
+    "annotated_category_ids": [
+      51,
+      52,
+      55
+    ],
+    "image_available": true,
+    "selection_hash": "0257a30e48c88d2b79c1efbca3d08a2eefcdc944c533e280a631e7eed2b5ff7d"
+  },
+  {
+    "image_id": 161820,
+    "file_name": "000000161820.jpg",
+    "width": 428,
+    "height": 640,
+    "category_id": 52,
+    "category": "banana",
+    "supercategory": "food",
+    "main_bbox": [
+      77.32,
+      1.57,
+      350.68,
+      632.84
+    ],
+    "main_bbox_ratio": 0.81018,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      52
+    ],
+    "image_available": true,
+    "selection_hash": "0cf13a0fd7c4809353d71003a5460218975be6857975f82350c7fbbeccb7643e"
+  },
+  {
+    "image_id": 406570,
+    "file_name": "000000406570.jpg",
+    "width": 427,
+    "height": 640,
+    "category_id": 53,
+    "category": "apple",
+    "supercategory": "food",
+    "main_bbox": [
+      0.66,
+      227.85,
+      426.34,
+      412.15
+    ],
+    "main_bbox_ratio": 0.64299,
+    "second_other_bbox_ratio": 0.09615,
+    "annotated_category_ids": [
+      53,
+      55
+    ],
+    "image_available": true,
+    "selection_hash": "4cc98d55b7d0badd9d1e8f136571c31d781599f6eada7fee007d66e9237b0a6c"
+  },
+  {
+    "image_id": 499109,
+    "file_name": "000000499109.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 54,
+    "category": "sandwich",
+    "supercategory": "food",
+    "main_bbox": [
+      20.04,
+      90.34,
+      366.54,
+      329.31
+    ],
+    "main_bbox_ratio": 0.39292,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      54
+    ],
+    "image_available": true,
+    "selection_hash": "292e34f347aecd6e8e1163c2ca45d080aa4fdd3abed84f5c3556c84381955142"
+  },
+  {
+    "image_id": 386277,
+    "file_name": "000000386277.jpg",
+    "width": 640,
+    "height": 428,
+    "category_id": 55,
+    "category": "orange",
+    "supercategory": "food",
+    "main_bbox": [
+      211.98,
+      101.45,
+      261.44,
+      272.55
+    ],
+    "main_bbox_ratio": 0.26013,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      55
+    ],
+    "image_available": true,
+    "selection_hash": "5978eb5b179d5e4108d2173f3ee7c2922b982c41698abc7b457ccc9e1efcf160"
+  },
+  {
+    "image_id": 386134,
+    "file_name": "000000386134.jpg",
+    "width": 612,
+    "height": 612,
+    "category_id": 56,
+    "category": "broccoli",
+    "supercategory": "food",
+    "main_bbox": [
+      171.68,
+      295.67,
+      418.07,
+      273.41
+    ],
+    "main_bbox_ratio": 0.30518,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      56
+    ],
+    "image_available": true,
+    "selection_hash": "5e1f2849f81d51c9aab7a58c219bc3d912559753acd11f6ad98abd6c180423a6"
+  },
+  {
+    "image_id": 7991,
+    "file_name": "000000007991.jpg",
+    "width": 640,
+    "height": 359,
+    "category_id": 57,
+    "category": "carrot",
+    "supercategory": "food",
+    "main_bbox": [
+      170.63,
+      70.11,
+      310.01,
+      269.46
+    ],
+    "main_bbox_ratio": 0.36358,
+    "second_other_bbox_ratio": 0.06393,
+    "annotated_category_ids": [
+      49,
+      57
+    ],
+    "image_available": true,
+    "selection_hash": "67243ab424e4fc1f994ddb8a069d4edfced731ddd21a108d7883b1460b3b5eb3"
+  },
+  {
+    "image_id": 322574,
+    "file_name": "000000322574.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 58,
+    "category": "hot dog",
+    "supercategory": "food",
+    "main_bbox": [
+      1.19,
+      96.0,
+      638.81,
+      285.63
+    ],
+    "main_bbox_ratio": 0.59396,
+    "second_other_bbox_ratio": 0.10558,
+    "annotated_category_ids": [
+      47,
+      51,
+      54,
+      58
+    ],
+    "image_available": true,
+    "selection_hash": "836619c17d0e3591b6f3616f4e70aa0fa0d84cdd10ac565a2d1f47618625c223"
+  },
+  {
+    "image_id": 179214,
+    "file_name": "000000179214.jpg",
+    "width": 428,
+    "height": 640,
+    "category_id": 59,
+    "category": "pizza",
+    "supercategory": "food",
+    "main_bbox": [
+      0.05,
+      197.93,
+      338.22,
+      273.26
+    ],
+    "main_bbox_ratio": 0.33741,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      59
+    ],
+    "image_available": true,
+    "selection_hash": "042f488c7c69b2293b1c1430778d4152a57b14c56ef63e80213b56eceac42b58"
+  },
+  {
+    "image_id": 310200,
+    "file_name": "000000310200.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 60,
+    "category": "donut",
+    "supercategory": "food",
+    "main_bbox": [
+      116.76,
+      83.78,
+      446.48,
+      341.63
+    ],
+    "main_bbox_ratio": 0.49652,
+    "second_other_bbox_ratio": 0.06223,
+    "annotated_category_ids": [
+      50,
+      51,
+      60
+    ],
+    "image_available": true,
+    "selection_hash": "0af2f420c2b349f86217b267547255f1d98e2ee217728c2bf4da6673b92826fd"
+  },
+  {
+    "image_id": 98633,
+    "file_name": "000000098633.jpg",
+    "width": 428,
+    "height": 640,
+    "category_id": 61,
+    "category": "cake",
+    "supercategory": "food",
+    "main_bbox": [
+      27.33,
+      189.84,
+      372.49,
+      401.26
+    ],
+    "main_bbox_ratio": 0.54565,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      61
+    ],
+    "image_available": true,
+    "selection_hash": "2399635b83fe45467a645334e7a278ebd313ef90fd6d335a2c2eed6147cb1d0b"
+  },
+  {
+    "image_id": 228144,
+    "file_name": "000000228144.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 62,
+    "category": "chair",
+    "supercategory": "furniture",
+    "main_bbox": [
+      191.56,
+      2.08,
+      372.63,
+      423.92
+    ],
+    "main_bbox_ratio": 0.57939,
+    "second_other_bbox_ratio": 0.02833,
+    "annotated_category_ids": [
+      62,
+      67
+    ],
+    "image_available": true,
+    "selection_hash": "28e44013f8360941abf898fdeea8c752ec22ba7b25e6b8cddb7114cea1c244a5"
+  },
+  {
+    "image_id": 453341,
+    "file_name": "000000453341.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 63,
+    "category": "couch",
+    "supercategory": "furniture",
+    "main_bbox": [
+      38.19,
+      328.26,
+      601.81,
+      146.58
+    ],
+    "main_bbox_ratio": 0.28715,
+    "second_other_bbox_ratio": 0.0232,
+    "annotated_category_ids": [
+      63,
+      72,
+      74,
+      76,
+      77,
+      88
+    ],
+    "image_available": true,
+    "selection_hash": "07be88eb9caba98d7c1646056d0a21a438e3dddd41feedbfd28e183ce572885f"
+  },
+  {
+    "image_id": 509131,
+    "file_name": "000000509131.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 64,
+    "category": "potted plant",
+    "supercategory": "furniture",
+    "main_bbox": [
+      2.87,
+      9.39,
+      243.53,
+      394.44
+    ],
+    "main_bbox_ratio": 0.35315,
+    "second_other_bbox_ratio": 0.07526,
+    "annotated_category_ids": [
+      52,
+      53,
+      55,
+      64
+    ],
+    "image_available": true,
+    "selection_hash": "034eb6013e668d7370e911e027a4694b02b731c1ba2b4f7d6c826c8a1ddb18c4"
+  },
+  {
+    "image_id": 116479,
+    "file_name": "000000116479.jpg",
+    "width": 411,
+    "height": 640,
+    "category_id": 65,
+    "category": "bed",
+    "supercategory": "furniture",
+    "main_bbox": [
+      58.02,
+      80.25,
+      270.04,
+      552.03
+    ],
+    "main_bbox_ratio": 0.56672,
+    "second_other_bbox_ratio": 0.03778,
+    "annotated_category_ids": [
+      62,
+      63,
+      65
+    ],
+    "image_available": true,
+    "selection_hash": "0012284d3a7189285e131a7484dd7035c928006cfc8ead8f79e17ff0ea488e8c"
+  },
+  {
+    "image_id": 74209,
+    "file_name": "000000074209.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 67,
+    "category": "dining table",
+    "supercategory": "furniture",
+    "main_bbox": [
+      0.0,
+      233.11,
+      617.76,
+      246.89
+    ],
+    "main_bbox_ratio": 0.49648,
+    "second_other_bbox_ratio": 0.05966,
+    "annotated_category_ids": [
+      44,
+      47,
+      51,
+      52,
+      53,
+      55,
+      62,
+      67,
+      79,
+      81,
+      82,
+      85
+    ],
+    "image_available": true,
+    "selection_hash": "03766e57d74560d2099c96808448577e52031f3996d4e05f3e5a676ed8cfc8af"
+  },
+  {
+    "image_id": 557258,
+    "file_name": "000000557258.jpg",
+    "width": 331,
+    "height": 500,
+    "category_id": 70,
+    "category": "toilet",
+    "supercategory": "furniture",
+    "main_bbox": [
+      20.18,
+      181.61,
+      275.78,
+      310.54
+    ],
+    "main_bbox_ratio": 0.51747,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      70
+    ],
+    "image_available": true,
+    "selection_hash": "11afdc9d1c29f767b87cf07c2ba0727222c43f9783a33971109ba7bd7a8f68f7"
+  },
+  {
+    "image_id": 353096,
+    "file_name": "000000353096.jpg",
+    "width": 500,
+    "height": 344,
+    "category_id": 72,
+    "category": "tv",
+    "supercategory": "electronic",
+    "main_bbox": [
+      106.17,
+      23.78,
+      293.04,
+      254.11
+    ],
+    "main_bbox_ratio": 0.43293,
+    "second_other_bbox_ratio": 0.07872,
+    "annotated_category_ids": [
+      72,
+      74,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "2537437cb41db67606a266cde8cdaaf8aa33c4c12f93977ab663ad5cd9a1ae0e"
+  },
+  {
+    "image_id": 482970,
+    "file_name": "000000482970.jpg",
+    "width": 640,
+    "height": 360,
+    "category_id": 73,
+    "category": "laptop",
+    "supercategory": "electronic",
+    "main_bbox": [
+      180.27,
+      107.95,
+      285.77,
+      241.05
+    ],
+    "main_bbox_ratio": 0.29898,
+    "second_other_bbox_ratio": 0.00621,
+    "annotated_category_ids": [
+      73,
+      74
+    ],
+    "image_available": true,
+    "selection_hash": "040bf2965826008881fe991ecbe7f4ea15ac15de01610eba7bf7bfb86c4c2dcf"
+  },
+  {
+    "image_id": 68765,
+    "file_name": "000000068765.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 76,
+    "category": "keyboard",
+    "supercategory": "electronic",
+    "main_bbox": [
+      1.08,
+      27.04,
+      573.84,
+      443.32
+    ],
+    "main_bbox_ratio": 0.82811,
+    "second_other_bbox_ratio": 0.07173,
+    "annotated_category_ids": [
+      74,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "150fb2307aaf91e21a48407a50adbec5ba1da3f0f91470996f71309817b1b2f1"
+  },
+  {
+    "image_id": 269866,
+    "file_name": "000000269866.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 78,
+    "category": "microwave",
+    "supercategory": "appliance",
+    "main_bbox": [
+      110.35,
+      50.86,
+      420.28,
+      341.6
+    ],
+    "main_bbox_ratio": 0.52535,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      78
+    ],
+    "image_available": true,
+    "selection_hash": "0b88a1191b238a11862abade474ea492e9ed49da7e9442633038134e778dc99e"
+  },
+  {
+    "image_id": 531771,
+    "file_name": "000000531771.jpg",
+    "width": 424,
+    "height": 640,
+    "category_id": 79,
+    "category": "oven",
+    "supercategory": "appliance",
+    "main_bbox": [
+      27.33,
+      31.64,
+      345.16,
+      566.65
+    ],
+    "main_bbox_ratio": 0.72076,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      79
+    ],
+    "image_available": true,
+    "selection_hash": "293a2175bc6255997fdfc307e0f9937d968fc9db14c986b3752ddb09c4aac5b5"
+  },
+  {
+    "image_id": 232348,
+    "file_name": "000000232348.jpg",
+    "width": 640,
+    "height": 502,
+    "category_id": 80,
+    "category": "toaster",
+    "supercategory": "appliance",
+    "main_bbox": [
+      126.35,
+      143.27,
+      284.27,
+      329.4
+    ],
+    "main_bbox_ratio": 0.29145,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      80
+    ],
+    "image_available": true,
+    "selection_hash": "40b8735bf9c639d8af3701102c53e3b9f3721f729067bad65f14c0ec1caba6c6"
+  },
+  {
+    "image_id": 223789,
+    "file_name": "000000223789.jpg",
+    "width": 346,
+    "height": 500,
+    "category_id": 81,
+    "category": "sink",
+    "supercategory": "appliance",
+    "main_bbox": [
+      1.13,
+      260.14,
+      283.78,
+      224.09
+    ],
+    "main_bbox_ratio": 0.36759,
+    "second_other_bbox_ratio": 0.0099,
+    "annotated_category_ids": [
+      44,
+      81
+    ],
+    "image_available": true,
+    "selection_hash": "5a5ab0f5bb6b1285504d0c263d3bd488491277f05de86a3a4afbee022d33f376"
+  },
+  {
+    "image_id": 273712,
+    "file_name": "000000273712.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 82,
+    "category": "refrigerator",
+    "supercategory": "appliance",
+    "main_bbox": [
+      1.44,
+      80.54,
+      313.53,
+      519.19
+    ],
+    "main_bbox_ratio": 0.52989,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      82
+    ],
+    "image_available": true,
+    "selection_hash": "011f370c19758984528ed92b3811e8b17bca0fc81d6895a9e2ac882faf122a5b"
+  },
+  {
+    "image_id": 164363,
+    "file_name": "000000164363.jpg",
+    "width": 640,
+    "height": 604,
+    "category_id": 85,
+    "category": "clock",
+    "supercategory": "indoor",
+    "main_bbox": [
+      58.36,
+      6.56,
+      511.71,
+      504.92
+    ],
+    "main_bbox_ratio": 0.66839,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      85
+    ],
+    "image_available": true,
+    "selection_hash": "133ba3635c6b9103e20a35e5865ca1a47fd06e3fcf8e1dbe3411539cbff83bc1"
+  },
+  {
+    "image_id": 376478,
+    "file_name": "000000376478.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 86,
+    "category": "vase",
+    "supercategory": "indoor",
+    "main_bbox": [
+      48.9,
+      197.03,
+      220.04,
+      350.93
+    ],
+    "main_bbox_ratio": 0.25136,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "17093650e3cbeecbc9a3f43b7003ef5044cedad54e5b6cde1f7a0a884ac1d747"
+  },
+  {
+    "image_id": 368982,
+    "file_name": "000000368982.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 87,
+    "category": "scissors",
+    "supercategory": "indoor",
+    "main_bbox": [
+      15.1,
+      182.29,
+      529.62,
+      258.88
+    ],
+    "main_bbox_ratio": 0.44632,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      87
+    ],
+    "image_available": true,
+    "selection_hash": "1ee6bf126e2454aad2db80c11f2222058a5c921eb43a146565fd4cfdb23277ab"
+  },
+  {
+    "image_id": 106330,
+    "file_name": "000000106330.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 88,
+    "category": "teddy bear",
+    "supercategory": "indoor",
+    "main_bbox": [
+      254.28,
+      15.19,
+      324.33,
+      379.98
+    ],
+    "main_bbox_ratio": 0.45096,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      88
+    ],
+    "image_available": true,
+    "selection_hash": "01650ea3f8191ee79623d4faaac7301e6f0d7649fc5ca5ab6acc7355b45cce61"
+  },
+  {
+    "image_id": 160666,
+    "file_name": "000000160666.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 90,
+    "category": "toothbrush",
+    "supercategory": "indoor",
+    "main_bbox": [
+      0.0,
+      240.02,
+      570.57,
+      171.51
+    ],
+    "main_bbox_ratio": 0.31855,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      90
+    ],
+    "image_available": true,
+    "selection_hash": "6d81b0a49ccf7e75f3f24d5fd4d00d5e1a20db19f00a8267bc2e9e4b2bf571f0"
+  },
+  {
+    "image_id": 338304,
+    "file_name": "000000338304.jpg",
+    "width": 425,
+    "height": 640,
+    "category_id": 1,
+    "category": "person",
+    "supercategory": "person",
+    "main_bbox": [
+      189.73,
+      0.0,
+      235.27,
+      439.9
+    ],
+    "main_bbox_ratio": 0.3805,
+    "second_other_bbox_ratio": 0.10434,
+    "annotated_category_ids": [
+      1,
+      20,
+      31,
+      77
+    ],
+    "image_available": true,
+    "selection_hash": "02bfb72dbb61b4554a95cc76011496ce8b22f2efd01bc4d28cffb4a92d467108"
+  },
+  {
+    "image_id": 228436,
+    "file_name": "000000228436.jpg",
+    "width": 640,
+    "height": 485,
+    "category_id": 2,
+    "category": "bicycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      112.3,
+      170.65,
+      444.07,
+      310.98
+    ],
+    "main_bbox_ratio": 0.4449,
+    "second_other_bbox_ratio": 0.06394,
+    "annotated_category_ids": [
+      2,
+      3,
+      9
+    ],
+    "image_available": true,
+    "selection_hash": "366a6f1d67ed8e40d1373981aba1c04a2dca26f23f5cda70eaca25208645d3b7"
+  },
+  {
+    "image_id": 322864,
+    "file_name": "000000322864.jpg",
+    "width": 427,
+    "height": 640,
+    "category_id": 3,
+    "category": "car",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      0.0,
+      379.59,
+      427.0,
+      216.71
+    ],
+    "main_bbox_ratio": 0.33861,
+    "second_other_bbox_ratio": 0.00152,
+    "annotated_category_ids": [
+      1,
+      3
+    ],
+    "image_available": true,
+    "selection_hash": "14e63006583b0fdbff41c760e13361f9b07db3a66fdf944a601b3915bb1d781d"
+  },
+  {
+    "image_id": 194875,
+    "file_name": "000000194875.jpg",
+    "width": 640,
+    "height": 574,
+    "category_id": 4,
+    "category": "motorcycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      45.15,
+      290.22,
+      424.37,
+      261.85
+    ],
+    "main_bbox_ratio": 0.30249,
+    "second_other_bbox_ratio": 0.03909,
+    "annotated_category_ids": [
+      1,
+      4,
+      31,
+      44,
+      47,
+      62,
+      64,
+      67,
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "10ea42b4b11d476d7cdb04c49e3f629cdbd348d9179e421bdb97ee98f797bee4"
+  },
+  {
+    "image_id": 517523,
+    "file_name": "000000517523.jpg",
+    "width": 640,
+    "height": 435,
+    "category_id": 5,
+    "category": "airplane",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      58.52,
+      37.06,
+      556.92,
+      180.44
+    ],
+    "main_bbox_ratio": 0.36096,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      5
+    ],
+    "image_available": true,
+    "selection_hash": "1858343d5bdb484bdeb2d2fc7a8a4709a82254807e9173a7e31f6a9d6eb5fac2"
+  },
+  {
+    "image_id": 449432,
+    "file_name": "000000449432.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 6,
+    "category": "bus",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      3.03,
+      104.67,
+      601.22,
+      185.45
+    ],
+    "main_bbox_ratio": 0.40799,
+    "second_other_bbox_ratio": 0.11202,
+    "annotated_category_ids": [
+      1,
+      6,
+      9,
+      27,
+      31,
+      33
+    ],
+    "image_available": true,
+    "selection_hash": "0275bf980ae15dd06def5cd3274f1b84a3f88381708636648c37fe97fbc56586"
+  },
+  {
+    "image_id": 303863,
+    "file_name": "000000303863.jpg",
+    "width": 640,
+    "height": 431,
+    "category_id": 7,
+    "category": "train",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      1.94,
+      119.88,
+      583.4,
+      224.24
+    ],
+    "main_bbox_ratio": 0.47427,
+    "second_other_bbox_ratio": 0.0124,
+    "annotated_category_ids": [
+      1,
+      7,
+      31
+    ],
+    "image_available": true,
+    "selection_hash": "041fb8b7bf0f142e195d1df5d03609c9cc790ab0d37804e7b1ba96a75d4e34ae"
+  },
+  {
+    "image_id": 235399,
+    "file_name": "000000235399.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 8,
+    "category": "truck",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      85.11,
+      0.0,
+      414.89,
+      368.84
+    ],
+    "main_bbox_ratio": 0.81615,
+    "second_other_bbox_ratio": 0.04208,
+    "annotated_category_ids": [
+      8,
+      18,
+      65
+    ],
+    "image_available": true,
+    "selection_hash": "0bf84f8a49934db9ac9b980c1002bb3f72c2fcf7cb8860a6308df3e3d4862fad"
+  },
+  {
+    "image_id": 286422,
+    "file_name": "000000286422.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 9,
+    "category": "boat",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      96.03,
+      21.01,
+      445.92,
+      348.94
+    ],
+    "main_bbox_ratio": 0.57206,
+    "second_other_bbox_ratio": 0.00834,
+    "annotated_category_ids": [
+      1,
+      9,
+      18
+    ],
+    "image_available": true,
+    "selection_hash": "4a5287413ccb3552a50ea5e5f98d6aaedcd831e34d74f96a7ed1d264954219ad"
+  },
+  {
+    "image_id": 255718,
+    "file_name": "000000255718.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 11,
+    "category": "fire hydrant",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      102.11,
+      56.09,
+      286.2,
+      552.27
+    ],
+    "main_bbox_ratio": 0.51452,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      11
+    ],
+    "image_available": true,
+    "selection_hash": "20529883310f91b8081905c26d38e3a0926ab51af1eb49230f82c55bd93e929b"
+  },
+  {
+    "image_id": 347163,
+    "file_name": "000000347163.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 13,
+    "category": "stop sign",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      66.87,
+      40.21,
+      320.01,
+      319.06
+    ],
+    "main_bbox_ratio": 0.37362,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      13
+    ],
+    "image_available": true,
+    "selection_hash": "28425669b62d3cfd6dad11d71171644615c7992ae4f3b5c6c0c18c9307b97289"
+  },
+  {
+    "image_id": 53994,
+    "file_name": "000000053994.jpg",
+    "width": 481,
+    "height": 640,
+    "category_id": 14,
+    "category": "parking meter",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      159.64,
+      58.21,
+      218.61,
+      444.4
+    ],
+    "main_bbox_ratio": 0.31559,
+    "second_other_bbox_ratio": 0.0097,
+    "annotated_category_ids": [
+      3,
+      14
+    ],
+    "image_available": true,
+    "selection_hash": "20d02495d9843d4b86c41361fd741990475fcbac0b516862b5dbd0904e4e4ca1"
+  },
+  {
+    "image_id": 320554,
+    "file_name": "000000320554.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 15,
+    "category": "bench",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      40.36,
+      0.64,
+      443.1,
+      277.47
+    ],
+    "main_bbox_ratio": 0.65572,
+    "second_other_bbox_ratio": 0.06411,
+    "annotated_category_ids": [
+      15,
+      17
+    ],
+    "image_available": true,
+    "selection_hash": "0862aea89f797468bd6a27da02f26583485c05edc1021cb80da5ae7df659985f"
+  },
+  {
+    "image_id": 167902,
+    "file_name": "000000167902.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 16,
+    "category": "bird",
+    "supercategory": "animal",
+    "main_bbox": [
+      106.0,
+      57.93,
+      234.47,
+      247.32
+    ],
+    "main_bbox_ratio": 0.30928,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      16
+    ],
+    "image_available": true,
+    "selection_hash": "167c3dfe6448cabd12f3b428a98ee41b76c106da8581da994bc279d43dee1f69"
+  },
+  {
+    "image_id": 402473,
+    "file_name": "000000402473.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 17,
+    "category": "cat",
+    "supercategory": "animal",
+    "main_bbox": [
+      231.91,
+      85.21,
+      408.09,
+      389.4
+    ],
+    "main_bbox_ratio": 0.51729,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      17
+    ],
+    "image_available": true,
+    "selection_hash": "3bf0573db3903f235cced8f3eee4ffa9e8194869443f2030b33f80a48deac95e"
+  },
+  {
+    "image_id": 464522,
+    "file_name": "000000464522.jpg",
+    "width": 494,
+    "height": 640,
+    "category_id": 18,
+    "category": "dog",
+    "supercategory": "animal",
+    "main_bbox": [
+      155.33,
+      2.88,
+      338.67,
+      628.49
+    ],
+    "main_bbox_ratio": 0.67324,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      18
+    ],
+    "image_available": true,
+    "selection_hash": "13b9decbd45fc90663167588649ec9d1bed751d6731b38ebb0c4100fb10ad4ec"
+  },
+  {
+    "image_id": 356968,
+    "file_name": "000000356968.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 19,
+    "category": "horse",
+    "supercategory": "animal",
+    "main_bbox": [
+      0.0,
+      115.02,
+      558.28,
+      332.71
+    ],
+    "main_bbox_ratio": 0.60464,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      19
+    ],
+    "image_available": true,
+    "selection_hash": "253518be8973f955a186512feebe7ddb76b1a53cb00f10b381f3aa2c4a78464a"
+  },
+  {
+    "image_id": 428562,
+    "file_name": "000000428562.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 20,
+    "category": "sheep",
+    "supercategory": "animal",
+    "main_bbox": [
+      34.06,
+      27.87,
+      416.0,
+      426.32
+    ],
+    "main_bbox_ratio": 0.57731,
+    "second_other_bbox_ratio": 0.05886,
+    "annotated_category_ids": [
+      1,
+      20,
+      31
+    ],
+    "image_available": true,
+    "selection_hash": "11b05d0a402676961acca67b3d0d367c0b6b2a69788a8d228fe7dc5aad19b05a"
+  },
+  {
+    "image_id": 412887,
+    "file_name": "000000412887.jpg",
+    "width": 483,
+    "height": 640,
+    "category_id": 21,
+    "category": "cow",
+    "supercategory": "animal",
+    "main_bbox": [
+      1.38,
+      103.23,
+      480.34,
+      528.51
+    ],
+    "main_bbox_ratio": 0.82125,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      21
+    ],
+    "image_available": true,
+    "selection_hash": "257702a165e2b484e7c9891c68161033a0fffcd05cfa04af668e27240feb620a"
+  },
+  {
+    "image_id": 391144,
+    "file_name": "000000391144.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 22,
+    "category": "elephant",
+    "supercategory": "animal",
+    "main_bbox": [
+      113.23,
+      35.5,
+      469.22,
+      305.14
+    ],
+    "main_bbox_ratio": 0.52392,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      22
+    ],
+    "image_available": true,
+    "selection_hash": "12eccbca825d189fc9f7f6b818a0939ea6654c122d0bf13f8cba5089fa624693"
+  },
+  {
+    "image_id": 453981,
+    "file_name": "000000453981.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 23,
+    "category": "bear",
+    "supercategory": "animal",
+    "main_bbox": [
+      113.23,
+      168.16,
+      496.08,
+      257.16
+    ],
+    "main_bbox_ratio": 0.46682,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      23
+    ],
+    "image_available": true,
+    "selection_hash": "0cdd2aae277e99baf977ea329436b12166eacbcb8bd112f0e915469dd4b06178"
+  },
+  {
+    "image_id": 38825,
+    "file_name": "000000038825.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 24,
+    "category": "zebra",
+    "supercategory": "animal",
+    "main_bbox": [
+      112.27,
+      0.8,
+      355.99,
+      378.06
+    ],
+    "main_bbox_ratio": 0.49248,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      24
+    ],
+    "image_available": true,
+    "selection_hash": "1dc35c13cc5be380fd9fdce7e774d455f30c37d6f6a8aa10d2de8a9b322869d0"
+  },
+  {
+    "image_id": 55072,
+    "file_name": "000000055072.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 25,
+    "category": "giraffe",
+    "supercategory": "animal",
+    "main_bbox": [
+      49.24,
+      46.17,
+      462.67,
+      380.83
+    ],
+    "main_bbox_ratio": 0.64475,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      25
+    ],
+    "image_available": true,
+    "selection_hash": "0b23c493dd5f525998bbd189d5e2f43892718d4be925585f1eb55d30c439765d"
+  },
+  {
+    "image_id": 136633,
+    "file_name": "000000136633.jpg",
+    "width": 427,
+    "height": 640,
+    "category_id": 28,
+    "category": "umbrella",
+    "supercategory": "accessory",
+    "main_bbox": [
+      57.53,
+      0.36,
+      365.3,
+      448.72
+    ],
+    "main_bbox_ratio": 0.59981,
+    "second_other_bbox_ratio": 0.05975,
+    "annotated_category_ids": [
+      1,
+      28,
+      51
+    ],
+    "image_available": true,
+    "selection_hash": "51b44c572f022beadaaafd62f1bd7c5ab34ea2d45e8cfd1845590feb794df566"
+  },
+  {
+    "image_id": 359855,
+    "file_name": "000000359855.jpg",
+    "width": 640,
+    "height": 510,
+    "category_id": 33,
+    "category": "suitcase",
+    "supercategory": "accessory",
+    "main_bbox": [
+      139.82,
+      19.48,
+      418.31,
+      308.3
+    ],
+    "main_bbox_ratio": 0.39511,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      33
+    ],
+    "image_available": true,
+    "selection_hash": "bf5aae22e5bbeb68d9615b84f2d3a2eba0a73df9958473774b581e208ecafa6e"
+  },
+  {
+    "image_id": 14439,
+    "file_name": "000000014439.jpg",
+    "width": 640,
+    "height": 404,
+    "category_id": 38,
+    "category": "kite",
+    "supercategory": "sports",
+    "main_bbox": [
+      163.42,
+      85.34,
+      458.47,
+      255.11
+    ],
+    "main_bbox_ratio": 0.45235,
+    "second_other_bbox_ratio": 0.0726,
+    "annotated_category_ids": [
+      1,
+      27,
+      38,
+      62
+    ],
+    "image_available": true,
+    "selection_hash": "1d800d62519d90c2a14a9c045375542211b1a0173dc211748162fd48479c0ab3"
+  },
+  {
+    "image_id": 300842,
+    "file_name": "000000300842.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 41,
+    "category": "skateboard",
+    "supercategory": "sports",
+    "main_bbox": [
+      160.83,
+      137.56,
+      479.17,
+      224.01
+    ],
+    "main_bbox_ratio": 0.3937,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      41
+    ],
+    "image_available": true,
+    "selection_hash": "87c9ba904778e8bd562d5b5231b50126698f1e73fc81502b32a07618469fe2b6"
+  },
+  {
+    "image_id": 356347,
+    "file_name": "000000356347.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 51,
+    "category": "bowl",
+    "supercategory": "kitchen",
+    "main_bbox": [
+      0.0,
+      1.83,
+      421.75,
+      471.37
+    ],
+    "main_bbox_ratio": 0.64714,
+    "second_other_bbox_ratio": 0.10642,
+    "annotated_category_ids": [
+      50,
+      51
+    ],
+    "image_available": true,
+    "selection_hash": "2fd31229b4a6c8cf5df94931cf37d100aeeedc18460ce1c674448d72190ebbf2"
+  },
+  {
+    "image_id": 3661,
+    "file_name": "000000003661.jpg",
+    "width": 640,
+    "height": 384,
+    "category_id": 52,
+    "category": "banana",
+    "supercategory": "food",
+    "main_bbox": [
+      61.27,
+      0.0,
+      491.86,
+      348.62
+    ],
+    "main_bbox_ratio": 0.69772,
+    "second_other_bbox_ratio": 0.06501,
+    "annotated_category_ids": [
+      47,
+      52,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "53c9abde7c7e3cee78ff8120a5edf087c13e3a1133434cea66a93688b080a44a"
+  },
+  {
+    "image_id": 21503,
+    "file_name": "000000021503.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 54,
+    "category": "sandwich",
+    "supercategory": "food",
+    "main_bbox": [
+      0.0,
+      233.59,
+      508.64,
+      246.41
+    ],
+    "main_bbox_ratio": 0.40799,
+    "second_other_bbox_ratio": 0.071,
+    "annotated_category_ids": [
+      54,
+      74,
+      75,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "4bac8f22e2a6ce2d7ab2c507ea61c256c5da215108e693ae82713ef134cb0104"
+  },
+  {
+    "image_id": 479596,
+    "file_name": "000000479596.jpg",
+    "width": 640,
+    "height": 428,
+    "category_id": 55,
+    "category": "orange",
+    "supercategory": "food",
+    "main_bbox": [
+      1.01,
+      165.88,
+      637.47,
+      262.12
+    ],
+    "main_bbox_ratio": 0.61001,
+    "second_other_bbox_ratio": 0.01826,
+    "annotated_category_ids": [
+      53,
+      55
+    ],
+    "image_available": true,
+    "selection_hash": "658d8e96b333bb3f4bbeb7ca72b7a287bb4797eb6e606398d7f5207d52937da9"
+  },
+  {
+    "image_id": 579091,
+    "file_name": "000000579091.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 56,
+    "category": "broccoli",
+    "supercategory": "food",
+    "main_bbox": [
+      139.34,
+      146.41,
+      334.43,
+      272.71
+    ],
+    "main_bbox_ratio": 0.3353,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      56
+    ],
+    "image_available": true,
+    "selection_hash": "83bd29484e9d9704b4200c2ddeef79d25229cddb521c4a052b1f7fa8ec42495b"
+  },
+  {
+    "image_id": 530052,
+    "file_name": "000000530052.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 57,
+    "category": "carrot",
+    "supercategory": "food",
+    "main_bbox": [
+      57.46,
+      143.58,
+      582.54,
+      212.24
+    ],
+    "main_bbox_ratio": 0.45242,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      57
+    ],
+    "image_available": true,
+    "selection_hash": "720c45c8a7b5191d33ae89445be444373e17a1eeb98c4dc6d9b2817f598d5e41"
+  },
+  {
+    "image_id": 283113,
+    "file_name": "000000283113.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 58,
+    "category": "hot dog",
+    "supercategory": "food",
+    "main_bbox": [
+      1.51,
+      101.89,
+      289.81,
+      418.11
+    ],
+    "main_bbox_ratio": 0.39444,
+    "second_other_bbox_ratio": 0.0545,
+    "annotated_category_ids": [
+      47,
+      58
+    ],
+    "image_available": true,
+    "selection_hash": "f3ba0edf77af6d4bc90aa09d73c4e582327388dcfa5b1a35dabf0aaae1f423d9"
+  },
+  {
+    "image_id": 579900,
+    "file_name": "000000579900.jpg",
+    "width": 375,
+    "height": 500,
+    "category_id": 59,
+    "category": "pizza",
+    "supercategory": "food",
+    "main_bbox": [
+      1.12,
+      35.96,
+      373.88,
+      412.35
+    ],
+    "main_bbox_ratio": 0.82224,
+    "second_other_bbox_ratio": 0.01764,
+    "annotated_category_ids": [
+      56,
+      59
+    ],
+    "image_available": true,
+    "selection_hash": "05cfef99f325783b366f1d12d48324801469cd405b8e97702e5351876bd74cbc"
+  },
+  {
+    "image_id": 66926,
+    "file_name": "000000066926.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 60,
+    "category": "donut",
+    "supercategory": "food",
+    "main_bbox": [
+      155.33,
+      200.45,
+      484.67,
+      273.98
+    ],
+    "main_bbox_ratio": 0.43226,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      60
+    ],
+    "image_available": true,
+    "selection_hash": "2d33913495c46fdcc4e64ac3639274e011a789626f3230f5ba57d68381b3cd51"
+  },
+  {
+    "image_id": 180878,
+    "file_name": "000000180878.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 61,
+    "category": "cake",
+    "supercategory": "food",
+    "main_bbox": [
+      116.37,
+      37.99,
+      310.63,
+      306.78
+    ],
+    "main_bbox_ratio": 0.34871,
+    "second_other_bbox_ratio": 0.04995,
+    "annotated_category_ids": [
+      3,
+      61,
+      77
+    ],
+    "image_available": true,
+    "selection_hash": "32e295ba719575bf54cc65e587c5ae4a2e473c3df2e520a8928825241faef402"
+  },
+  {
+    "image_id": 546964,
+    "file_name": "000000546964.jpg",
+    "width": 640,
+    "height": 478,
+    "category_id": 62,
+    "category": "chair",
+    "supercategory": "furniture",
+    "main_bbox": [
+      4.11,
+      236.43,
+      327.92,
+      235.4
+    ],
+    "main_bbox_ratio": 0.25233,
+    "second_other_bbox_ratio": 0.10305,
+    "annotated_category_ids": [
+      1,
+      32,
+      62,
+      63,
+      67,
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "a644dfa6fc03a9fc44ccdcf5a98ec7accc02b0d9128e2452959a1cda2f3964ba"
+  },
+  {
+    "image_id": 139684,
+    "file_name": "000000139684.jpg",
+    "width": 500,
+    "height": 333,
+    "category_id": 63,
+    "category": "couch",
+    "supercategory": "furniture",
+    "main_bbox": [
+      2.15,
+      206.25,
+      412.49,
+      122.45
+    ],
+    "main_bbox_ratio": 0.30336,
+    "second_other_bbox_ratio": 0.09561,
+    "annotated_category_ids": [
+      17,
+      62,
+      63,
+      67,
+      72,
+      84,
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "24f43064f5c97524889ee25e8c13de1143317b119650b5639e9dd1942b4fdd8d"
+  },
+  {
+    "image_id": 159282,
+    "file_name": "000000159282.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 64,
+    "category": "potted plant",
+    "supercategory": "furniture",
+    "main_bbox": [
+      64.18,
+      2.21,
+      447.02,
+      412.73
+    ],
+    "main_bbox_ratio": 0.67671,
+    "second_other_bbox_ratio": 0.06187,
+    "annotated_category_ids": [
+      64,
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "4ed1bb9ff3621bda7af08e0bcec99b20e93e8526ca38dbbb9c84faa7cecdab36"
+  },
+  {
+    "image_id": 71451,
+    "file_name": "000000071451.jpg",
+    "width": 383,
+    "height": 640,
+    "category_id": 65,
+    "category": "bed",
+    "supercategory": "furniture",
+    "main_bbox": [
+      1.44,
+      168.03,
+      381.56,
+      464.54
+    ],
+    "main_bbox_ratio": 0.72311,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      65
+    ],
+    "image_available": true,
+    "selection_hash": "03b5a45b56ba92532acb416704720040e020ad162109ca72762762002a69e0dd"
+  },
+  {
+    "image_id": 322352,
+    "file_name": "000000322352.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 67,
+    "category": "dining table",
+    "supercategory": "furniture",
+    "main_bbox": [
+      103.59,
+      99.3,
+      201.84,
+      247.17
+    ],
+    "main_bbox_ratio": 0.26607,
+    "second_other_bbox_ratio": 0.1055,
+    "annotated_category_ids": [
+      62,
+      64,
+      67,
+      85,
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "0b5fb83faebec451c6c451eb7f17dff0e4002b26d449b40d93695f3f17ae844c"
+  },
+  {
+    "image_id": 550797,
+    "file_name": "000000550797.jpg",
+    "width": 361,
+    "height": 640,
+    "category_id": 70,
+    "category": "toilet",
+    "supercategory": "furniture",
+    "main_bbox": [
+      51.54,
+      214.9,
+      250.56,
+      390.88
+    ],
+    "main_bbox_ratio": 0.4239,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      70
+    ],
+    "image_available": true,
+    "selection_hash": "1c66a0b24ac45b7ae2bd661d9b51c48f40c0e70cdb839ae824ef7ec1c171fd62"
+  },
+  {
+    "image_id": 366225,
+    "file_name": "000000366225.jpg",
+    "width": 541,
+    "height": 640,
+    "category_id": 72,
+    "category": "tv",
+    "supercategory": "electronic",
+    "main_bbox": [
+      69.72,
+      7.99,
+      383.24,
+      311.29
+    ],
+    "main_bbox_ratio": 0.34456,
+    "second_other_bbox_ratio": 0.08267,
+    "annotated_category_ids": [
+      72,
+      74,
+      76,
+      77
+    ],
+    "image_available": true,
+    "selection_hash": "395adf151c31b4b2ad86765602849523e457e8e75fa8a3ad174660cea903f3ff"
+  },
+  {
+    "image_id": 324715,
+    "file_name": "000000324715.jpg",
+    "width": 500,
+    "height": 333,
+    "category_id": 73,
+    "category": "laptop",
+    "supercategory": "electronic",
+    "main_bbox": [
+      29.93,
+      71.09,
+      288.1,
+      258.17
+    ],
+    "main_bbox_ratio": 0.44672,
+    "second_other_bbox_ratio": 0.09159,
+    "annotated_category_ids": [
+      73,
+      87
+    ],
+    "image_available": true,
+    "selection_hash": "09b3d1f73e0235d05e0a25465226789c031babed53116147466bb50bdbb148f8"
+  },
+  {
+    "image_id": 409630,
+    "file_name": "000000409630.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 76,
+    "category": "keyboard",
+    "supercategory": "electronic",
+    "main_bbox": [
+      27.81,
+      137.36,
+      359.83,
+      151.68
+    ],
+    "main_bbox_ratio": 0.29109,
+    "second_other_bbox_ratio": 0.0569,
+    "annotated_category_ids": [
+      74,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "405c60d0f06a32a75565a2ee0397236ebe6df9cb73e8e3fd99801e94461f2aaf"
+  },
+  {
+    "image_id": 426253,
+    "file_name": "000000426253.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 78,
+    "category": "microwave",
+    "supercategory": "appliance",
+    "main_bbox": [
+      46.06,
+      60.45,
+      546.94,
+      298.42
+    ],
+    "main_bbox_ratio": 0.59725,
+    "second_other_bbox_ratio": 0.03313,
+    "annotated_category_ids": [
+      44,
+      78
+    ],
+    "image_available": true,
+    "selection_hash": "167453d7c86420906dd58299c493f1e0ba381682fda8f59f897408100a7916c1"
+  },
+  {
+    "image_id": 344795,
+    "file_name": "000000344795.jpg",
+    "width": 640,
+    "height": 361,
+    "category_id": 79,
+    "category": "oven",
+    "supercategory": "appliance",
+    "main_bbox": [
+      50.73,
+      22.91,
+      536.0,
+      329.72
+    ],
+    "main_bbox_ratio": 0.76493,
+    "second_other_bbox_ratio": 0.09092,
+    "annotated_category_ids": [
+      61,
+      79
+    ],
+    "image_available": true,
+    "selection_hash": "3fbc122dd8da53f88781c3a462517c4ba9217d6a71bf42b9bba5615d1ee5f065"
+  },
+  {
+    "image_id": 66841,
+    "file_name": "000000066841.jpg",
+    "width": 336,
+    "height": 500,
+    "category_id": 80,
+    "category": "toaster",
+    "supercategory": "appliance",
+    "main_bbox": [
+      65.17,
+      107.87,
+      259.55,
+      334.83
+    ],
+    "main_bbox_ratio": 0.51729,
+    "second_other_bbox_ratio": 0.1047,
+    "annotated_category_ids": [
+      44,
+      50,
+      80
+    ],
+    "image_available": true,
+    "selection_hash": "c76ff5936ba2a60daabd7fcbe0dedfc8623ec22340c235d83b07bcc7c7dedb9d"
+  },
+  {
+    "image_id": 239627,
+    "file_name": "000000239627.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 81,
+    "category": "sink",
+    "supercategory": "appliance",
+    "main_bbox": [
+      0.0,
+      49.05,
+      614.53,
+      373.14
+    ],
+    "main_bbox_ratio": 0.83909,
+    "second_other_bbox_ratio": 0.03442,
+    "annotated_category_ids": [
+      44,
+      47,
+      50,
+      51,
+      81
+    ],
+    "image_available": true,
+    "selection_hash": "62aa4e06dd8c4e0db828882ea99a752ca740580e7524e98d04bda40b985c7b5c"
+  },
+  {
+    "image_id": 512330,
+    "file_name": "000000512330.jpg",
+    "width": 426,
+    "height": 640,
+    "category_id": 82,
+    "category": "refrigerator",
+    "supercategory": "appliance",
+    "main_bbox": [
+      90.42,
+      0.48,
+      335.58,
+      639.52
+    ],
+    "main_bbox_ratio": 0.78716,
+    "second_other_bbox_ratio": 0.01677,
+    "annotated_category_ids": [
+      44,
+      82
+    ],
+    "image_available": true,
+    "selection_hash": "296d8d15a54bb98fa9cfc9c58e55f1358b374b334f6487f18ebaa8a2bd0d6b54"
+  },
+  {
+    "image_id": 67896,
+    "file_name": "000000067896.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 85,
+    "category": "clock",
+    "supercategory": "indoor",
+    "main_bbox": [
+      182.29,
+      61.3,
+      296.63,
+      286.92
+    ],
+    "main_bbox_ratio": 0.27705,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      85
+    ],
+    "image_available": true,
+    "selection_hash": "1941b4425d0852039ef0fc0a467551c94ddb449e5ea0d30e9d7121511d347bb8"
+  },
+  {
+    "image_id": 262631,
+    "file_name": "000000262631.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 86,
+    "category": "vase",
+    "supercategory": "indoor",
+    "main_bbox": [
+      73.63,
+      87.08,
+      291.68,
+      470.09
+    ],
+    "main_bbox_ratio": 0.44634,
+    "second_other_bbox_ratio": 0.00584,
+    "annotated_category_ids": [
+      1,
+      44,
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "46175f14dc9acd3d9e3367291281722f35fcfba6d61b8abc37ebc68197863592"
+  },
+  {
+    "image_id": 351096,
+    "file_name": "000000351096.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 87,
+    "category": "scissors",
+    "supercategory": "indoor",
+    "main_bbox": [
+      53.93,
+      37.78,
+      446.07,
+      272.19
+    ],
+    "main_bbox_ratio": 0.64755,
+    "second_other_bbox_ratio": 0.08077,
+    "annotated_category_ids": [
+      1,
+      87
+    ],
+    "image_available": true,
+    "selection_hash": "2e9be3e541456729b95c0a0323f2f733bfaf6f6de973138772b4a19463f3b2d2"
+  },
+  {
+    "image_id": 174018,
+    "file_name": "000000174018.jpg",
+    "width": 500,
+    "height": 351,
+    "category_id": 88,
+    "category": "teddy bear",
+    "supercategory": "indoor",
+    "main_bbox": [
+      85.38,
+      4.35,
+      413.45,
+      346.65
+    ],
+    "main_bbox_ratio": 0.81665,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      88
+    ],
+    "image_available": true,
+    "selection_hash": "028ad62ff4fe4ab00f1532ebd43efee23614028835424ec28a52c6800a2f2d43"
+  },
+  {
+    "image_id": 420840,
+    "file_name": "000000420840.jpg",
+    "width": 640,
+    "height": 424,
+    "category_id": 1,
+    "category": "person",
+    "supercategory": "person",
+    "main_bbox": [
+      177.22,
+      7.62,
+      284.89,
+      409.71
+    ],
+    "main_bbox_ratio": 0.43014,
+    "second_other_bbox_ratio": 0.11654,
+    "annotated_category_ids": [
+      1,
+      61,
+      62,
+      67
+    ],
+    "image_available": true,
+    "selection_hash": "037d5b6584fed64e1925aab21df0d4abf7ab837ffb4e83a88aa47bd9400fce16"
+  },
+  {
+    "image_id": 370208,
+    "file_name": "000000370208.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 2,
+    "category": "bicycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      62.9,
+      107.26,
+      380.65,
+      228.22
+    ],
+    "main_bbox_ratio": 0.46332,
+    "second_other_bbox_ratio": 0.02535,
+    "annotated_category_ids": [
+      1,
+      2,
+      14
+    ],
+    "image_available": true,
+    "selection_hash": "4cb4ed3dd05d66ed1e0503247745f4288425d0c993d547055bc2b26a47877ee9"
+  },
+  {
+    "image_id": 526392,
+    "file_name": "000000526392.jpg",
+    "width": 500,
+    "height": 333,
+    "category_id": 3,
+    "category": "car",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      143.14,
+      174.03,
+      305.13,
+      152.94
+    ],
+    "main_bbox_ratio": 0.28028,
+    "second_other_bbox_ratio": 0.01252,
+    "annotated_category_ids": [
+      3,
+      10
+    ],
+    "image_available": true,
+    "selection_hash": "4f008557627bb7a5659291bb7478cc895c1f27143d9ac7322d483b5e84e0f9aa"
+  },
+  {
+    "image_id": 266400,
+    "file_name": "000000266400.jpg",
+    "width": 640,
+    "height": 396,
+    "category_id": 4,
+    "category": "motorcycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      106.31,
+      51.51,
+      522.68,
+      340.19
+    ],
+    "main_bbox_ratio": 0.70159,
+    "second_other_bbox_ratio": 0.00993,
+    "annotated_category_ids": [
+      1,
+      2,
+      4
+    ],
+    "image_available": true,
+    "selection_hash": "120372c5e98519005b72c5729f941401ac09e69522b9c1826fae1315fdf3ef9c"
+  },
+  {
+    "image_id": 408112,
+    "file_name": "000000408112.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 5,
+    "category": "airplane",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      1.08,
+      100.09,
+      411.12,
+      228.16
+    ],
+    "main_bbox_ratio": 0.30534,
+    "second_other_bbox_ratio": 0.00089,
+    "annotated_category_ids": [
+      1,
+      5
+    ],
+    "image_available": true,
+    "selection_hash": "20f95115a3def5ceb758557366dcac8bbb264927272339af72be7d2e3a03c852"
+  },
+  {
+    "image_id": 550349,
+    "file_name": "000000550349.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 6,
+    "category": "bus",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      100.67,
+      134.11,
+      379.33,
+      414.2
+    ],
+    "main_bbox_ratio": 0.51145,
+    "second_other_bbox_ratio": 0.06743,
+    "annotated_category_ids": [
+      1,
+      6,
+      10,
+      28,
+      31
+    ],
+    "image_available": true,
+    "selection_hash": "02c150b6f974d23f10a32d192159e51ddb414f7d128c93434927777f8e96366b"
+  },
+  {
+    "image_id": 369675,
+    "file_name": "000000369675.jpg",
+    "width": 640,
+    "height": 429,
+    "category_id": 7,
+    "category": "train",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      2.89,
+      90.62,
+      636.27,
+      322.96
+    ],
+    "main_bbox_ratio": 0.74843,
+    "second_other_bbox_ratio": 0.00457,
+    "annotated_category_ids": [
+      1,
+      7,
+      85
+    ],
+    "image_available": true,
+    "selection_hash": "054a538fce305e2203b431d70e65024f2de7f509f2d128d5152090f54e4694c3"
+  },
+  {
+    "image_id": 148719,
+    "file_name": "000000148719.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 8,
+    "category": "truck",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      96.0,
+      96.0,
+      486.47,
+      283.69
+    ],
+    "main_bbox_ratio": 0.44924,
+    "second_other_bbox_ratio": 0.00596,
+    "annotated_category_ids": [
+      1,
+      8
+    ],
+    "image_available": true,
+    "selection_hash": "12388acd0e79096c01a43de163fc134d7cb5ba26c545c7f3ea5700c331426d66"
+  },
+  {
+    "image_id": 502168,
+    "file_name": "000000502168.jpg",
+    "width": 640,
+    "height": 458,
+    "category_id": 9,
+    "category": "boat",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      405.51,
+      133.8,
+      234.49,
+      315.97
+    ],
+    "main_bbox_ratio": 0.25277,
+    "second_other_bbox_ratio": 0.03498,
+    "annotated_category_ids": [
+      1,
+      9
+    ],
+    "image_available": true,
+    "selection_hash": "54192e306f2cda453882400a220884a32dc2d6f2541a49ea7e6e32386fc375cf"
+  },
+  {
+    "image_id": 338560,
+    "file_name": "000000338560.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 11,
+    "category": "fire hydrant",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      132.61,
+      165.77,
+      185.95,
+      446.84
+    ],
+    "main_bbox_ratio": 0.27047,
+    "second_other_bbox_ratio": 0.00936,
+    "annotated_category_ids": [
+      3,
+      10,
+      11
+    ],
+    "image_available": true,
+    "selection_hash": "3db0f2235d52a3e01106051bb3105f8cd53fbf547c357bd7e9c1591ff5e8ac14"
+  },
+  {
+    "image_id": 309173,
+    "file_name": "000000309173.jpg",
+    "width": 335,
+    "height": 500,
+    "category_id": 13,
+    "category": "stop sign",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      61.94,
+      32.09,
+      256.75,
+      320.95
+    ],
+    "main_bbox_ratio": 0.49196,
+    "second_other_bbox_ratio": 0.00744,
+    "annotated_category_ids": [
+      1,
+      13
+    ],
+    "image_available": true,
+    "selection_hash": "413a9226a34de4b48fe0675e54db95508e47045ffa1b0f44c6b7786c2305896a"
+  },
+  {
+    "image_id": 333956,
+    "file_name": "000000333956.jpg",
+    "width": 428,
+    "height": 640,
+    "category_id": 14,
+    "category": "parking meter",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      24.56,
+      170.84,
+      186.37,
+      421.85
+    ],
+    "main_bbox_ratio": 0.28702,
+    "second_other_bbox_ratio": 0.03642,
+    "annotated_category_ids": [
+      14,
+      15
+    ],
+    "image_available": true,
+    "selection_hash": "52e4f2c3005d48b633feb5d4dc23ad7ddb49f72230af2ca6b7d6e196c35d64ae"
+  },
+  {
+    "image_id": 310072,
+    "file_name": "000000310072.jpg",
+    "width": 640,
+    "height": 383,
+    "category_id": 15,
+    "category": "bench",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      120.22,
+      87.59,
+      407.91,
+      224.13
+    ],
+    "main_bbox_ratio": 0.37298,
+    "second_other_bbox_ratio": 0.07294,
+    "annotated_category_ids": [
+      3,
+      8,
+      15
+    ],
+    "image_available": true,
+    "selection_hash": "13655adadcd41df871fac5b2d4c9d5b777824ab0ff50f026ef51f2f9cca420a8"
+  },
+  {
+    "image_id": 315257,
+    "file_name": "000000315257.jpg",
+    "width": 640,
+    "height": 514,
+    "category_id": 16,
+    "category": "bird",
+    "supercategory": "animal",
+    "main_bbox": [
+      63.14,
+      115.76,
+      491.85,
+      279.16
+    ],
+    "main_bbox_ratio": 0.41739,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      16
+    ],
+    "image_available": true,
+    "selection_hash": "274789dfbb6a75914ff4bca21a0140155624d4218929745967af7552d6dfd724"
+  },
+  {
+    "image_id": 286708,
+    "file_name": "000000286708.jpg",
+    "width": 640,
+    "height": 481,
+    "category_id": 17,
+    "category": "cat",
+    "supercategory": "animal",
+    "main_bbox": [
+      37.08,
+      107.12,
+      602.92,
+      341.95
+    ],
+    "main_bbox_ratio": 0.66973,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      17
+    ],
+    "image_available": true,
+    "selection_hash": "40b28879c948df8ccc722f60490cc2a76b9e934ea983520d62d8bebb00c7ab24"
+  },
+  {
+    "image_id": 318908,
+    "file_name": "000000318908.jpg",
+    "width": 500,
+    "height": 333,
+    "category_id": 18,
+    "category": "dog",
+    "supercategory": "animal",
+    "main_bbox": [
+      93.8,
+      0.06,
+      293.47,
+      287.44
+    ],
+    "main_bbox_ratio": 0.50664,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      18
+    ],
+    "image_available": true,
+    "selection_hash": "1422abb1bdc08e7c22168bd29f7ce2c0c0150ad6ffca455c0c81cf1d57a22316"
+  },
+  {
+    "image_id": 51309,
+    "file_name": "000000051309.jpg",
+    "width": 640,
+    "height": 360,
+    "category_id": 19,
+    "category": "horse",
+    "supercategory": "animal",
+    "main_bbox": [
+      67.98,
+      46.35,
+      275.02,
+      225.58
+    ],
+    "main_bbox_ratio": 0.26927,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      19
+    ],
+    "image_available": true,
+    "selection_hash": "29804a331bdf9e3840fde0eee1d61b3c178a5ab0e124106e7dc715271a427b0f"
+  },
+  {
+    "image_id": 364322,
+    "file_name": "000000364322.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 20,
+    "category": "sheep",
+    "supercategory": "animal",
+    "main_bbox": [
+      114.58,
+      266.32,
+      446.97,
+      207.49
+    ],
+    "main_bbox_ratio": 0.30189,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      20
+    ],
+    "image_available": true,
+    "selection_hash": "16ce537fd31b76c5a08c6d65f1b49d09a43e352f6e01410538b7caa5b8a88c47"
+  },
+  {
+    "image_id": 357081,
+    "file_name": "000000357081.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 21,
+    "category": "cow",
+    "supercategory": "animal",
+    "main_bbox": [
+      236.0,
+      95.5,
+      390.27,
+      252.53
+    ],
+    "main_bbox_ratio": 0.36064,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      21
+    ],
+    "image_available": true,
+    "selection_hash": "2ea52321cdbaad1eda86924d4b359093a27a75fa13d59b2c8eecc1555433955c"
+  },
+  {
+    "image_id": 28449,
+    "file_name": "000000028449.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 22,
+    "category": "elephant",
+    "supercategory": "animal",
+    "main_bbox": [
+      194.27,
+      99.54,
+      261.58,
+      292.36
+    ],
+    "main_bbox_ratio": 0.27984,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      22
+    ],
+    "image_available": true,
+    "selection_hash": "171e9fa27c48024111211405cf9b38535ca0f7b688c045c4c52cc63a9b1636a1"
+  },
+  {
+    "image_id": 205776,
+    "file_name": "000000205776.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 23,
+    "category": "bear",
+    "supercategory": "animal",
+    "main_bbox": [
+      91.89,
+      28.24,
+      442.23,
+      240.26
+    ],
+    "main_bbox_ratio": 0.39063,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      23
+    ],
+    "image_available": true,
+    "selection_hash": "106f81a66346accf346429b3da149ab091aad1be5dc86a6932178135c2ae5fe1"
+  },
+  {
+    "image_id": 250758,
+    "file_name": "000000250758.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 24,
+    "category": "zebra",
+    "supercategory": "animal",
+    "main_bbox": [
+      121.53,
+      113.45,
+      408.46,
+      279.03
+    ],
+    "main_bbox_ratio": 0.371,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      24
+    ],
+    "image_available": true,
+    "selection_hash": "23800a825778aba8147fb305f288e73c5ff8471fcde138ca2056fd9048e5d65f"
+  },
+  {
+    "image_id": 272364,
+    "file_name": "000000272364.jpg",
+    "width": 428,
+    "height": 640,
+    "category_id": 25,
+    "category": "giraffe",
+    "supercategory": "animal",
+    "main_bbox": [
+      140.61,
+      150.98,
+      185.85,
+      489.02
+    ],
+    "main_bbox_ratio": 0.33179,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      25
+    ],
+    "image_available": true,
+    "selection_hash": "0dbdf292e2dadce0d4fb7bb3e06bae7f009d2eaaa074118fb0ec04061cb15d73"
+  },
+  {
+    "image_id": 530854,
+    "file_name": "000000530854.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 28,
+    "category": "umbrella",
+    "supercategory": "accessory",
+    "main_bbox": [
+      1.91,
+      154.59,
+      458.51,
+      265.15
+    ],
+    "main_bbox_ratio": 0.44696,
+    "second_other_bbox_ratio": 0.01097,
+    "annotated_category_ids": [
+      1,
+      28
+    ],
+    "image_available": true,
+    "selection_hash": "69bde02263e45139244075d0e955639aadcd3a6953307357ad51f9247f3fdeba"
+  },
+  {
+    "image_id": 453860,
+    "file_name": "000000453860.jpg",
+    "width": 640,
+    "height": 428,
+    "category_id": 33,
+    "category": "suitcase",
+    "supercategory": "accessory",
+    "main_bbox": [
+      344.14,
+      40.97,
+      261.23,
+      337.39
+    ],
+    "main_bbox_ratio": 0.32176,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      33
+    ],
+    "image_available": true,
+    "selection_hash": "c25eed3e69a5cd2d8d01c6b704e16eceb5564636272c93abfa8145183925f5b5"
+  },
+  {
+    "image_id": 7784,
+    "file_name": "000000007784.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 38,
+    "category": "kite",
+    "supercategory": "sports",
+    "main_bbox": [
+      93.96,
+      86.13,
+      240.41,
+      220.09
+    ],
+    "main_bbox_ratio": 0.2822,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      38
+    ],
+    "image_available": true,
+    "selection_hash": "b9fe2d387c431f25e03ddd5596bceb0199ba836f5397db9725b40461adc6bfe1"
+  },
+  {
+    "image_id": 109916,
+    "file_name": "000000109916.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 51,
+    "category": "bowl",
+    "supercategory": "kitchen",
+    "main_bbox": [
+      282.42,
+      198.76,
+      304.96,
+      268.46
+    ],
+    "main_bbox_ratio": 0.2665,
+    "second_other_bbox_ratio": 0.11713,
+    "annotated_category_ids": [
+      51,
+      61
+    ],
+    "image_available": true,
+    "selection_hash": "5ac1c07871a3642c0e225af41cbc64efb754a8f0b4bcc1344dbe7039770ec157"
+  },
+  {
+    "image_id": 407574,
+    "file_name": "000000407574.jpg",
+    "width": 478,
+    "height": 640,
+    "category_id": 52,
+    "category": "banana",
+    "supercategory": "food",
+    "main_bbox": [
+      93.48,
+      97.36,
+      289.08,
+      339.41
+    ],
+    "main_bbox_ratio": 0.32073,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      52
+    ],
+    "image_available": true,
+    "selection_hash": "6de3b3dc53c05d28ddaff479010bc7c4c8fb4a13cd40625b41382af1052bdf50"
+  },
+  {
+    "image_id": 287959,
+    "file_name": "000000287959.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 54,
+    "category": "sandwich",
+    "supercategory": "food",
+    "main_bbox": [
+      1.08,
+      0.0,
+      446.56,
+      446.56
+    ],
+    "main_bbox_ratio": 0.64914,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      54
+    ],
+    "image_available": true,
+    "selection_hash": "50cacdc381baeafb8669bc724592238b0db3a726e7359d1c4696a007fcdef2bb"
+  },
+  {
+    "image_id": 402783,
+    "file_name": "000000402783.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 55,
+    "category": "orange",
+    "supercategory": "food",
+    "main_bbox": [
+      110.68,
+      68.89,
+      399.81,
+      297.04
+    ],
+    "main_bbox_ratio": 0.38659,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      55
+    ],
+    "image_available": true,
+    "selection_hash": "f50c061ae266c6fc50d5eb26fd03f2626327cd8d82d99f36f771fbb0a4db2ce6"
+  },
+  {
+    "image_id": 407524,
+    "file_name": "000000407524.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 56,
+    "category": "broccoli",
+    "supercategory": "food",
+    "main_bbox": [
+      298.87,
+      89.43,
+      333.96,
+      350.95
+    ],
+    "main_bbox_ratio": 0.38152,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      56
+    ],
+    "image_available": true,
+    "selection_hash": "ca3ef09984b9794efc16fc897da40a7b558c0cf8dadd02661f4f4e405de898f8"
+  },
+  {
+    "image_id": 196009,
+    "file_name": "000000196009.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 57,
+    "category": "carrot",
+    "supercategory": "food",
+    "main_bbox": [
+      0.0,
+      77.75,
+      640.0,
+      240.0
+    ],
+    "main_bbox_ratio": 0.5,
+    "second_other_bbox_ratio": 0.09664,
+    "annotated_category_ids": [
+      50,
+      57
+    ],
+    "image_available": true,
+    "selection_hash": "798d20c2852d50fde6a63e37c4303ed55d06b1e4d0fda39dcaa395422527b14f"
+  },
+  {
+    "image_id": 164969,
+    "file_name": "000000164969.jpg",
+    "width": 640,
+    "height": 428,
+    "category_id": 59,
+    "category": "pizza",
+    "supercategory": "food",
+    "main_bbox": [
+      83.12,
+      23.12,
+      419.4,
+      399.34
+    ],
+    "main_bbox_ratio": 0.61143,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      59
+    ],
+    "image_available": true,
+    "selection_hash": "0ee2e15923780b4750ac378743d34bae296ef5c633147ab54787e2c30ded962f"
+  },
+  {
+    "image_id": 377814,
+    "file_name": "000000377814.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 60,
+    "category": "donut",
+    "supercategory": "food",
+    "main_bbox": [
+      43.15,
+      183.37,
+      284.76,
+      296.63
+    ],
+    "main_bbox_ratio": 0.27496,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      60
+    ],
+    "image_available": true,
+    "selection_hash": "bc2c795a009e2f94fd44800d3b0bb4f261965518813c5f2abb1df7b7729639c2"
+  },
+  {
+    "image_id": 277689,
+    "file_name": "000000277689.jpg",
+    "width": 640,
+    "height": 424,
+    "category_id": 61,
+    "category": "cake",
+    "supercategory": "food",
+    "main_bbox": [
+      285.53,
+      208.66,
+      354.47,
+      210.09
+    ],
+    "main_bbox_ratio": 0.27443,
+    "second_other_bbox_ratio": 0.05089,
+    "annotated_category_ids": [
+      46,
+      47,
+      61,
+      67
+    ],
+    "image_available": true,
+    "selection_hash": "41ea4b7a71638a33013f6188f315c294c8595205a20cb63061372c124ea522ab"
+  },
+  {
+    "image_id": 65288,
+    "file_name": "000000065288.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 62,
+    "category": "chair",
+    "supercategory": "furniture",
+    "main_bbox": [
+      214.88,
+      237.83,
+      407.71,
+      182.74
+    ],
+    "main_bbox_ratio": 0.27263,
+    "second_other_bbox_ratio": 0.0511,
+    "annotated_category_ids": [
+      1,
+      2,
+      16,
+      27,
+      62,
+      64
+    ],
+    "image_available": true,
+    "selection_hash": "aecfa4f377c949a5e994c30cc0f286ade645d98e9cfbe352612cf7d7b15efcd2"
+  },
+  {
+    "image_id": 356432,
+    "file_name": "000000356432.jpg",
+    "width": 640,
+    "height": 416,
+    "category_id": 63,
+    "category": "couch",
+    "supercategory": "furniture",
+    "main_bbox": [
+      138.67,
+      189.66,
+      376.63,
+      204.87
+    ],
+    "main_bbox_ratio": 0.28981,
+    "second_other_bbox_ratio": 0.00791,
+    "annotated_category_ids": [
+      47,
+      63,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "2645663264b75d1faa463edbadb59399a41802a9527bdccabb28f0a44a3ab013"
+  },
+  {
+    "image_id": 467315,
+    "file_name": "000000467315.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 64,
+    "category": "potted plant",
+    "supercategory": "furniture",
+    "main_bbox": [
+      101.53,
+      98.35,
+      345.44,
+      280.32
+    ],
+    "main_bbox_ratio": 0.35517,
+    "second_other_bbox_ratio": 0.02799,
+    "annotated_category_ids": [
+      1,
+      62,
+      64
+    ],
+    "image_available": true,
+    "selection_hash": "6c586e76dd0d9476c27402560dcc34b4642a71572fc3a38eac0f443dfba0245f"
+  },
+  {
+    "image_id": 366199,
+    "file_name": "000000366199.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 65,
+    "category": "bed",
+    "supercategory": "furniture",
+    "main_bbox": [
+      0.96,
+      221.11,
+      637.63,
+      191.48
+    ],
+    "main_bbox_ratio": 0.44677,
+    "second_other_bbox_ratio": 0.05236,
+    "annotated_category_ids": [
+      17,
+      65
+    ],
+    "image_available": true,
+    "selection_hash": "07b23d9af99842984e4c4adb08407d326122cbaa45f1934921777b5974cbc76a"
+  },
+  {
+    "image_id": 318455,
+    "file_name": "000000318455.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 67,
+    "category": "dining table",
+    "supercategory": "furniture",
+    "main_bbox": [
+      3.25,
+      163.34,
+      636.75,
+      310.97
+    ],
+    "main_bbox_ratio": 0.64456,
+    "second_other_bbox_ratio": 0.03964,
+    "annotated_category_ids": [
+      49,
+      61,
+      67
+    ],
+    "image_available": true,
+    "selection_hash": "10d6341035f72bac898c7df4bd7fec6817092e1f8dd036526056895f3df84f77"
+  },
+  {
+    "image_id": 206411,
+    "file_name": "000000206411.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 70,
+    "category": "toilet",
+    "supercategory": "furniture",
+    "main_bbox": [
+      172.58,
+      0.9,
+      298.79,
+      359.19
+    ],
+    "main_bbox_ratio": 0.34936,
+    "second_other_bbox_ratio": 0.10369,
+    "annotated_category_ids": [
+      1,
+      70
+    ],
+    "image_available": true,
+    "selection_hash": "278165fe5ade2460501455e23091b893ea699295ed1cc9ebe6dbfa515a6adaf3"
+  },
+  {
+    "image_id": 66635,
+    "file_name": "000000066635.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 72,
+    "category": "tv",
+    "supercategory": "electronic",
+    "main_bbox": [
+      105.71,
+      40.99,
+      290.16,
+      272.9
+    ],
+    "main_bbox_ratio": 0.25776,
+    "second_other_bbox_ratio": 0.10337,
+    "annotated_category_ids": [
+      72,
+      74,
+      75,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "4355e3e8afafc6eca417680c16d0602a7c086660251ef04d2036e3f3403e5236"
+  },
+  {
+    "image_id": 321118,
+    "file_name": "000000321118.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 73,
+    "category": "laptop",
+    "supercategory": "electronic",
+    "main_bbox": [
+      87.68,
+      3.49,
+      464.12,
+      416.47
+    ],
+    "main_bbox_ratio": 0.70896,
+    "second_other_bbox_ratio": 0.02623,
+    "annotated_category_ids": [
+      73,
+      74
+    ],
+    "image_available": true,
+    "selection_hash": "1d1cb304ae0aea798ef900e5894de2a363cdba23841ff2e01e0f62bfaf13a98e"
+  },
+  {
+    "image_id": 378099,
+    "file_name": "000000378099.jpg",
+    "width": 640,
+    "height": 337,
+    "category_id": 76,
+    "category": "keyboard",
+    "supercategory": "electronic",
+    "main_bbox": [
+      31.81,
+      73.98,
+      502.85,
+      177.97
+    ],
+    "main_bbox_ratio": 0.41493,
+    "second_other_bbox_ratio": 0.0519,
+    "annotated_category_ids": [
+      74,
+      76
+    ],
+    "image_available": true,
+    "selection_hash": "795cb0aebe2f5b092a38736ab2fcda3d743f4e71497f47b95684ad65bb01fd62"
+  },
+  {
+    "image_id": 207538,
+    "file_name": "000000207538.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 78,
+    "category": "microwave",
+    "supercategory": "appliance",
+    "main_bbox": [
+      103.04,
+      152.87,
+      308.28,
+      189.19
+    ],
+    "main_bbox_ratio": 0.31106,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      78
+    ],
+    "image_available": true,
+    "selection_hash": "45878ee100a7e1cbf50d217a1e8d4bba375b85faf2e236e8677a4b20194a65ad"
+  },
+  {
+    "image_id": 35326,
+    "file_name": "000000035326.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 79,
+    "category": "oven",
+    "supercategory": "appliance",
+    "main_bbox": [
+      102.7,
+      306.49,
+      520.62,
+      173.51
+    ],
+    "main_bbox_ratio": 0.29405,
+    "second_other_bbox_ratio": 0.00586,
+    "annotated_category_ids": [
+      44,
+      49,
+      79
+    ],
+    "image_available": true,
+    "selection_hash": "5e93b980d8ced27e1014ead268ece7ed28dec0ea08ad6052f872c57721e89146"
+  },
+  {
+    "image_id": 492878,
+    "file_name": "000000492878.jpg",
+    "width": 640,
+    "height": 640,
+    "category_id": 81,
+    "category": "sink",
+    "supercategory": "appliance",
+    "main_bbox": [
+      15.82,
+      297.71,
+      614.11,
+      319.28
+    ],
+    "main_bbox_ratio": 0.47869,
+    "second_other_bbox_ratio": 0.07336,
+    "annotated_category_ids": [
+      44,
+      47,
+      50,
+      81,
+      90
+    ],
+    "image_available": true,
+    "selection_hash": "824f9171da883effaeab2d4bd73120935e47d455cafe46ebd861a95107ebbef4"
+  },
+  {
+    "image_id": 554838,
+    "file_name": "000000554838.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 82,
+    "category": "refrigerator",
+    "supercategory": "appliance",
+    "main_bbox": [
+      70.16,
+      379.56,
+      363.67,
+      253.42
+    ],
+    "main_bbox_ratio": 0.3,
+    "second_other_bbox_ratio": 0.01491,
+    "annotated_category_ids": [
+      44,
+      82
+    ],
+    "image_available": true,
+    "selection_hash": "3431015ff9db5d19037a3f3d225e395c0d1834a37c8256d16ff21fea51055132"
+  },
+  {
+    "image_id": 424135,
+    "file_name": "000000424135.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 85,
+    "category": "clock",
+    "supercategory": "indoor",
+    "main_bbox": [
+      129.61,
+      153.14,
+      262.03,
+      426.14
+    ],
+    "main_bbox_ratio": 0.36348,
+    "second_other_bbox_ratio": 0.02942,
+    "annotated_category_ids": [
+      1,
+      85
+    ],
+    "image_available": true,
+    "selection_hash": "2afd8ffb3bf73c7191cf2ad9719ff481c1ab0e5dd46782506a5e17ceea813042"
+  },
+  {
+    "image_id": 298904,
+    "file_name": "000000298904.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 86,
+    "category": "vase",
+    "supercategory": "indoor",
+    "main_bbox": [
+      56.09,
+      14.38,
+      343.73,
+      606.92
+    ],
+    "main_bbox_ratio": 0.67909,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      86
+    ],
+    "image_available": true,
+    "selection_hash": "77daf3699e25fa64ae091382bcff243442ce7434fba2c916d89ec6b6991c061e"
+  },
+  {
+    "image_id": 546826,
+    "file_name": "000000546826.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 87,
+    "category": "scissors",
+    "supercategory": "indoor",
+    "main_bbox": [
+      327.24,
+      1.99,
+      312.76,
+      478.01
+    ],
+    "main_bbox_ratio": 0.48666,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      87
+    ],
+    "image_available": true,
+    "selection_hash": "72b2442e6cffea63aa839ea5afc0898f0f1eaedcd15b5e9c9278159c5ad30cda"
+  },
+  {
+    "image_id": 537802,
+    "file_name": "000000537802.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 88,
+    "category": "teddy bear",
+    "supercategory": "indoor",
+    "main_bbox": [
+      35.52,
+      16.14,
+      548.87,
+      396.06
+    ],
+    "main_bbox_ratio": 0.70763,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      88
+    ],
+    "image_available": true,
+    "selection_hash": "27e6ce2030f4f2932ae7923f4e65cfb2b8f6f54c8f15224d5d7d550f360c94d8"
+  },
+  {
+    "image_id": 302882,
+    "file_name": "000000302882.jpg",
+    "width": 500,
+    "height": 400,
+    "category_id": 1,
+    "category": "person",
+    "supercategory": "person",
+    "main_bbox": [
+      0.0,
+      55.57,
+      388.37,
+      344.43
+    ],
+    "main_bbox_ratio": 0.66883,
+    "second_other_bbox_ratio": 0.10588,
+    "annotated_category_ids": [
+      1,
+      77
+    ],
+    "image_available": true,
+    "selection_hash": "03d27082d207701a96dfea04428ed1a10c9ef12d3905f2823d6d8177501df310"
+  },
+  {
+    "image_id": 492937,
+    "file_name": "000000492937.jpg",
+    "width": 612,
+    "height": 612,
+    "category_id": 2,
+    "category": "bicycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      20.61,
+      16.04,
+      474.06,
+      585.05
+    ],
+    "main_bbox_ratio": 0.7405,
+    "second_other_bbox_ratio": 0.09756,
+    "annotated_category_ids": [
+      1,
+      2,
+      7
+    ],
+    "image_available": true,
+    "selection_hash": "8bf430bf19b5c8960034b3a886ac5d6548784cfe0907d9b41f75f08a4b819f51"
+  },
+  {
+    "image_id": 263594,
+    "file_name": "000000263594.jpg",
+    "width": 500,
+    "height": 381,
+    "category_id": 3,
+    "category": "car",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      33.89,
+      142.15,
+      425.78,
+      148.34
+    ],
+    "main_bbox_ratio": 0.33155,
+    "second_other_bbox_ratio": 0.01381,
+    "annotated_category_ids": [
+      3,
+      8,
+      16
+    ],
+    "image_available": true,
+    "selection_hash": "57d73ef0ae4a827b4e64affc41fa773caf90c3d3f4a9d04fc92b0fc69941d692"
+  },
+  {
+    "image_id": 279887,
+    "file_name": "000000279887.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 4,
+    "category": "motorcycle",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      113.68,
+      93.75,
+      457.56,
+      328.61
+    ],
+    "main_bbox_ratio": 0.5502,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      4
+    ],
+    "image_available": true,
+    "selection_hash": "14d1cdc81aca17500745567819b731ebec3b6c0e0b16798522376ec694b34706"
+  },
+  {
+    "image_id": 208208,
+    "file_name": "000000208208.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 5,
+    "category": "airplane",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      267.38,
+      0.72,
+      372.62,
+      240.53
+    ],
+    "main_bbox_ratio": 0.29175,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      5
+    ],
+    "image_available": true,
+    "selection_hash": "214aa21b29a550c48469578ca265ae8935c4637bb3ef8853fd71f13fb0aa7dd5"
+  },
+  {
+    "image_id": 52007,
+    "file_name": "000000052007.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 6,
+    "category": "bus",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      89.17,
+      60.4,
+      245.93,
+      330.79
+    ],
+    "main_bbox_ratio": 0.26482,
+    "second_other_bbox_ratio": 0.02804,
+    "annotated_category_ids": [
+      1,
+      6,
+      32
+    ],
+    "image_available": true,
+    "selection_hash": "08ec84ae708ebee8bbb7f816182ecb05fd4a6bb5ab4b1f2442a9e4c2478d6150"
+  },
+  {
+    "image_id": 57244,
+    "file_name": "000000057244.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 7,
+    "category": "train",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      0.0,
+      2.87,
+      640.0,
+      329.49
+    ],
+    "main_bbox_ratio": 0.77527,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      7
+    ],
+    "image_available": true,
+    "selection_hash": "06aea7405bf5aa3f692cb2b2dc61f005d92fbabbc76a44a33a4555418b55c0ff"
+  },
+  {
+    "image_id": 426372,
+    "file_name": "000000426372.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 8,
+    "category": "truck",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      56.74,
+      44.72,
+      509.71,
+      364.49
+    ],
+    "main_bbox_ratio": 0.67983,
+    "second_other_bbox_ratio": 0.06799,
+    "annotated_category_ids": [
+      3,
+      4,
+      8
+    ],
+    "image_available": true,
+    "selection_hash": "13d59e1efff34d2a6d8f15fc54ad76aaf586ddb20a8b07a9e2e1eb0376911f2c"
+  },
+  {
+    "image_id": 395633,
+    "file_name": "000000395633.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 9,
+    "category": "boat",
+    "supercategory": "vehicle",
+    "main_bbox": [
+      1.25,
+      41.14,
+      562.28,
+      334.13
+    ],
+    "main_bbox_ratio": 0.61157,
+    "second_other_bbox_ratio": 0.002,
+    "annotated_category_ids": [
+      1,
+      9
+    ],
+    "image_available": true,
+    "selection_hash": "567ed336c985024c0e1f424dc22a88d3641a4f18d91324bb6bcbaa523a9c3985"
+  },
+  {
+    "image_id": 204871,
+    "file_name": "000000204871.jpg",
+    "width": 612,
+    "height": 612,
+    "category_id": 11,
+    "category": "fire hydrant",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      122.4,
+      46.78,
+      411.71,
+      555.68
+    ],
+    "main_bbox_ratio": 0.61082,
+    "second_other_bbox_ratio": 0.02085,
+    "annotated_category_ids": [
+      1,
+      3,
+      6,
+      10,
+      11
+    ],
+    "image_available": true,
+    "selection_hash": "47a4705d3dc5f004dffb8f51af0dd683023c9601182ea13047855712e9692797"
+  },
+  {
+    "image_id": 571008,
+    "file_name": "000000571008.jpg",
+    "width": 640,
+    "height": 425,
+    "category_id": 13,
+    "category": "stop sign",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      147.08,
+      44.89,
+      345.73,
+      330.45
+    ],
+    "main_bbox_ratio": 0.42002,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      13
+    ],
+    "image_available": true,
+    "selection_hash": "93240765ea0d5735eac1204528723c7c6f21b79062832d115ba32293547644cd"
+  },
+  {
+    "image_id": 577182,
+    "file_name": "000000577182.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 15,
+    "category": "bench",
+    "supercategory": "outdoor",
+    "main_bbox": [
+      2.89,
+      205.33,
+      637.11,
+      216.38
+    ],
+    "main_bbox_ratio": 0.50446,
+    "second_other_bbox_ratio": 0.00472,
+    "annotated_category_ids": [
+      15,
+      16
+    ],
+    "image_available": true,
+    "selection_hash": "1c95e0a816f340e54a436154bb88b2d55780f4f5567ebb259e659c7356dc6375"
+  },
+  {
+    "image_id": 270705,
+    "file_name": "000000270705.jpg",
+    "width": 475,
+    "height": 640,
+    "category_id": 16,
+    "category": "bird",
+    "supercategory": "animal",
+    "main_bbox": [
+      133.51,
+      24.77,
+      232.6,
+      538.15
+    ],
+    "main_bbox_ratio": 0.41176,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      16
+    ],
+    "image_available": true,
+    "selection_hash": "3a0015cb9866744eb699ba107dd18db59d4f478f0204c048b37d6d4ed4f7f3b7"
+  },
+  {
+    "image_id": 112798,
+    "file_name": "000000112798.jpg",
+    "width": 640,
+    "height": 359,
+    "category_id": 17,
+    "category": "cat",
+    "supercategory": "animal",
+    "main_bbox": [
+      66.54,
+      138.88,
+      442.56,
+      161.71
+    ],
+    "main_bbox_ratio": 0.31148,
+    "second_other_bbox_ratio": 0.07586,
+    "annotated_category_ids": [
+      17,
+      73,
+      84
+    ],
+    "image_available": true,
+    "selection_hash": "5a641f7d3527bff9a1be26b9b511fa006a88d8f919b2f11d0e4a31670810831f"
+  },
+  {
+    "image_id": 221693,
+    "file_name": "000000221693.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 18,
+    "category": "dog",
+    "supercategory": "animal",
+    "main_bbox": [
+      73.15,
+      17.21,
+      452.68,
+      403.63
+    ],
+    "main_bbox_ratio": 0.67017,
+    "second_other_bbox_ratio": 0.07938,
+    "annotated_category_ids": [
+      18,
+      34
+    ],
+    "image_available": true,
+    "selection_hash": "296c2d4da9490f632447d278cc35c8b1e8c441ee9f3179922ad7a87363d685a3"
+  },
+  {
+    "image_id": 506656,
+    "file_name": "000000506656.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 19,
+    "category": "horse",
+    "supercategory": "animal",
+    "main_bbox": [
+      184.92,
+      93.67,
+      381.21,
+      339.21
+    ],
+    "main_bbox_ratio": 0.42093,
+    "second_other_bbox_ratio": 0.0605,
+    "annotated_category_ids": [
+      1,
+      3,
+      19
+    ],
+    "image_available": true,
+    "selection_hash": "3a89ad2a317e0d1602785e71952bed6836c274d69b6c950bd15a56adf762d4ac"
+  },
+  {
+    "image_id": 12062,
+    "file_name": "000000012062.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 20,
+    "category": "sheep",
+    "supercategory": "animal",
+    "main_bbox": [
+      130.68,
+      70.4,
+      435.28,
+      208.9
+    ],
+    "main_bbox_ratio": 0.33274,
+    "second_other_bbox_ratio": 0.0103,
+    "annotated_category_ids": [
+      20,
+      37
+    ],
+    "image_available": true,
+    "selection_hash": "1803f0adb86f110f93afd4222399f263c9ea6b1f91cce5dca549fa72406af847"
+  },
+  {
+    "image_id": 258911,
+    "file_name": "000000258911.jpg",
+    "width": 640,
+    "height": 426,
+    "category_id": 21,
+    "category": "cow",
+    "supercategory": "animal",
+    "main_bbox": [
+      0.96,
+      191.41,
+      415.45,
+      206.29
+    ],
+    "main_bbox_ratio": 0.31435,
+    "second_other_bbox_ratio": 0.10758,
+    "annotated_category_ids": [
+      1,
+      21
+    ],
+    "image_available": true,
+    "selection_hash": "4d11ff6a4e9b6111e0d7abd5e872da2f0263476075941d6df54a46c0630e6dac"
+  },
+  {
+    "image_id": 167128,
+    "file_name": "000000167128.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 22,
+    "category": "elephant",
+    "supercategory": "animal",
+    "main_bbox": [
+      286.91,
+      5.76,
+      353.09,
+      414.52
+    ],
+    "main_bbox_ratio": 0.53558,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      22
+    ],
+    "image_available": true,
+    "selection_hash": "17af5393b92148bf2b91d51d661a92b6a9049ae1bddb60cc5ddc4ad201049f78"
+  },
+  {
+    "image_id": 96960,
+    "file_name": "000000096960.jpg",
+    "width": 640,
+    "height": 478,
+    "category_id": 23,
+    "category": "bear",
+    "supercategory": "animal",
+    "main_bbox": [
+      24.71,
+      117.08,
+      410.32,
+      300.77
+    ],
+    "main_bbox_ratio": 0.40341,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      23
+    ],
+    "image_available": true,
+    "selection_hash": "1e7c7ae14b4733e34c8804efa29645b958db35faa00c01919d4227ce31e3f9b0"
+  },
+  {
+    "image_id": 320632,
+    "file_name": "000000320632.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 24,
+    "category": "zebra",
+    "supercategory": "animal",
+    "main_bbox": [
+      0.0,
+      56.25,
+      550.73,
+      423.75
+    ],
+    "main_bbox_ratio": 0.75967,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      24
+    ],
+    "image_available": true,
+    "selection_hash": "28931f70df2c12a91f46088d7379cf7a3e8547424adf8a757cee296a4082ba98"
+  },
+  {
+    "image_id": 537053,
+    "file_name": "000000537053.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 25,
+    "category": "giraffe",
+    "supercategory": "animal",
+    "main_bbox": [
+      160.0,
+      45.41,
+      223.42,
+      557.83
+    ],
+    "main_bbox_ratio": 0.4057,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      25
+    ],
+    "image_available": true,
+    "selection_hash": "14cfc4a759dc8cb1484e2e53d615b96149ea590cb97e2f8e2a8284812d6350cc"
+  },
+  {
+    "image_id": 233033,
+    "file_name": "000000233033.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 28,
+    "category": "umbrella",
+    "supercategory": "accessory",
+    "main_bbox": [
+      135.14,
+      97.84,
+      338.37,
+      237.84
+    ],
+    "main_bbox_ratio": 0.26197,
+    "second_other_bbox_ratio": 0.06292,
+    "annotated_category_ids": [
+      28,
+      62,
+      64,
+      67
+    ],
+    "image_available": true,
+    "selection_hash": "6f7a4094cb740dd3d5477d688d559df353581ebf40b9a720c782d2b059b93f81"
+  },
+  {
+    "image_id": 115245,
+    "file_name": "000000115245.jpg",
+    "width": 612,
+    "height": 612,
+    "category_id": 33,
+    "category": "suitcase",
+    "supercategory": "accessory",
+    "main_bbox": [
+      254.33,
+      166.85,
+      310.76,
+      422.2
+    ],
+    "main_bbox_ratio": 0.3503,
+    "second_other_bbox_ratio": 0.05632,
+    "annotated_category_ids": [
+      1,
+      27,
+      31,
+      33,
+      62
+    ],
+    "image_available": true,
+    "selection_hash": "d773adcbcef0db9359ec649b84b44564ddfc1942142bf39ea5200554e7958202"
+  },
+  {
+    "image_id": 551660,
+    "file_name": "000000551660.jpg",
+    "width": 424,
+    "height": 640,
+    "category_id": 51,
+    "category": "bowl",
+    "supercategory": "kitchen",
+    "main_bbox": [
+      40.01,
+      288.33,
+      297.24,
+      282.29
+    ],
+    "main_bbox_ratio": 0.30921,
+    "second_other_bbox_ratio": 0.05573,
+    "annotated_category_ids": [
+      47,
+      50,
+      51,
+      53,
+      55,
+      56
+    ],
+    "image_available": true,
+    "selection_hash": "5cf173be441f484de9bf624e5f6f6afde2044f8201930dbd4bb44dec10d9185b"
+  },
+  {
+    "image_id": 290619,
+    "file_name": "000000290619.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 52,
+    "category": "banana",
+    "supercategory": "food",
+    "main_bbox": [
+      49.69,
+      62.12,
+      230.4,
+      385.13
+    ],
+    "main_bbox_ratio": 0.28885,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      52
+    ],
+    "image_available": true,
+    "selection_hash": "7b3cef4d276d1786bb89673a9b77442b48a13da10b10871b31b71c458a748d42"
+  },
+  {
+    "image_id": 369370,
+    "file_name": "000000369370.jpg",
+    "width": 640,
+    "height": 480,
+    "category_id": 54,
+    "category": "sandwich",
+    "supercategory": "food",
+    "main_bbox": [
+      25.89,
+      202.61,
+      457.35,
+      272.9
+    ],
+    "main_bbox_ratio": 0.40629,
+    "second_other_bbox_ratio": 0.11709,
+    "annotated_category_ids": [
+      54,
+      55,
+      67
+    ],
+    "image_available": true,
+    "selection_hash": "58b217c63ea40fa36ca4f7747362c00fdb17100c495115105660106df8bb83b6"
+  },
+  {
+    "image_id": 397681,
+    "file_name": "000000397681.jpg",
+    "width": 640,
+    "height": 640,
+    "category_id": 57,
+    "category": "carrot",
+    "supercategory": "food",
+    "main_bbox": [
+      3.49,
+      1.49,
+      635.36,
+      503.77
+    ],
+    "main_bbox_ratio": 0.78143,
+    "second_other_bbox_ratio": 0.03302,
+    "annotated_category_ids": [
+      1,
+      48,
+      51,
+      55,
+      57,
+      61
+    ],
+    "image_available": true,
+    "selection_hash": "e9838b52cc45c5260b365a46f09000f056e9633897f0f7bd6519046b570e7fb5"
+  },
+  {
+    "image_id": 479448,
+    "file_name": "000000479448.jpg",
+    "width": 500,
+    "height": 375,
+    "category_id": 59,
+    "category": "pizza",
+    "supercategory": "food",
+    "main_bbox": [
+      0.0,
+      21.06,
+      425.8,
+      353.76
+    ],
+    "main_bbox_ratio": 0.80337,
+    "second_other_bbox_ratio": 0.10594,
+    "annotated_category_ids": [
+      47,
+      50,
+      52,
+      55,
+      59
+    ],
+    "image_available": true,
+    "selection_hash": "135213886fc4f0f2ae324fbd0f19d15765470573a891e25170bacfb84a3cb737"
+  },
+  {
+    "image_id": 537241,
+    "file_name": "000000537241.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 60,
+    "category": "donut",
+    "supercategory": "food",
+    "main_bbox": [
+      130.21,
+      24.89,
+      415.51,
+      368.6
+    ],
+    "main_bbox_ratio": 0.56044,
+    "second_other_bbox_ratio": 0.0,
+    "annotated_category_ids": [
+      60
+    ],
+    "image_available": true,
+    "selection_hash": "cff582231875f30dd7965726b9362ec35fce2bd35f223ca065728bc6afefe460"
+  },
+  {
+    "image_id": 495448,
+    "file_name": "000000495448.jpg",
+    "width": 480,
+    "height": 640,
+    "category_id": 61,
+    "category": "cake",
+    "supercategory": "food",
+    "main_bbox": [
+      40.67,
+      15.57,
+      320.98,
+      523.92
+    ],
+    "main_bbox_ratio": 0.54742,
+    "second_other_bbox_ratio": 0.01138,
+    "annotated_category_ids": [
+      49,
+      61
+    ],
+    "image_available": true,
+    "selection_hash": "6ecaef389c1b4293d01d1dd541f7fcdec4d8d56502a3eb0016edb352608638af"
+  },
+  {
+    "image_id": 189820,
+    "file_name": "000000189820.jpg",
+    "width": 640,
+    "height": 427,
+    "category_id": 62,
+    "category": "chair",
+    "supercategory": "furniture",
+    "main_bbox": [
+      367.31,
+      134.99,
+      251.61,
+      277.32
+    ],
+    "main_bbox_ratio": 0.25533,
+    "second_other_bbox_ratio": 0.05649,
+    "annotated_category_ids": [
+      47,
+      62,
+      72,
+      74,
+      76,
+      84
+    ],
+    "image_available": true,
+    "selection_hash": "b88cf14c308277530b0b85e913e994f9c6c05f3042dee003363740c778cad5f4"
+  }
+]

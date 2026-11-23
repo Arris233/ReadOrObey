@@ -1,0 +1,46 @@
+{
+  "source": "COCO 2017 val instances annotations",
+  "images": 5000,
+  "annotations": 36781,
+  "categories": 80,
+  "funnel": {
+    "all_images": 5000,
+    "has_noncrowd_instance": 4952,
+    "primary_bbox_25_to_85pct": 2132,
+    "second_other_category_lt_12pct": 1361,
+    "resolution_and_aspect": 1326,
+    "candidate_pool": 200
+  },
+  "eligible_categories": 61,
+  "eligible_supercategories": {
+    "vehicle": 261,
+    "furniture": 118,
+    "animal": 273,
+    "person": 436,
+    "food": 67,
+    "electronic": 23,
+    "accessory": 15,
+    "sports": 7,
+    "indoor": 46,
+    "appliance": 33,
+    "kitchen": 8,
+    "outdoor": 39
+  },
+  "pool_supercategories": {
+    "person": 4,
+    "vehicle": 32,
+    "outdoor": 16,
+    "animal": 40,
+    "accessory": 8,
+    "sports": 7,
+    "kitchen": 5,
+    "food": 33,
+    "furniture": 19,
+    "electronic": 9,
+    "appliance": 14,
+    "indoor": 13
+  },
+  "pool_categories": 61,
+  "pool_images_available": 200,
+  "full_archive_present": true
+}
