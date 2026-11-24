@@ -14,5 +14,6 @@ reports/coco/contact_*.jpg
 reports/mind2web/review_sheet_*.jpg
 members/*/scratch/
 members/*/runs/
+/members/member2/progress.log
 !members/*/scratch/.gitkeep
 !members/*/runs/.gitkeep
