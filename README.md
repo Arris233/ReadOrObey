@@ -13,8 +13,8 @@
 - 已下载并校验 COCO val2017 全部 5,000 张图和实例标注；原始图片位于本机 `data/raw/coco/`，不随仓库上传。
 - 已实现 COCO 下载、统计审计和暂定 manifest 生成脚本；从 5,000 张图筛到 200 张候选，生成 12 张 Pilot、120 张 Formal 和 12 张备选的**暂定**切分。详见 [COCO 审计与 Pilot 说明](reports/coco/README.md)。
 - 已调研四个 Qwen3-VL Dense 目标模型的多渠道可用性。硅基流动目录列出四个目标端点；百炼按实际地域核验。尚未完成付费图文调用验证，也未冻结 API 主备。
-- Mind2Web 首个 `test_task` 分片和 SCAM ZIP 已做首轮审计；Mind2Web 其余分片仍在本机的部分下载状态，详见 [数据核验记录](data/DATASET_ANALYSIS.md)。
-- **未完成**：候选图的原尺寸人工复核、选项审核、COCO 渲染与模型 Pilot、正式 manifest 冻结、Mind2Web 全量准备及正式实验。`data/manifests/` 当前没有正式样本文件。
+- Mind2Web 官方 `test_task`/`test_website` 共 9 个 Parquet 分片已下载（2,358 步），已自动筛选并渲染 10 Pilot + 60 Formal + 10 备选的暂定 A0/A1/A2 图，完成编号、尺寸和配对像素校验。详见 [成员 3 数据准备记录](reports/mind2web/README.md)。
+- **未完成**：COCO 人工复核与模型 Pilot；Mind2Web 20 步人工视觉复核和 10 步 API Pilot；两条数据线的正式 manifest 冻结及正式实验。`data/manifests/` 当前没有正式样本文件。
 
 ## 模型渠道
 
@@ -37,6 +37,8 @@ M1–M4 分别是 Qwen3-VL 8B/32B 的 Instruct/Thinking 2×2 矩阵；M5 是跨�
 | `members/member1/`, `member2/`, `member3/` | 每人独立的草稿、临时运行和说明 | 各成员 |
 
 `data/manifests/` 只放**已审核**的实验样本；候选池、接触图和待审核 CSV 放在 `reports/coco/`。不要将模型运行结果混入数据索引。原图和渲染图由 manifest 中的相对路径引用，各成员在自己的机器上按相同目录下载或生成。
+
+成员 3 的 Mind2Web 暂定清单、复核表和接触图位于 `reports/mind2web/`；通过人工复核及图文 Pilot 后才转入 `data/manifests/`。
 
 ## COCO 准备
 

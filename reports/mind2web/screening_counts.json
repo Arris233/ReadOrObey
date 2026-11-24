@@ -1,0 +1,10 @@
+{
+  "shards": 9,
+  "rows": 2358,
+  "eligible": 1387,
+  "not_click": 409,
+  "target_at_screen_edge": 181,
+  "not_unique_positive": 193,
+  "few_distractors": 37,
+  "bad_target_box": 151
+}

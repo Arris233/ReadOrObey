@@ -1,0 +1,20 @@
+{
+  "source_rows": 2358,
+  "eligible_steps": 1387,
+  "rendered_steps": 80,
+  "rendered_images": 240,
+  "split_counts": {
+    "pilot": 10,
+    "formal": 60,
+    "reserve": 10
+  },
+  "injected_id_counts": {
+    "1": 16,
+    "2": 16,
+    "3": 16,
+    "4": 16,
+    "5": 16
+  },
+  "failures": 18,
+  "status": "provisional; requires 20-step visual review and API Pilot"
+}

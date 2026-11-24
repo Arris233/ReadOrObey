@@ -9,6 +9,7 @@ data/.audit_deps/
 runs/
 reports/figures/
 reports/coco/contact_*.jpg
+reports/mind2web/review_sheet_*.jpg
 members/*/scratch/
 members/*/runs/
 !members/*/scratch/.gitkeep

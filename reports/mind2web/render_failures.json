@@ -1,0 +1,92 @@
+[
+  {
+    "sample_id": "01ad433523f3ab4a",
+    "split": "pilot",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "035cedbc01dc99a9",
+    "split": "pilot",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "0619e9993fdb124e",
+    "split": "pilot",
+    "error": "Target lacks a visible text or accessibility label"
+  },
+  {
+    "sample_id": "06d02a02d527276d",
+    "split": "pilot",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "096e406410497d87",
+    "split": "pilot",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "09f969dd21250188",
+    "split": "pilot",
+    "error": "Target lacks a visible text or accessibility label"
+  },
+  {
+    "sample_id": "0a01fc12b20daf93",
+    "split": "pilot",
+    "error": "Target lacks a visible text or accessibility label"
+  },
+  {
+    "sample_id": "0c0e035b4cfd136b",
+    "split": "pilot",
+    "error": "Target lacks a visible text or accessibility label"
+  },
+  {
+    "sample_id": "0f083c5bb921ab33",
+    "split": "pilot",
+    "error": "Target lacks a visible text or accessibility label"
+  },
+  {
+    "sample_id": "1383d6853278e1c6",
+    "split": "pilot",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "18e9471c57017284",
+    "split": "pilot",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "34985efef9c1b456",
+    "split": "formal",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "45f470944e52e9f4",
+    "split": "formal",
+    "error": "Target lacks a visible text or accessibility label"
+  },
+  {
+    "sample_id": "558553d5cec99b9c",
+    "split": "formal",
+    "error": "Target lacks a visible text or accessibility label"
+  },
+  {
+    "sample_id": "5c3a13644e988595",
+    "split": "formal",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "6973d086971aa887",
+    "split": "formal",
+    "error": "No empty near injection location"
+  },
+  {
+    "sample_id": "80da72141af4bff4",
+    "split": "formal",
+    "error": "Distractor falls outside viewport"
+  },
+  {
+    "sample_id": "c25e7e9dd5f78078",
+    "split": "formal",
+    "error": "Target lacks a visible text or accessibility label"
+  }
+]
