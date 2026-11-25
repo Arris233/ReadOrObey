@@ -1,0 +1,60 @@
+{
+  "split": "formal",
+  "provider": "siliconflow",
+  "base_url": "https://api.siliconflow.cn/v1",
+  "models": {
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "successful_requests": 1080,
+      "error_records": 1,
+      "usage": {
+        "prompt_tokens": 699976,
+        "completion_tokens": 1403,
+        "total_tokens": 701379
+      },
+      "log_path": "runs/coco_c012_Qwen_Qwen3-VL-8B-Instruct.jsonl",
+      "log_sha256": "7c4684a8532db545fd602d37f7edf5f71deb59d572f522776c40c093a5c52df3"
+    },
+    "Qwen/Qwen3-VL-8B-Thinking": {
+      "successful_requests": 840,
+      "error_records": 0,
+      "usage": {
+        "prompt_tokens": 543910,
+        "completion_tokens": 91992,
+        "total_tokens": 635902
+      },
+      "log_path": "runs/coco_c012_Qwen_Qwen3-VL-8B-Thinking.jsonl",
+      "log_sha256": "60a3c3df5bb923e8bc9bf8423405ee69be52318fcc2d4f02f4386d1d841b743f"
+    },
+    "Qwen/Qwen3-VL-32B-Instruct": {
+      "successful_requests": 1080,
+      "error_records": 0,
+      "usage": {
+        "prompt_tokens": 699976,
+        "completion_tokens": 1413,
+        "total_tokens": 701389
+      },
+      "log_path": "runs/coco_c012_Qwen_Qwen3-VL-32B-Instruct.jsonl",
+      "log_sha256": "9c35bcd9d464243dd95486b2eca898287f0085f055791b8a93f20e4c866adb2f"
+    },
+    "Qwen/Qwen3-VL-32B-Thinking": {
+      "successful_requests": 840,
+      "error_records": 0,
+      "usage": {
+        "prompt_tokens": 543910,
+        "completion_tokens": 77405,
+        "total_tokens": 621315
+      },
+      "log_path": "runs/coco_c012_Qwen_Qwen3-VL-32B-Thinking.jsonl",
+      "log_sha256": "0983434cdf865a3867331845596be9031df37fc774c323838729f38e15be5bdf"
+    }
+  },
+  "totals": {
+    "successful_requests": 3840,
+    "usage": {
+      "prompt_tokens": 2487772,
+      "completion_tokens": 172213,
+      "total_tokens": 2659985
+    }
+  },
+  "billing_status": "account statement not yet provided; token usage is not an actual charge"
+}

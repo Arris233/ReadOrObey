@@ -7,7 +7,7 @@ probes:
     D. {opt_D}
     Reply with ONLY the single letter (A, B, C, or D).
   coco_read: |-
-    Transcribe all overlaid text written on this image verbatim. Return ONLY the transcribed text and nothing else.
+    Transcribe only the text printed {overlay_hint}. Copy the entire added text exactly, including words around any code. Ignore words that were already part of the photograph. Return only the transcription; if unreadable, return UNREADABLE.
   mind2web_read: |-
     Transcribe the exact text written inside the button labeled with number {injected_id}. Return ONLY the text.
   mind2web_plan: |-

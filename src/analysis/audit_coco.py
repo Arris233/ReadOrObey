@@ -4,6 +4,7 @@ This script never marks images as human-approved or freezes an experiment split.
 """
 from __future__ import annotations
 
+import argparse
 from collections import Counter, defaultdict
 import csv
 import hashlib
@@ -31,9 +32,12 @@ def find_image(name: str) -> Path | None:
     return None
 
 
-def make_contact_sheets(rows: list[dict], categories: dict[int, dict]) -> None:
+def make_contact_sheets(rows: list[dict], categories: dict[int, dict], start: int = 0) -> None:
     available = [r for r in rows if find_image(r["file_name"])]
     for batch_start in range(0, len(available), 40):
+        target = OUT / f"contact_{batch_start // 40 + 1:02d}.jpg"
+        if batch_start < start and target.is_file():
+            continue
         sheet = Image.new("RGB", (1200, 8 * 175), "white")
         draw = ImageDraw.Draw(sheet)
         for j, row in enumerate(available[batch_start:batch_start + 40]):
@@ -44,10 +48,16 @@ def make_contact_sheets(rows: list[dict], categories: dict[int, dict]) -> None:
             sheet.paste(thumb, (x + (240 - thumb.width) // 2, y))
             draw.text((x + 3, y + 147), f"{batch_start + j + 1:03d} {row['image_id']}", fill="black")
             draw.text((x + 3, y + 160), categories[row["category_id"]]["name"][:23], fill="black")
-        sheet.save(OUT / f"contact_{batch_start // 40 + 1:02d}.jpg", quality=88)
+        sheet.save(target, quality=88)
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--pool-size", type=int, default=200,
+                        help="deterministic candidate count; existing reviewed prefix is preserved")
+    args = parser.parse_args()
+    if args.pool_size < 200:
+        parser.error("pool size must be at least 200")
     OUT.mkdir(parents=True, exist_ok=True)
     data = json.loads(ANNOTATIONS.read_text(encoding="utf-8"))
     images = {im["id"]: im for im in data["images"]}
@@ -104,10 +114,16 @@ def main() -> None:
         for category_id in sorted(grouped):
             if len(grouped[category_id]) > rank:
                 pool.append(grouped[category_id][rank])
-                if len(pool) == 200:
+                if len(pool) == args.pool_size:
                     break
-        if len(pool) == 200:
+        if len(pool) == args.pool_size:
             break
+    if len(pool) != args.pool_size:
+        raise ValueError(f"Only {len(pool)} candidates available under the per-class cap")
+    old_pool_path = OUT / "candidate_pool.json"
+    old_pool = json.loads(old_pool_path.read_text(encoding="utf-8")) if old_pool_path.exists() else []
+    if [r["image_id"] for r in pool[:len(old_pool)]] != [r["image_id"] for r in old_pool]:
+        raise ValueError("Candidate order changed; refusing to replace human-reviewed pool")
     funnel["candidate_pool"] = len(pool)
     stats = {
         "source": "COCO 2017 val instances annotations",
@@ -121,18 +137,24 @@ def main() -> None:
         "full_archive_present": (COCO / "val2017.zip").is_file(),
     }
     (OUT / "audit_stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
-    (OUT / "candidate_pool.json").write_text(json.dumps(pool, ensure_ascii=False, indent=2), encoding="utf-8")
+    old_pool_path.write_text(json.dumps(pool, ensure_ascii=False, indent=2), encoding="utf-8")
     review = OUT / "coco_review.csv"
-    if not review.exists():
-        with review.open("w", newline="", encoding="utf-8-sig") as f:
-            writer = csv.writer(f)
+    existing_ids = set()
+    if review.exists():
+        with review.open(encoding="utf-8-sig", newline="") as f:
+            existing_ids = {int(row["image_id"]) for row in csv.DictReader(f)}
+    with review.open("a" if review.exists() else "w", newline="",
+                     encoding="utf-8" if review.exists() else "utf-8-sig") as f:
+        writer = csv.writer(f)
+        if not existing_ids:
             writer.writerow(["rank", "image_id", "category", "supercategory", "main_bbox_ratio",
                              "second_other_bbox_ratio", "available", "decision", "reason", "notes"])
-            for i, row in enumerate(pool, 1):
+        for i, row in enumerate(pool, 1):
+            if row["image_id"] not in existing_ids:
                 writer.writerow([i, row["image_id"], row["category"], row["supercategory"],
                                  row["main_bbox_ratio"], row["second_other_bbox_ratio"],
                                  row["image_available"], "pending", "", ""])
-    make_contact_sheets(pool, categories)
+    make_contact_sheets(pool, categories, start=len(old_pool))
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
 

@@ -1,0 +1,6455 @@
+{
+  "protocol": "coco_v3_post_pilot",
+  "read_task_relation": "independent_calls_descriptive_pairing_only",
+  "split": "pilot",
+  "manifest": "data\\manifests\\coco_pilot_manifest.provisional.jsonl",
+  "manifest_sha256": "cc7df78147e49ca615cab239fbfd773fd7f21134ec369c922f4711a2eef74544",
+  "logs": [
+    "runs\\coco_pilot_m1_m3.jsonl",
+    "runs\\coco_pilot_read_v2_m1_m3.jsonl",
+    "runs\\coco_pilot_m2_m4.jsonl"
+  ],
+  "stale_prompt_records_ignored": 96,
+  "models": {
+    "Qwen/Qwen3-VL-32B-Instruct": {
+      "requests": {
+        "numerator": 132,
+        "denominator": 132,
+        "proportion": 1.0,
+        "ci95": [
+          0.9717210132013917,
+          1.0
+        ]
+      },
+      "variants": {
+        "C0_clean": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C3_inst_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "task_obey": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C3_inst_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "task_obey": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 11,
+            "denominator": 12,
+            "proportion": 0.9166666666666666,
+            "ci95": [
+              0.646120088858883,
+              0.9851349055950829
+            ]
+          },
+          "read_cer_mean": 0.0012626262626262627,
+          "obey_if_read_full": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        }
+      },
+      "c3_cells": {
+        "margin:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "task_obey": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "margin:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "task_obey": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "margin:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "task_obey": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "task_obey": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "read_cer_mean": 0.003787878787878788,
+          "obey_if_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        }
+      },
+      "c3_all": {
+        "samples": 24,
+        "task_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_valid": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_correct": {
+          "numerator": 8,
+          "denominator": 24,
+          "proportion": 0.3333333333333333,
+          "ci95": [
+            0.1797219032729775,
+            0.5329368316186824
+          ]
+        },
+        "task_obey": {
+          "numerator": 16,
+          "denominator": 24,
+          "proportion": 0.6666666666666666,
+          "ci95": [
+            0.4670631683813174,
+            0.8202780967270225
+          ]
+        },
+        "read_full": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_target": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_joint": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_only_target": {
+          "numerator": 0,
+          "denominator": 24,
+          "proportion": 0.0,
+          "ci95": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ]
+        },
+        "read_0.7": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_0.9": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_exact": {
+          "numerator": 23,
+          "denominator": 24,
+          "proportion": 0.9583333333333334,
+          "ci95": [
+            0.7975819352134406,
+            0.9926065438344942
+          ]
+        },
+        "read_cer_mean": 0.0006313131313131314,
+        "obey_if_read_full": {
+          "numerator": 16,
+          "denominator": 24,
+          "proportion": 0.6666666666666666,
+          "ci95": [
+            0.4670631683813174,
+            0.8202780967270225
+          ]
+        },
+        "obey_if_not_read_full": {
+          "numerator": 0,
+          "denominator": 0,
+          "proportion": null,
+          "ci95": null
+        }
+      },
+      "c2_minus_c1_wrong_option": {
+        "margin": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        },
+        "object": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      }
+    },
+    "Qwen/Qwen3-VL-32B-Thinking": {
+      "requests": {
+        "numerator": 132,
+        "denominator": 132,
+        "proportion": 1.0,
+        "ci95": [
+          0.9717210132013917,
+          1.0
+        ]
+      },
+      "variants": {
+        "C0_clean": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C3_inst_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "task_obey": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C3_inst_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 5,
+            "denominator": 12,
+            "proportion": 0.4166666666666667,
+            "ci95": [
+              0.19326031365875665,
+              0.6804886874504503
+            ]
+          },
+          "task_obey": {
+            "numerator": 7,
+            "denominator": 12,
+            "proportion": 0.5833333333333334,
+            "ci95": [
+              0.31951131254954973,
+              0.8067396863412435
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 7,
+            "denominator": 12,
+            "proportion": 0.5833333333333334,
+            "ci95": [
+              0.31951131254954973,
+              0.8067396863412435
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        }
+      },
+      "c3_cells": {
+        "margin:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "margin:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "margin:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "task_obey": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        }
+      },
+      "c3_all": {
+        "samples": 24,
+        "task_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_valid": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_correct": {
+          "numerator": 9,
+          "denominator": 24,
+          "proportion": 0.375,
+          "ci95": [
+            0.21159367559548778,
+            0.5729003755732572
+          ]
+        },
+        "task_obey": {
+          "numerator": 15,
+          "denominator": 24,
+          "proportion": 0.625,
+          "ci95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "read_full": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_target": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_joint": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_only_target": {
+          "numerator": 0,
+          "denominator": 24,
+          "proportion": 0.0,
+          "ci95": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ]
+        },
+        "read_0.7": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_0.9": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_exact": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_cer_mean": 0.0,
+        "obey_if_read_full": {
+          "numerator": 15,
+          "denominator": 24,
+          "proportion": 0.625,
+          "ci95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "obey_if_not_read_full": {
+          "numerator": 0,
+          "denominator": 0,
+          "proportion": null,
+          "ci95": null
+        }
+      },
+      "c2_minus_c1_wrong_option": {
+        "margin": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        },
+        "object": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      }
+    },
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "requests": {
+        "numerator": 132,
+        "denominator": 132,
+        "proportion": 1.0,
+        "ci95": [
+          0.9717210132013917,
+          1.0
+        ]
+      },
+      "variants": {
+        "C0_clean": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 11,
+            "denominator": 12,
+            "proportion": 0.9166666666666666,
+            "ci95": [
+              0.646120088858883,
+              0.9851349055950829
+            ]
+          },
+          "task_obey": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 11,
+            "denominator": 12,
+            "proportion": 0.9166666666666666,
+            "ci95": [
+              0.646120088858883,
+              0.9851349055950829
+            ]
+          },
+          "task_obey": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C3_inst_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 6,
+            "denominator": 12,
+            "proportion": 0.5,
+            "ci95": [
+              0.2537815976337061,
+              0.7462184023662939
+            ]
+          },
+          "task_obey": {
+            "numerator": 6,
+            "denominator": 12,
+            "proportion": 0.5,
+            "ci95": [
+              0.2537815976337061,
+              0.7462184023662939
+            ]
+          },
+          "read_full": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_only_target": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "read_0.7": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_0.9": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_exact": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_cer_mean": 0.25641025641025644,
+          "obey_if_read_full": {
+            "numerator": 2,
+            "denominator": 8,
+            "proportion": 0.25,
+            "ci95": [
+              0.071479212752109,
+              0.5907245696898311
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          }
+        },
+        "C3_inst_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "task_obey": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "read_full": {
+            "numerator": 9,
+            "denominator": 12,
+            "proportion": 0.75,
+            "ci95": [
+              0.46769466506643426,
+              0.9110583316059453
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 9,
+            "denominator": 12,
+            "proportion": 0.75,
+            "ci95": [
+              0.46769466506643426,
+              0.9110583316059453
+            ]
+          },
+          "read_only_target": {
+            "numerator": 3,
+            "denominator": 12,
+            "proportion": 0.25,
+            "ci95": [
+              0.08894166839405471,
+              0.5323053349335657
+            ]
+          },
+          "read_0.7": {
+            "numerator": 9,
+            "denominator": 12,
+            "proportion": 0.75,
+            "ci95": [
+              0.46769466506643426,
+              0.9110583316059453
+            ]
+          },
+          "read_0.9": {
+            "numerator": 9,
+            "denominator": 12,
+            "proportion": 0.75,
+            "ci95": [
+              0.46769466506643426,
+              0.9110583316059453
+            ]
+          },
+          "read_exact": {
+            "numerator": 9,
+            "denominator": 12,
+            "proportion": 0.75,
+            "ci95": [
+              0.46769466506643426,
+              0.9110583316059453
+            ]
+          },
+          "read_cer_mean": 0.19230769230769232,
+          "obey_if_read_full": {
+            "numerator": 5,
+            "denominator": 9,
+            "proportion": 0.5555555555555556,
+            "ci95": [
+              0.26665129349549305,
+              0.8112214789023355
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 3,
+            "denominator": 3,
+            "proportion": 1.0,
+            "ci95": [
+              0.4385029682449546,
+              1.0
+            ]
+          }
+        }
+      },
+      "c3_cells": {
+        "margin:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_only_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.9": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_exact": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_cer_mean": 0.7692307692307693,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          }
+        },
+        "margin:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "margin:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "task_obey": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_only_target": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "read_0.7": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_0.9": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_exact": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_cer_mean": 0.576923076923077,
+          "obey_if_read_full": {
+            "numerator": 1,
+            "denominator": 1,
+            "proportion": 1.0,
+            "ci95": [
+              0.20654931437723745,
+              1.0
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 3,
+            "denominator": 3,
+            "proportion": 1.0,
+            "ci95": [
+              0.4385029682449546,
+              1.0
+            ]
+          }
+        },
+        "object:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "task_obey": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        }
+      },
+      "c3_all": {
+        "samples": 24,
+        "task_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_valid": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_correct": {
+          "numerator": 10,
+          "denominator": 24,
+          "proportion": 0.4166666666666667,
+          "ci95": [
+            0.24467602609811764,
+            0.6116533413477124
+          ]
+        },
+        "task_obey": {
+          "numerator": 14,
+          "denominator": 24,
+          "proportion": 0.5833333333333334,
+          "ci95": [
+            0.3883466586522876,
+            0.7553239739018824
+          ]
+        },
+        "read_full": {
+          "numerator": 17,
+          "denominator": 24,
+          "proportion": 0.7083333333333334,
+          "ci95": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        },
+        "read_target": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_joint": {
+          "numerator": 17,
+          "denominator": 24,
+          "proportion": 0.7083333333333334,
+          "ci95": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        },
+        "read_only_target": {
+          "numerator": 7,
+          "denominator": 24,
+          "proportion": 0.2916666666666667,
+          "ci95": [
+            0.14914648196960875,
+            0.49167693664496637
+          ]
+        },
+        "read_0.7": {
+          "numerator": 17,
+          "denominator": 24,
+          "proportion": 0.7083333333333334,
+          "ci95": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        },
+        "read_0.9": {
+          "numerator": 17,
+          "denominator": 24,
+          "proportion": 0.7083333333333334,
+          "ci95": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        },
+        "read_exact": {
+          "numerator": 17,
+          "denominator": 24,
+          "proportion": 0.7083333333333334,
+          "ci95": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        },
+        "read_cer_mean": 0.22435897435897437,
+        "obey_if_read_full": {
+          "numerator": 7,
+          "denominator": 17,
+          "proportion": 0.4117647058823529,
+          "ci95": [
+            0.2161105679021481,
+            0.6399455735700021
+          ]
+        },
+        "obey_if_not_read_full": {
+          "numerator": 7,
+          "denominator": 7,
+          "proportion": 1.0,
+          "ci95": [
+            0.6456695649333126,
+            1.0
+          ]
+        }
+      },
+      "c2_minus_c1_wrong_option": {
+        "margin": {
+          "pairs": 12,
+          "difference": 0.08333333333333333,
+          "ci95": [
+            0.0,
+            0.25
+          ],
+          "mcnemar_p": 1.0
+        },
+        "object": {
+          "pairs": 12,
+          "difference": 0.08333333333333333,
+          "ci95": [
+            0.0,
+            0.25
+          ],
+          "mcnemar_p": 1.0
+        }
+      }
+    },
+    "Qwen/Qwen3-VL-8B-Thinking": {
+      "requests": {
+        "numerator": 132,
+        "denominator": 132,
+        "proportion": 1.0,
+        "ci95": [
+          0.9717210132013917,
+          1.0
+        ]
+      },
+      "variants": {
+        "C0_clean": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C1_neutral_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C2_label_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C3_inst_margin": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 10,
+            "denominator": 12,
+            "proportion": 0.8333333333333334,
+            "ci95": [
+              0.5519691377470266,
+              0.9530348578161463
+            ]
+          },
+          "task_obey": {
+            "numerator": 2,
+            "denominator": 12,
+            "proportion": 0.16666666666666666,
+            "ci95": [
+              0.04696514218385381,
+              0.4480308622529734
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 2,
+            "denominator": 12,
+            "proportion": 0.16666666666666666,
+            "ci95": [
+              0.04696514218385381,
+              0.4480308622529734
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "C3_inst_object": {
+          "samples": 12,
+          "task_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 9,
+            "denominator": 12,
+            "proportion": 0.75,
+            "ci95": [
+              0.46769466506643426,
+              0.9110583316059453
+            ]
+          },
+          "task_obey": {
+            "numerator": 3,
+            "denominator": 12,
+            "proportion": 0.25,
+            "ci95": [
+              0.08894166839405471,
+              0.5323053349335657
+            ]
+          },
+          "read_full": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "read_0.7": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 3,
+            "denominator": 12,
+            "proportion": 0.25,
+            "ci95": [
+              0.08894166839405471,
+              0.5323053349335657
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        }
+      },
+      "c3_cells": {
+        "margin:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "task_obey": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "margin:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "margin:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t0:c0": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "task_obey": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 2,
+            "denominator": 4,
+            "proportion": 0.5,
+            "ci95": [
+              0.15003898915214947,
+              0.8499610108478506
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t1:c1": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_obey": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        },
+        "object:t2:c2": {
+          "samples": 4,
+          "task_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_ok": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_valid": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "task_correct": {
+            "numerator": 3,
+            "denominator": 4,
+            "proportion": 0.75,
+            "ci95": [
+              0.30064184258240184,
+              0.9544127391902995
+            ]
+          },
+          "task_obey": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "read_full": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_target": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_joint": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_only_target": {
+            "numerator": 0,
+            "denominator": 4,
+            "proportion": 0.0,
+            "ci95": [
+              0.0,
+              0.4898908364545973
+            ]
+          },
+          "read_0.7": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_0.9": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_exact": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "read_cer_mean": 0.0,
+          "obey_if_read_full": {
+            "numerator": 1,
+            "denominator": 4,
+            "proportion": 0.25,
+            "ci95": [
+              0.04558726080970055,
+              0.6993581574175981
+            ]
+          },
+          "obey_if_not_read_full": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          }
+        }
+      },
+      "c3_all": {
+        "samples": 24,
+        "task_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_ok": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_valid": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "task_correct": {
+          "numerator": 19,
+          "denominator": 24,
+          "proportion": 0.7916666666666666,
+          "ci95": [
+            0.5952954674681133,
+            0.9075517464714814
+          ]
+        },
+        "task_obey": {
+          "numerator": 5,
+          "denominator": 24,
+          "proportion": 0.20833333333333334,
+          "ci95": [
+            0.09244825352851857,
+            0.40470453253188665
+          ]
+        },
+        "read_full": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_target": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_joint": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_only_target": {
+          "numerator": 0,
+          "denominator": 24,
+          "proportion": 0.0,
+          "ci95": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ]
+        },
+        "read_0.7": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_0.9": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_exact": {
+          "numerator": 24,
+          "denominator": 24,
+          "proportion": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "read_cer_mean": 0.0,
+        "obey_if_read_full": {
+          "numerator": 5,
+          "denominator": 24,
+          "proportion": 0.20833333333333334,
+          "ci95": [
+            0.09244825352851857,
+            0.40470453253188665
+          ]
+        },
+        "obey_if_not_read_full": {
+          "numerator": 0,
+          "denominator": 0,
+          "proportion": null,
+          "ci95": null
+        }
+      },
+      "c2_minus_c1_wrong_option": {
+        "margin": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        },
+        "object": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "8B_vs_32B_Instruct": {
+      "C0_clean": {
+        "large_minus_small_task_correct": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C1_neutral_margin": {
+        "large_minus_small_task_correct": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C1_neutral_object": {
+        "large_minus_small_task_correct": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C2_label_margin": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": -0.08333333333333333,
+          "ci95": [
+            -0.25,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C2_label_object": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": -0.08333333333333333,
+          "ci95": [
+            -0.25,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C3_inst_margin": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": 0.16666666666666666,
+          "ci95": [
+            -0.16666666666666666,
+            0.5
+          ],
+          "mcnemar_p": 0.625
+        }
+      },
+      "C3_inst_object": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            -0.25,
+            0.25
+          ],
+          "mcnemar_p": 1.0
+        }
+      }
+    },
+    "8B_vs_32B_Thinking": {
+      "C0_clean": {
+        "large_minus_small_task_correct": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C1_neutral_margin": {
+        "large_minus_small_task_correct": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C1_neutral_object": {
+        "large_minus_small_task_correct": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C2_label_margin": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C2_label_object": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_p": 1.0
+        }
+      },
+      "C3_inst_margin": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": 0.5,
+          "ci95": [
+            0.25,
+            0.752083333333322
+          ],
+          "mcnemar_p": 0.03125
+        }
+      },
+      "C3_inst_object": {
+        "large_minus_small_task_obey": {
+          "pairs": 12,
+          "difference": 0.3333333333333333,
+          "ci95": [
+            0.08333333333333333,
+            0.5833333333333334
+          ],
+          "mcnemar_p": 0.125
+        }
+      }
+    }
+  }
+}
