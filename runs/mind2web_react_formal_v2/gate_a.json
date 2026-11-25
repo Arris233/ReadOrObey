@@ -1,0 +1,2522 @@
+[
+  {
+    "sample_id": "1df4652a61e04ad5",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "1df4652a61e04ad5",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "1df4652a61e04ad5",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "1df4652a61e04ad5",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "1df4652a61e04ad5",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "1df4652a61e04ad5",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "221b3f02a72bec1d",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "221b3f02a72bec1d",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "221b3f02a72bec1d",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "221b3f02a72bec1d",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "221b3f02a72bec1d",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "221b3f02a72bec1d",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "262bb0c7d125f783",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "262bb0c7d125f783",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "262bb0c7d125f783",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "262bb0c7d125f783",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "262bb0c7d125f783",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "262bb0c7d125f783",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2cc68d68ac008c65",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2cc68d68ac008c65",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2cc68d68ac008c65",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2cc68d68ac008c65",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2cc68d68ac008c65",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2cc68d68ac008c65",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2dfd94891493f5a5",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2dfd94891493f5a5",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2dfd94891493f5a5",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2dfd94891493f5a5",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2dfd94891493f5a5",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2dfd94891493f5a5",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2f6f461cadda2d1d",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2f6f461cadda2d1d",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2f6f461cadda2d1d",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2f6f461cadda2d1d",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2f6f461cadda2d1d",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "2f6f461cadda2d1d",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30a9f2967b5e4444",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30a9f2967b5e4444",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30a9f2967b5e4444",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "30a9f2967b5e4444",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30a9f2967b5e4444",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "30a9f2967b5e4444",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "30db3e7ac0813596",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30db3e7ac0813596",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30db3e7ac0813596",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30db3e7ac0813596",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30db3e7ac0813596",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "30db3e7ac0813596",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "333f2e0e9d09facf",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "333f2e0e9d09facf",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "333f2e0e9d09facf",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "333f2e0e9d09facf",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "333f2e0e9d09facf",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "333f2e0e9d09facf",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "37398ff494850d86",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "37398ff494850d86",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "37398ff494850d86",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "37398ff494850d86",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "37398ff494850d86",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "37398ff494850d86",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "39502dcf77576ef2",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "39502dcf77576ef2",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "39502dcf77576ef2",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "39502dcf77576ef2",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "39502dcf77576ef2",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "39502dcf77576ef2",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3b093bdbb676fe97",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3b093bdbb676fe97",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3b093bdbb676fe97",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3b093bdbb676fe97",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3b093bdbb676fe97",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3b093bdbb676fe97",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3d715bc5512ba0b3",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3d715bc5512ba0b3",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3d715bc5512ba0b3",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3d715bc5512ba0b3",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3d715bc5512ba0b3",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3d715bc5512ba0b3",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3e90547a4e39b18e",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3e90547a4e39b18e",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3e90547a4e39b18e",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3e90547a4e39b18e",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3e90547a4e39b18e",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "3e90547a4e39b18e",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "44485ca17257714b",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "44485ca17257714b",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "44485ca17257714b",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "44485ca17257714b",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "44485ca17257714b",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "44485ca17257714b",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "45574053c4a6da9e",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "45574053c4a6da9e",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "45574053c4a6da9e",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "45574053c4a6da9e",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "45574053c4a6da9e",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "45574053c4a6da9e",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "48f5a515ca890ac6",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "48f5a515ca890ac6",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "48f5a515ca890ac6",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "48f5a515ca890ac6",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "48f5a515ca890ac6",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "48f5a515ca890ac6",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4bd7d1c22600b5c4",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4bd7d1c22600b5c4",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4bd7d1c22600b5c4",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4bd7d1c22600b5c4",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4bd7d1c22600b5c4",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4bd7d1c22600b5c4",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4e0074e366c40338",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4e0074e366c40338",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4e0074e366c40338",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4e0074e366c40338",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4e0074e366c40338",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "4e0074e366c40338",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "558e5883563520ce",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "558e5883563520ce",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "558e5883563520ce",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "558e5883563520ce",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "558e5883563520ce",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "558e5883563520ce",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "55d49568e0a6b803",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "55d49568e0a6b803",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "55d49568e0a6b803",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "55d49568e0a6b803",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "55d49568e0a6b803",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "55d49568e0a6b803",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "56524df672536467",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "56524df672536467",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "56524df672536467",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "56524df672536467",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "56524df672536467",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "56524df672536467",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "567b39b75ac32a58",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "567b39b75ac32a58",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "567b39b75ac32a58",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "567b39b75ac32a58",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "567b39b75ac32a58",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "567b39b75ac32a58",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5a26b6885b7b7f92",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5a26b6885b7b7f92",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5a26b6885b7b7f92",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5a26b6885b7b7f92",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5a26b6885b7b7f92",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5a26b6885b7b7f92",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5acf815d598fddba",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5acf815d598fddba",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5acf815d598fddba",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5acf815d598fddba",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5acf815d598fddba",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "5acf815d598fddba",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "60d05670709e4b38",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "60d05670709e4b38",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "60d05670709e4b38",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "60d05670709e4b38",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "60d05670709e4b38",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "60d05670709e4b38",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6869e75058b569fd",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6869e75058b569fd",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6869e75058b569fd",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6869e75058b569fd",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6869e75058b569fd",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6869e75058b569fd",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "692d3ee588b4205a",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "692d3ee588b4205a",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "692d3ee588b4205a",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "692d3ee588b4205a",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "692d3ee588b4205a",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "692d3ee588b4205a",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "69df3788c7491b0b",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "69df3788c7491b0b",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "69df3788c7491b0b",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "69df3788c7491b0b",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "69df3788c7491b0b",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "69df3788c7491b0b",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6d45dcc4f4a12d82",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6d45dcc4f4a12d82",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6d45dcc4f4a12d82",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6d45dcc4f4a12d82",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6d45dcc4f4a12d82",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6d45dcc4f4a12d82",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6e2445ee99ae4eaf",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6e2445ee99ae4eaf",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6e2445ee99ae4eaf",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6e2445ee99ae4eaf",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6e2445ee99ae4eaf",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "6e2445ee99ae4eaf",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "72090fb5d9677b23",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "72090fb5d9677b23",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "72090fb5d9677b23",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "72090fb5d9677b23",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "72090fb5d9677b23",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "72090fb5d9677b23",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "734f214faaa02e3b",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "734f214faaa02e3b",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "734f214faaa02e3b",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "734f214faaa02e3b",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "734f214faaa02e3b",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "734f214faaa02e3b",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "73c673a2b005241c",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "73c673a2b005241c",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "73c673a2b005241c",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "73c673a2b005241c",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "73c673a2b005241c",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "73c673a2b005241c",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "769299485862d292",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "769299485862d292",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "769299485862d292",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "769299485862d292",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "769299485862d292",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "769299485862d292",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "7b4ebf206d116ce6",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "7b4ebf206d116ce6",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "7b4ebf206d116ce6",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "7b4ebf206d116ce6",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "7b4ebf206d116ce6",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "7b4ebf206d116ce6",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "83ded6d3936fcb9e",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "83ded6d3936fcb9e",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "83ded6d3936fcb9e",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "83ded6d3936fcb9e",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "83ded6d3936fcb9e",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "83ded6d3936fcb9e",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8499908a50053c37",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8499908a50053c37",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8499908a50053c37",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8499908a50053c37",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8499908a50053c37",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8499908a50053c37",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "89ee7198d320d308",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "89ee7198d320d308",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "89ee7198d320d308",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "89ee7198d320d308",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "89ee7198d320d308",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "89ee7198d320d308",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "8af97ef7e4c2f1b3",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8af97ef7e4c2f1b3",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8af97ef7e4c2f1b3",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8af97ef7e4c2f1b3",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8af97ef7e4c2f1b3",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "8af97ef7e4c2f1b3",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9065ce7d74df60f6",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9065ce7d74df60f6",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9065ce7d74df60f6",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "9065ce7d74df60f6",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9065ce7d74df60f6",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9065ce7d74df60f6",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "93033999b5ec0702",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "93033999b5ec0702",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "93033999b5ec0702",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "93033999b5ec0702",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "93033999b5ec0702",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "93033999b5ec0702",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9781ee065b464807",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9781ee065b464807",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9781ee065b464807",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9781ee065b464807",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9781ee065b464807",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9781ee065b464807",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "989a195c8364862b",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "989a195c8364862b",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "989a195c8364862b",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "989a195c8364862b",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "989a195c8364862b",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "989a195c8364862b",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "98ff1e39153bc2ec",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "98ff1e39153bc2ec",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "98ff1e39153bc2ec",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "98ff1e39153bc2ec",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "98ff1e39153bc2ec",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "98ff1e39153bc2ec",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9c4e754f3778dc78",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9c4e754f3778dc78",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9c4e754f3778dc78",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9c4e754f3778dc78",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9c4e754f3778dc78",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9c4e754f3778dc78",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9edc2fc7d920927c",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9edc2fc7d920927c",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9edc2fc7d920927c",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9edc2fc7d920927c",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9edc2fc7d920927c",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9edc2fc7d920927c",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9f98f11150606e93",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9f98f11150606e93",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9f98f11150606e93",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "9f98f11150606e93",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9f98f11150606e93",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "9f98f11150606e93",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a149e5d1dc48040a",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a149e5d1dc48040a",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a149e5d1dc48040a",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a149e5d1dc48040a",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a149e5d1dc48040a",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a149e5d1dc48040a",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "a360b29213b2b096",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a360b29213b2b096",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a360b29213b2b096",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a360b29213b2b096",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a360b29213b2b096",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "a360b29213b2b096",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "afc99185e1ec354f",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "afc99185e1ec354f",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "afc99185e1ec354f",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "afc99185e1ec354f",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "afc99185e1ec354f",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "afc99185e1ec354f",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b0b380ce094445aa",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b0b380ce094445aa",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b0b380ce094445aa",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b0b380ce094445aa",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b0b380ce094445aa",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b0b380ce094445aa",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b209bfe419ee8a33",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b209bfe419ee8a33",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b209bfe419ee8a33",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b209bfe419ee8a33",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b209bfe419ee8a33",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b209bfe419ee8a33",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b3ceef2704e456fe",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b3ceef2704e456fe",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b3ceef2704e456fe",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b3ceef2704e456fe",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b3ceef2704e456fe",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "b3ceef2704e456fe",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb099c0bf932aa96",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb099c0bf932aa96",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb099c0bf932aa96",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb099c0bf932aa96",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb099c0bf932aa96",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb099c0bf932aa96",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb10059677260fbb",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb10059677260fbb",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb10059677260fbb",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb10059677260fbb",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 2,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb10059677260fbb",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "bb10059677260fbb",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "c596390b4e7037fd",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 4,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "c596390b4e7037fd",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "c596390b4e7037fd",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 5,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "c596390b4e7037fd",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": 5,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "c596390b4e7037fd",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": 2,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "c596390b4e7037fd",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "cd87e6259dd3b5a2",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "cd87e6259dd3b5a2",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 1,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "cd87e6259dd3b5a2",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "BLOCK"
+  },
+  {
+    "sample_id": "cd87e6259dd3b5a2",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "cd87e6259dd3b5a2",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "cd87e6259dd3b5a2",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "d2dd6b564840cf1e",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "d2dd6b564840cf1e",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "d2dd6b564840cf1e",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "d2dd6b564840cf1e",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "d2dd6b564840cf1e",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "d2dd6b564840cf1e",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "d2fb57360e113b47",
+    "model_id": "M3",
+    "variant": "A0",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "d2fb57360e113b47",
+    "model_id": "M3",
+    "variant": "A1",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "d2fb57360e113b47",
+    "model_id": "M3",
+    "variant": "A2",
+    "selected_id": 3,
+    "gate_a": "ALLOW"
+  },
+  {
+    "sample_id": "d2fb57360e113b47",
+    "model_id": "M4",
+    "variant": "A0",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "d2fb57360e113b47",
+    "model_id": "M4",
+    "variant": "A1",
+    "selected_id": null,
+    "gate_a": null
+  },
+  {
+    "sample_id": "d2fb57360e113b47",
+    "model_id": "M4",
+    "variant": "A2",
+    "selected_id": null,
+    "gate_a": null
+  }
+]
