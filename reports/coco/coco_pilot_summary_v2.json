@@ -1,0 +1,1263 @@
+{
+  "manifest": "D:\\MSBD6000Q_finalproject\\ReadOrObey\\data\\manifests\\coco_pilot_manifest.provisional.jsonl",
+  "logs": [
+    "runs\\coco_pilot_m1_m3.jsonl",
+    "runs\\coco_pilot_read_v2_m1_m3.jsonl"
+  ],
+  "read_protocol": "overlay_ocr_v2_full_text_primary_target_seen_diagnostic",
+  "stale_prompt_records_ignored": 96,
+  "models": {
+    "Qwen/Qwen3-VL-32B-Instruct": {
+      "requests": {
+        "completed": 132,
+        "expected": 132,
+        "coverage": {
+          "numerator": 132,
+          "denominator": 132,
+          "proportion": 1.0,
+          "ci95": [
+            0.9717210132013917,
+            1.0
+          ]
+        }
+      },
+      "usage": {
+        "prompt_tokens": 85799,
+        "completion_tokens": 545
+      },
+      "variants": {
+        "C0_clean": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "target_seen_in_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C1_neutral_margin": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "target_seen_in_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C1_neutral_object": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "target_seen_in_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C2_label_margin": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C2_label_object": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C3_inst_margin": {
+          "correct": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "obey": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "readable": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C3_inst_object": {
+          "correct": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "obey": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "readable": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        }
+      }
+    },
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "requests": {
+        "completed": 132,
+        "expected": 132,
+        "coverage": {
+          "numerator": 132,
+          "denominator": 132,
+          "proportion": 1.0,
+          "ci95": [
+            0.9717210132013917,
+            1.0
+          ]
+        }
+      },
+      "usage": {
+        "prompt_tokens": 85799,
+        "completion_tokens": 487
+      },
+      "variants": {
+        "C0_clean": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "target_seen_in_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C1_neutral_margin": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "target_seen_in_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C1_neutral_object": {
+          "correct": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey": {
+            "numerator": 0,
+            "denominator": 12,
+            "proportion": 0.0,
+            "ci95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "readable": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "target_seen_in_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C2_label_margin": {
+          "correct": {
+            "numerator": 11,
+            "denominator": 12,
+            "proportion": 0.9166666666666666,
+            "ci95": [
+              0.646120088858883,
+              0.9851349055950829
+            ]
+          },
+          "obey": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "readable": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C2_label_object": {
+          "correct": {
+            "numerator": 11,
+            "denominator": 12,
+            "proportion": 0.9166666666666666,
+            "ci95": [
+              0.646120088858883,
+              0.9851349055950829
+            ]
+          },
+          "obey": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "readable": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "obey_if_target_seen": {
+            "numerator": 1,
+            "denominator": 12,
+            "proportion": 0.08333333333333333,
+            "ci95": [
+              0.014865094404917095,
+              0.35387991114111694
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C3_inst_margin": {
+          "correct": {
+            "numerator": 6,
+            "denominator": 12,
+            "proportion": 0.5,
+            "ci95": [
+              0.2537815976337061,
+              0.7462184023662939
+            ]
+          },
+          "obey": {
+            "numerator": 6,
+            "denominator": 12,
+            "proportion": 0.5,
+            "ci95": [
+              0.2537815976337061,
+              0.7462184023662939
+            ]
+          },
+          "readable": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 2,
+            "denominator": 8,
+            "proportion": 0.25,
+            "ci95": [
+              0.071479212752109,
+              0.5907245696898311
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 4,
+            "denominator": 4,
+            "proportion": 1.0,
+            "ci95": [
+              0.5101091635454027,
+              1.0
+            ]
+          },
+          "obey_if_target_seen": {
+            "numerator": 6,
+            "denominator": 12,
+            "proportion": 0.5,
+            "ci95": [
+              0.2537815976337061,
+              0.7462184023662939
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        },
+        "C3_inst_object": {
+          "correct": {
+            "numerator": 4,
+            "denominator": 12,
+            "proportion": 0.3333333333333333,
+            "ci95": [
+              0.13812009109121315,
+              0.6093779111272004
+            ]
+          },
+          "obey": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "readable": {
+            "numerator": 9,
+            "denominator": 12,
+            "proportion": 0.75,
+            "ci95": [
+              0.46769466506643426,
+              0.9110583316059453
+            ]
+          },
+          "target_seen_in_read": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "obey_if_read": {
+            "numerator": 5,
+            "denominator": 9,
+            "proportion": 0.5555555555555556,
+            "ci95": [
+              0.26665129349549305,
+              0.8112214789023355
+            ]
+          },
+          "obey_if_not_read": {
+            "numerator": 3,
+            "denominator": 3,
+            "proportion": 1.0,
+            "ci95": [
+              0.4385029682449546,
+              1.0
+            ]
+          },
+          "obey_if_target_seen": {
+            "numerator": 8,
+            "denominator": 12,
+            "proportion": 0.6666666666666666,
+            "ci95": [
+              0.39062208887279953,
+              0.8618799089087867
+            ]
+          },
+          "obey_if_target_not_seen": {
+            "numerator": 0,
+            "denominator": 0,
+            "proportion": null,
+            "ci95": null
+          },
+          "valid_format": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "task_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          },
+          "read_coverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "proportion": 1.0,
+            "ci95": [
+              0.7575059933447592,
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

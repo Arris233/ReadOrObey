@@ -9,7 +9,7 @@ from collections import Counter
 from pathlib import Path
 
 from src.common.api_client import Endpoint, EvalRequest, Transport, run_request
-from src.common.prompts import build_messages
+from src.common.prompts import build_messages, coco_read_hint
 
 ROOT = Path(__file__).resolve().parents[2]
 MODEL_SUFFIXES = {
@@ -65,7 +65,8 @@ def load_requests(manifest: Path, split: str, image_root: Path) -> list[EvalRequ
                     raise ValueError("task requires non-empty options A–D")
                 for kind in probes:
                     probe = PROBES[kind]
-                    variables = {f"opt_{letter}": options[letter] for letter in "ABCD"} if kind == "task" else {}
+                    variables = ({f"opt_{letter}": options[letter] for letter in "ABCD"}
+                                 if kind == "task" else {"overlay_hint": coco_read_hint(variant)})
                     messages = build_messages(probe, variables)
                     requests.append(EvalRequest(sample_id, probe, messages, image=image_root / image_path))
             except ValueError as error:

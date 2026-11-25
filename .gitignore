@@ -1,4 +1,5 @@
 .env
+.siliconflow_key
 .venv/
 .DS_Store
 /.vscode/settings.json
@@ -12,6 +13,7 @@ runs/
 reports/figures/
 reports/coco/contact_*.jpg
 reports/mind2web/review_sheet_*.jpg
+reports/coco/mcq_contact_*.jpg
 members/*/scratch/
 members/*/runs/
 /members/member2/progress.log

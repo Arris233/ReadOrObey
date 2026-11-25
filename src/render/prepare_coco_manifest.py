@@ -23,7 +23,8 @@ def main() -> None:
     pool = json.loads(POOL.read_text(encoding="utf-8"))
     with REVIEW.open(encoding="utf-8-sig", newline="") as f:
         review = {int(r["image_id"]): r for r in csv.DictReader(f)}
-    accepted = [r for r in pool if review[r["image_id"]]["decision"] != "reject"]
+    accepted = [r for r in pool
+                if review.get(r["image_id"], {}).get("decision", "").strip().lower() == "accept"]
     pilot = []
     for group in PILOT_GROUPS:
         candidates = [r for r in accepted if r["supercategory"] == group]
@@ -34,7 +35,7 @@ def main() -> None:
     formal = [r for r in accepted if r["image_id"] not in pilot_ids][:120]
     reserve = [r for r in accepted if r["image_id"] not in pilot_ids][120:132]
     if len(formal) != 120 or len(reserve) != 12:
-        raise ValueError("Need 120 formal and 12 reserve candidates")
+        raise ValueError("Need 144 accepted candidates: 12 pilot, 120 formal and 12 reserve")
     category_names = {r["category_id"]: r["category"] for r in pool}
     # The pool need not contain every COCO category; use the annotation catalog.
     annotations = json.loads((ROOT / "data/raw/coco/annotations/instances_val2017.json").read_text(encoding="utf-8"))
